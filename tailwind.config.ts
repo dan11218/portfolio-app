@@ -13,7 +13,13 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'royal-blue': '#3c6db2',
+      },
     },
+    fontFamily: {
+      'arial': ['Arial', 'sans-serif'],
+    }
   },
   plugins: [],
 }
