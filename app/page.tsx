@@ -20,7 +20,8 @@ export default async function Home() {
       <Navbar></Navbar>
       <Jumbotron />
       {data.map((project: any) => (
-        <Project 
+        <Project
+        key={project.id} 
         title={project.title} 
         description={project.description} 
         skills={project.skills} 
