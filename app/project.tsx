@@ -14,7 +14,7 @@ export default function Project(props: any) {
                     <p className="font-regular text-sm py-[20px] text-slate-800">{props.description}</p>
                     <div className="flex flex-row justify-between w-80">
                         <Link href={props.case_study_url} className="w-fit flex items-center h-10 px-5 font-medium text-sm text-slate-50 transition-colors duration-150 bg-slate-800 rounded-lg focus:shadow-outline hover:bg-slate-600">See Case Study</Link>
-                        <Link href={props.case_study_url} className="w-fit flex items-center h-10 px-5 font-medium text-sm text-slate-50 transition-colors duration-150 bg-slate-800 rounded-lg focus:shadow-outline hover:bg-slate-600">View Prototype</Link>
+                        <Link href={props.prototype_url} className="w-fit flex items-center h-10 px-5 font-medium text-sm text-slate-50 transition-colors duration-150 bg-slate-800 rounded-lg focus:shadow-outline hover:bg-slate-600">View Prototype</Link>
                     </div>
                 </div>
             </div>
