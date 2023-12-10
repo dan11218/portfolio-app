@@ -25,11 +25,13 @@ export default async function Home() {
         title={project.title} 
         description={project.description} 
         skills={project.skills} 
-        image_url={project.image_url} 
+        image_url={project.image_url}
+        case_study_url={project.case_study_url}
+        prototype_url={project.prototype_url} 
         alignRight={project.id%2==0?true:false}
       />
       ))}
-      <div className="bottom-0 h-[30px] text-center text-sm w-full bg-slate-300">Made with Next.js and Tailwind CSS by Danny Graugnard ©2023</div>
+      <p className="bottom-0 h-[30px] text-center text-sm w-full bg-slate-300">Made with Next.js and Tailwind CSS by Danny Graugnard ©2023</p>
     </div>
   )
 }
