@@ -16,7 +16,7 @@ async function getData() {
 export default async function Home() {
   const data = await getData()
   return (
-    <div className='flex-col justify-start items-start inline-flex w-full'>
+    <div className="flex-col justify-start items-start inline-flex w-full">
       <Navbar></Navbar>
       <Jumbotron />
       {data.map((project: any) => (
