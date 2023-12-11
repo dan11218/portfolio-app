@@ -3,11 +3,12 @@ import Jumbotron from './jumbotron'
 import Project from './project'
 import { promises as fs } from 'fs';
 
+// Get project data
+
 async function getData() {
   const file = await fs.readFile(process.cwd() + '/app/project_data.json', 'utf8');
   const data = JSON.parse(file);
   if (!data) {
-    // This will activate the closest `error.js` Error Boundary
     throw new Error('Failed to fetch data')
   }
   return data

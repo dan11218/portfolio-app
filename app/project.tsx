@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Project(props: any) {
     return(
         <div className="px-[200px] py-[50px] justify-center inline-flex w-full">
-            <div className={`justify-between inline-flex w-full max-w-6xl ${props.alignRight ? "flex-row-reverse": []} `}>
+            <div className={`justify-between inline-flex w-full max-w-5xl ${props.alignRight ? "flex-row-reverse": []} `}>
                 <div className="flex justify-center">
                     <Image src={props.image_url} width={420} height={420} alt="project thumbnail" />
                 </div>
