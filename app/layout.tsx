@@ -1,22 +1,7 @@
 import type { Metadata } from 'next'
-import { Albert_Sans, Kalam, Space_Mono } from 'next/font/google'
+import { albertSans } from './fonts'
 import './globals.css'
 import Navbar from './navbar'
-
-const albertSans = Albert_Sans({
-  subsets: ['latin']
-})
-
-const kalam = Kalam({ 
-  weight: ['300', '400', '700'],
-  subsets: ['latin'] 
-})
-
-const spaceMono = Space_Mono({
-  weight: ['400', '700'],
-  style: [ 'italic', 'normal'],
-  subsets: ['latin']
-})
 
 export const metadata: Metadata = {
   title: 'Danny Graugnard Portfolio',
