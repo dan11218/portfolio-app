@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Navbar() {
     return (
-        <div className="h-[70px] px-[200px] bg-slate-50 justify-center inline-flex w-full">
+        <div className="h-[70px] px-[200px] bg-slate-50 justify-center inline-flex w-full sticky top-0">
             <div className="justify-between inline-flex items-start w-full max-w-6xl">
                 <div className="w-[235px] self-stretch justify-center items-center gap-2.5 inline-flex">
                     <Image src="/logos/black_logo.png" width={200} height={100} alt="DG Logo"></Image>
