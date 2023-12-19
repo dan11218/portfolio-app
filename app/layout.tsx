@@ -4,8 +4,6 @@ import './globals.css'
 import Navbar from './navbar'
 
 export const albertSans = Albert_Sans({
-  weight: ['300', '400', '500', '700'],
-  style: ['italic', 'normal'],
   subsets: ['latin']
 })
 
