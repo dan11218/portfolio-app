@@ -1,8 +1,24 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Albert_Sans, Kalam, Space_Mono } from 'next/font/google'
 import './globals.css'
+import Navbar from './navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+export const albertSans = Albert_Sans({
+  weight: ['300', '400', '500', '700'],
+  style: ['italic', 'normal'],
+  subsets: ['latin']
+})
+
+export const kalam = Kalam({ 
+  weight: ['300', '400', '700'],
+  subsets: ['latin'] 
+})
+
+export const spaceMono = Space_Mono({
+  weight: ['400', '700'],
+  style: [ 'italic', 'normal'],
+  subsets: ['latin']
+})
 
 export const metadata: Metadata = {
   title: 'Danny Graugnard Portfolio',
@@ -16,7 +32,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={albertSans.className}>
+        <Navbar></Navbar>
+        {children}
+      </body>
     </html>
   )
 }
