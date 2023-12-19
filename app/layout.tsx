@@ -3,7 +3,7 @@ import { Albert_Sans, Kalam, Space_Mono } from 'next/font/google'
 import './globals.css'
 import Navbar from './navbar'
 
-export const albertSans = Albert_Sans({
+const albertSans = Albert_Sans({
   subsets: ['latin']
 })
 

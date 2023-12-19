@@ -11,9 +11,6 @@ const config: Config = {
       colors: {
         'royal-blue': '#3c6db2',
       },
-    },
-    fontFamily: {
-      arial: ['Arial', 'sans-serif'],
     }
   },
   plugins: [],
