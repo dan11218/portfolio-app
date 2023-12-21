@@ -1,18 +1,18 @@
-## Overview
+# Overview
 
 This a portfolio website to show case samples of my work! The goal was to learn Next and Tailwin CSS and using Front End skills to design and develop the portfolio from the ground up. Feel free to take a look around `/src` directory and see the code.
 
 You can check out my portfolio in [this link](https://www.danielgraugnard.com/).
 
-# My role
+## My role
 
 - Lead Front-end Developer and UX Designer
 
-# Skills
+## Skills
 
 Typescript, React, Next.js, Tailwind CSS, Figma, responsive design, web design
 
-# Learn More
+## Learn More
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
