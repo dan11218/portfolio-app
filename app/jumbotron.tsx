@@ -16,7 +16,7 @@ export default function Jumbotron() {
         </h2>
         <Link
           href="https://drive.google.com/file/d/1nTI56A3wOYprQhMZaEhc4_X8DhuG4c_5/view?usp=sharing"
-          className="focus:shadow-outline flex h-10 w-fit items-center rounded-lg bg-slate-800 px-5 text-sm font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
+          className="focus:shadow-outline flex h-10 w-fit items-center bg-slate-800 px-5 text-sm font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
         >
           Download CV
         </Link>
