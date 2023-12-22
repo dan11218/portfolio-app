@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 flex w-full flex-col items-center border-b-2 border-solid border-slate-200 bg-slate-50 py-[10px]">
-      <div className="inline-flex w-full max-w-6xl items-start justify-between">
+    <div className="sticky top-0 flex w-screen flex-col items-center border-b-2 border-solid border-slate-200 bg-slate-50 px-[20px]">
+      <div className="inline-flex w-full max-w-7xl items-start justify-between">
         <Link
           href="/"
-          className="inline-flex w-[235px] items-center justify-center gap-2.5 self-stretch"
+          className="inline-flex w-fit items-center justify-center py-2"
         >
           <Image
             src="/logos/black_logo.png"
@@ -15,9 +15,8 @@ export default function Navbar() {
             height={100}
             alt="DG Logo"
           ></Image>
-          {/* <div className="font-bold text-xl text-slate-700">Danny Graugnard</div> */}
         </Link>
-        <div className="flex w-[400px] flex-row items-center justify-between self-stretch">
+        <div className="flex w-[400px] flex-row justify-between self-stretch">
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center text-base text-slate-800 transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
             href="/"

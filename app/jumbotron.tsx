@@ -3,7 +3,7 @@ import { kalam } from "./fonts";
 
 export default function Jumbotron() {
   return (
-    <div className="inline-flex h-[600px] w-full justify-center py-[50px]">
+    <div className="inline-flex h-[600px] w-screen justify-center bg-slate-200 py-[50px]">
       <div className="h-50 flex w-full max-w-6xl flex-col items-center justify-center px-[50px]">
         <h1 className="py-[5px] font-semibold text-slate-700">
           Hi, I&apos;m Danny! 👋

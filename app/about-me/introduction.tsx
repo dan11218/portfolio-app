@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <div className="inline-flex h-[600px] w-full justify-center border-2 border-solid border-orange-600 px-[150px] py-[20px]">
+    <div className="inline-flex h-[600px] w-full justify-center border-2 border-solid border-orange-600">
       <div className="flex w-full max-w-6xl flex-row justify-between border-2 border-solid border-red-600">
-        <div className="flex h-fit w-fit flex-col items-center border-2 border-solid border-green-600">
+        <div className="flex h-full flex-col items-center border-2 border-solid border-green-600">
           <Image
             src="/images/portfolio_aboutme.png"
             width={475}
