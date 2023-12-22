@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 flex w-screen flex-col items-center border-b-2 border-solid border-slate-200 bg-slate-50 px-[20px]">
+    <div className="sticky top-0 flex w-screen flex-col items-center border-b-2 border-solid border-slate-300 bg-slate-50 px-[20px] shadow-lg">
       <div className="inline-flex w-full max-w-7xl items-start justify-between">
         <Link
           href="/"

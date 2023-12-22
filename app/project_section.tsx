@@ -20,7 +20,7 @@ export default async function ProjectSection() {
 
   return (
     <div className="flex w-screen flex-col items-center px-[20px]">
-      <div className="flex w-full max-w-7xl flex-wrap justify-center py-[20px]">
+      <div className="flex w-full max-w-[90rem] flex-wrap content-start justify-center py-[20px]">
         {data.map((project: any) => (
           <Project
             key={project.id}
