@@ -5,11 +5,11 @@ export default function Jumbotron() {
   return (
     <div className="inline-flex h-[600px] w-screen justify-center bg-slate-200 py-[50px]">
       <div className="h-50 flex w-full max-w-6xl flex-col items-center justify-center px-[50px]">
-        <h1 className="py-[5px] font-semibold text-slate-700">
+        <h1 className="py-[5px] text-4xl font-semibold text-slate-700 md:text-5xl">
           Hi, I&apos;m Danny! 👋
         </h1>
         <h2
-          className={`${kalam.className} px-[60px] py-[20px] text-center text-sky-700`}
+          className={`${kalam.className} px-[60px] py-[20px] text-center text-base text-sky-700 md:text-2xl`}
         >
           I&apos;m a designer with a background in Software Engineering and
           Customer Support
