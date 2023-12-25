@@ -19,7 +19,7 @@ export default async function ProjectSection() {
   const data = await getData();
 
   return (
-    <div className="flex w-screen flex-col items-center px-[20px]">
+    <section className="flex w-screen flex-col items-center bg-slate-100 px-[20px] dark:bg-slate-950">
       <div className="flex w-full max-w-[90rem] flex-wrap content-start justify-center py-[20px]">
         {data.map((project: any) => (
           <Project
@@ -33,6 +33,6 @@ export default async function ProjectSection() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

@@ -3,7 +3,7 @@ import { kalam } from "./fonts";
 
 export default function Jumbotron() {
   return (
-    <div className="flex h-[600px] w-screen flex-col items-center justify-center bg-slate-200 py-[50px]">
+    <section className="flex h-[600px] w-screen flex-col items-center justify-center bg-slate-200 py-[50px]">
       <div className="h-50 flex w-full max-w-6xl flex-col items-center justify-center px-[50px]">
         <h1 className="py-3 text-4xl font-semibold text-slate-700 md:text-5xl">
           Hi, I&apos;m Danny! 👋
@@ -21,6 +21,6 @@ export default function Jumbotron() {
           Download CV
         </Link>
       </div>
-    </div>
+    </section>
   );
 }
