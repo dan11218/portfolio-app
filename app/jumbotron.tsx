@@ -1,13 +1,20 @@
 import Link from "next/link";
 import { kalam } from "./fonts";
+import Image from "next/image";
 
 export default function Jumbotron() {
   return (
     <section className="flex h-[600px] w-screen flex-col items-center justify-center bg-slate-200 py-[50px]">
       <div className="h-50 flex w-full max-w-6xl flex-col items-center justify-center px-[50px]">
-        <h1 className="py-3 text-4xl font-semibold text-slate-700 md:text-5xl">
-          Hi, I&apos;m Danny! 👋
-        </h1>
+        {/* <h1 className="py-3 text-4xl font-semibold text-slate-700 md:text-5xl">
+          Danny Graugnard
+        </h1> */}
+        <Image
+          src="/logos/black_logo.png"
+          width={500}
+          height={500}
+          alt="Daniel Graugnard"
+        />
         <h2
           className={`${kalam.className} py-3 text-center text-base text-sky-700 md:text-2xl`}
         >
