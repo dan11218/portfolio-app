@@ -20,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${albertSans.className} flex flex-col`}>
+      <body
+        className={`${albertSans.className} flex h-screen flex-col bg-slate-50 dark:bg-slate-800`}
+      >
         <SpeedInsights />
         <Navbar />
         {children}

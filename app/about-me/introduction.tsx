@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <div className="flex w-screen flex-col items-center bg-slate-100 px-[20px] dark:bg-slate-950">
+    <div className="flex w-screen flex-col items-center bg-slate-100 px-[20px] dark:bg-slate-800">
       <div className="flex w-full max-w-6xl flex-wrap justify-center py-[80px]">
         <div className="mx-6 mb-4 flex h-full flex-col items-center">
           <Image
-            src="/profile/portfolio_aboutme.png"
+            src="/profiles/portfolio_about_me.png"
             width={475}
             height={300}
             alt="profile image"

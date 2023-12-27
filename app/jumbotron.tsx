@@ -1,16 +1,17 @@
 import Link from "next/link";
 import { kalam } from "./fonts";
 import Image from "next/image";
+import background from "../public/backgrounds/Cube_Name.png";
 
 export default function Jumbotron() {
   return (
-    <section className="flex h-[600px] w-screen flex-col items-center justify-center bg-slate-200 py-[50px]">
+    <section className="flex h-[600px] w-screen flex-col items-center justify-center bg-slate-100 py-[50px]">
       <div className="h-50 flex w-full max-w-6xl flex-col items-center justify-center px-[50px]">
         {/* <h1 className="py-3 text-4xl font-semibold text-slate-700 md:text-5xl">
           Danny Graugnard
         </h1> */}
         <Image
-          src="/logos/black_logo.png"
+          src={background}
           width={500}
           height={500}
           alt="Daniel Graugnard"

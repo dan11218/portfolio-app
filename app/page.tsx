@@ -5,7 +5,7 @@ import ProjectSection from "./project_section";
 
 export default async function Home() {
   return (
-    <main className="w-full flex-col items-start justify-start bg-slate-50">
+    <main className="h-screen w-screen flex-col items-start justify-start">
       <Jumbotron />
       <ProjectSection />
     </main>
