@@ -5,7 +5,7 @@ export default function Project(props: any) {
   return (
     <Link
       href={props.case_study_url}
-      className="mx-6 mb-6 flex h-[500px] w-[400px] flex-col overflow-hidden rounded-md border-[0.5px] border-solid border-slate-400 bg-slate-50 shadow-lg dark:border-slate-100 dark:bg-slate-800"
+      className="group mx-6 mb-6 flex h-[500px] w-[400px] flex-col overflow-hidden rounded-md border-[0.5px] border-solid border-slate-400 bg-slate-50 shadow-lg transition duration-300 dark:border-slate-100 dark:bg-slate-800"
     >
       <Image
         src={props.image_url}
@@ -17,9 +17,10 @@ export default function Project(props: any) {
         <h4 className="py-[5px] font-medium text-slate-500 dark:text-slate-100">
           {props.skills}
         </h4>
-        <h2 className="py-[5px] text-xl font-semibold text-slate-700 dark:text-slate-100">
+        <div className="py-[5px] text-xl font-semibold text-slate-700 dark:text-slate-100">
           {props.title}
-        </h2>
+          <span className="mr-auto block h-1 max-w-0 rounded border-0 bg-sky-500 transition-all duration-500 group-hover:max-w-full dark:bg-gray-700"></span>
+        </div>
         <p className="py-[10px] text-slate-800 dark:text-slate-100">
           {props.description}
         </p>
