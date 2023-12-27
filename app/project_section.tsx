@@ -19,8 +19,8 @@ export default async function ProjectSection() {
   const data = await getData();
 
   return (
-    <div className="flex w-screen flex-col items-center px-[20px]">
-      <div className="flex w-full max-w-[90rem] flex-wrap content-start justify-center py-[20px]">
+    <section className="flex w-screen flex-col items-center px-[20px] py-[20px]">
+      <div className="flex w-full max-w-[90rem] flex-wrap content-start justify-center">
         {data.map((project: any) => (
           <Project
             key={project.id}
@@ -28,11 +28,11 @@ export default async function ProjectSection() {
             description={project.description}
             skills={project.skills}
             image_url={project.image_url}
-            case_study_url={project.case_study_url}
+            project_url={project.project_url}
             prototype_url={project.prototype_url}
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
