@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 flex h-10 w-screen flex-col items-center justify-center bg-slate-200 dark:bg-slate-800">
+    <footer className="fixed bottom-0 flex h-10 w-screen flex-col items-center justify-center bg-slate-200 px-[20px] dark:bg-slate-950">
       <div className="flex w-full max-w-6xl flex-row justify-between">
         <Link href="https://github.com/dan11218/portfolio-app">
           <p className="text-center text-sm hover:text-sky-600 dark:text-slate-50">

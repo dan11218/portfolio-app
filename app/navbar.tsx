@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 flex w-screen flex-col items-center border-b-2 border-solid  border-slate-300 bg-slate-50 px-[20px] shadow-lg dark:border-none dark:bg-slate-800">
+    <div className="sticky top-0 flex w-screen flex-col items-center border-b-2 border-solid  border-slate-300 bg-slate-50 px-[20px] shadow-lg dark:border-none dark:bg-slate-950">
       <div className="inline-flex w-full max-w-7xl items-start justify-between">
         <Link
           href="/"
@@ -14,6 +14,7 @@ export default function Navbar() {
             width={200}
             height={100}
             alt="DG Logo"
+            className="dark:invert"
           ></Image>
         </Link>
         <div className="flex w-[400px] flex-row justify-between self-stretch">
