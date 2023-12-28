@@ -1,5 +1,5 @@
-import Jumbotron from "./jumbotron";
-import ProjectSection from "./project_section";
+import Jumbotron from "./components/jumbotron";
+import ProjectSection from "./components/project_section";
 
 // Home page
 
