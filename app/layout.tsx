@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { albertSans } from "./fonts";
 import Navbar from "./navbar";
@@ -23,7 +22,6 @@ export default function RootLayout({
       <body
         className={`${albertSans.className} flex h-screen flex-col bg-slate-50 dark:bg-slate-950`}
       >
-        <SpeedInsights />
         <Navbar />
         {children}
         <Footer />
