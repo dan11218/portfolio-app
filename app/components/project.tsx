@@ -14,7 +14,7 @@ export default function Project(props: any) {
         alt="project thumbnail"
       />
       <div className="flex h-full w-full flex-col px-[20px] py-[10px]">
-        <h4 className="my-1 font-extralight text-slate-500 dark:text-slate-200">
+      <h4 className="my-1 font-light text-slate-500 dark:text-indigo-400">
           {props.skills}
         </h4>
         <h3 className="text-2xl">
@@ -24,5 +24,5 @@ export default function Project(props: any) {
         <p className="font-light">{props.description}</p>
       </div>
     </Link>
-  );
+);
 }

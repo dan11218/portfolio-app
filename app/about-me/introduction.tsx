@@ -4,7 +4,7 @@ export default function Introduction() {
   return (
     <div className="flex w-screen flex-col items-center px-[20px]">
       <div className="flex w-full max-w-6xl flex-wrap justify-center py-[80px]">
-        <div className="mx-6 mb-4 flex h-full flex-col items-center">
+        <div className="mx-6 mb-6 flex h-full flex-col items-center">
           <Image
             src="/profiles/portfolio_about_me.png"
             width={475}
