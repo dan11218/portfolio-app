@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 flex h-10 w-screen flex-col items-center justify-center bg-slate-200 px-[20px] dark:bg-slate-950">
-      <div className="flex w-full max-w-6xl flex-row justify-between">
+    <footer className="fixed bottom-0 flex h-10 w-screen border-t-[1px] border-solid flex-col items-center justify-center bg-slate-200 px-[20px] dark:bg-slate-950">
+    <div className="flex w-full max-w-6xl md:max-w-3xl flex-row justify-between items-center">
         <Link
           className="w-fit"
           href="https://github.com/dan11218/portfolio-app"
