@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { albertSans } from "./fonts";
+import { albert_sans } from "./fonts";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${albertSans.className} flex h-screen flex-col bg-slate-50 text-slate-700 dark:bg-slate-950 dark:text-slate-100`}
+        className={`${albert_sans.className} flex h-screen flex-col justify-center bg-slate-100 text-slate-700 dark:bg-slate-950 dark:text-slate-100`}
       >
         <Navbar />
         {children}

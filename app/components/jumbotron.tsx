@@ -5,8 +5,8 @@ import background from "../../public/graphics/Cube_Name.png";
 
 export default function Jumbotron() {
   return (
-    <section className="flex h-fit w-screen py-2 flex-col items-center justify-center bg-slate-200">
-        <div className="h-fit flex w-full sm:max-w-6xl px-2 flex-col items-center justify-center">
+    <section className="flex w-screen flex-col items-center justify-center bg-slate-200 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 py-20">
+      <div className="flex h-fit w-full flex-col items-center justify-center px-2 sm:max-w-6xl">
         <Image
           src={background}
           width={500}
@@ -14,14 +14,14 @@ export default function Jumbotron() {
           alt="Daniel Graugnard"
         />
         <h2
-        className={`${kalam.className} py-3 text-center text-sky-700 text-2xl sm:text-3xl`}
+          className={`${kalam.className} py-5 text-center text-2xl font-medium text-sky-100 sm:text-3xl`}
         >
-          I&apos;m a designer with a background in Software Engineering and
+          I&apos;m a Designer with a background in Software Engineering and
           Customer Support
         </h2>
         <Link
           href="https://drive.google.com/file/d/1nTI56A3wOYprQhMZaEhc4_X8DhuG4c_5/view?usp=sharing"
-          className="focus:shadow-outline flex h-16 w-fit justify-center items-center bg-slate-800 px-6 py-3 my-3 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
+          className="focus:shadow-outline my-3 flex h-16 w-fit items-center justify-center bg-slate-800 px-6 py-3 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
         >
           Download CV
         </Link>

@@ -1,6 +1,6 @@
 import { Albert_Sans, Kalam, Space_Mono } from "next/font/google";
 
-export const albertSans = Albert_Sans({
+export const albert_sans = Albert_Sans({
   subsets: ["latin"],
 });
 
@@ -9,7 +9,7 @@ export const kalam = Kalam({
   subsets: ["latin"],
 });
 
-export const spaceMono = Space_Mono({
+export const space_mono = Space_Mono({
   weight: ["400", "700"],
   style: ["italic", "normal"],
   subsets: ["latin"],
