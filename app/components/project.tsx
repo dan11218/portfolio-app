@@ -14,12 +14,12 @@ export default function Project(props: any) {
         alt="project thumbnail"
       />
       <div className="flex h-full w-full flex-col px-[20px] py-[10px]">
-        <h4 className="font-extralight text-slate-500 dark:text-slate-200">
+        <h4 className="my-1 font-extralight text-slate-500 dark:text-slate-200">
           {props.skills}
         </h4>
-        <h3>
+        <h3 className="text-2xl">
           {props.title}
-          <span className="my-2 mr-auto block h-0.5 max-w-0 rounded border-0 bg-sky-500 transition-all duration-500 group-hover:max-w-full dark:bg-gray-300"></span>
+          <span className="my-1 mr-auto block h-0.5 max-w-0 rounded border-0 bg-sky-500 transition-all duration-500 group-hover:max-w-full dark:bg-gray-300"></span>
         </h3>
         <p className="font-light">{props.description}</p>
       </div>
