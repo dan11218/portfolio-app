@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { kalam } from "../fonts";
 import Image from "next/image";
-import background from "../../public/backgrounds/Cube_Name.png";
+import background from "../../public/graphics/Cube_Name.png";
 
 export default function Jumbotron() {
   return (

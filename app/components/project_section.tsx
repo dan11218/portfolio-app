@@ -19,8 +19,8 @@ export default async function ProjectSection() {
   const data = await getData();
 
   return (
-    <section className="flex w-screen flex-col items-center px-[20px] py-[20px]">
-      <div className="flex w-full max-w-[90rem] flex-wrap content-start justify-center">
+    <section className="flex w-screen flex-col items-center px-[50px] py-[20px]">
+      <div className="flex w-full flex-wrap content-start justify-center">
         {data.map((project: any) => (
           <Project
             key={project.id}
