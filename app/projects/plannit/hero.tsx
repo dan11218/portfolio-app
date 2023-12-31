@@ -6,12 +6,12 @@ export default function Hero() {
       <div className="flex w-full max-w-6xl flex-wrap items-center justify-center border-4 border-solid border-purple-500">
         <Image
           src="/plannit/Venue.png"
-          width={250}
+          width={350}
           height={500}
           alt="hero image"
           className=""
         ></Image>
-        <div className="mx-6 flex h-fit w-fit flex-col border-l-2 border-solid border-slate-200 px-[25px]">
+        <div className="mx-8 flex h-fit w-fit flex-col border-l-2 border-solid border-slate-200 px-[25px]">
           <h1 className="font-medium text-orange-600 dark:text-slate-50">
             Plannit
           </h1>
