@@ -18,7 +18,7 @@ export default function Overview() {
         <div className="mb-8 flex flex-col">
           <h3 className="mb-3">Solution</h3>
           <p>
-            To solve this, I developed Plannit, a mobile platform that allows
+            To solve this, I designed Plannit, a mobile platform that allows
             event planners to stay up-to-date on upcoming events, keep track of
             contacts, such as clients, vendors, and venues, and manage tasks for
             each event.
