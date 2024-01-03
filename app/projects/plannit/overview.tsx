@@ -6,7 +6,7 @@ export default function Overview() {
       <h1 className="mb-10">Overview</h1>
       <div className="flex w-full max-w-3xl flex-col">
         <div className="mb-8 flex flex-col">
-          <h2 className="mb-3">Problem</h2>
+          <h3 className="mb-3">Problem</h3>
           <p>
             Planners work with a vast network of clients, vendors, and venues.
             It can be difficult to keep track of all the details, such as which
@@ -16,7 +16,7 @@ export default function Overview() {
           </p>
         </div>
         <div className="mb-8 flex flex-col">
-          <h2 className="mb-3">Solution</h2>
+          <h3 className="mb-3">Solution</h3>
           <p>
             To solve this, I developed Plannit, a mobile platform that allows
             event planners to stay up-to-date on upcoming events, keep track of
@@ -25,7 +25,7 @@ export default function Overview() {
           </p>
         </div>
         <div className="mb-8 flex flex-col">
-          <h3 className="mb-3">My Role</h3>
+          <h4 className="mb-3">My Role</h4>
           <p>UX Design Lead</p>
         </div>
       </div>
