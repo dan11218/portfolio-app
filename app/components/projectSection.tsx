@@ -1,6 +1,5 @@
 import Project from "./project";
 import { promises as fs } from "fs";
-import { kalam } from "../fonts";
 
 // Get project data
 
@@ -20,8 +19,7 @@ export default async function ProjectSection() {
   const data = await getData();
 
   return (
-    <section className="flex w-screen flex-col items-center px-3 pb-10">
-      <h1 className={`m-6 ${kalam.className} underline`}>Projects</h1>
+    <section className="flex w-screen flex-col items-center px-3 py-10">
       <div className="flex w-full flex-wrap content-start justify-center">
         {data.map((project: any) => (
           <Project
