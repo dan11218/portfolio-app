@@ -23,14 +23,18 @@ export default function Overview() {
             clients, vendors, and venues, and manage tasks for each event.
           </p>
         </div>
-        <ul className="justify-left flex flex-wrap bg-amber-50 p-4">
+        <ul className="flex h-fit flex-row justify-center bg-amber-50 p-4 text-stone-700">
           <li className="mb-2 mr-6">
             <h4 className="mb-1 font-medium">My Role</h4>
             <p>UX Design Lead</p>
           </li>
           <li className="mb-2 mr-6">
             <h4 className="mb-1 font-medium">Timeline</h4>
-            <p>September 2023 – November 2023</p>
+            <p>
+              September 2023–
+              <br />
+              November 2023
+            </p>
           </li>
           <li className="mb-2 mr-6">
             <h4 className="mb-1 font-medium">Project Type</h4>
