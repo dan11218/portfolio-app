@@ -1,8 +1,8 @@
-import { kalam } from "@/app/fonts";
+import Image from "next/image";
 
 export default function Overview() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-[40px] py-8">
+    <section className="flex h-fit w-screen flex-col items-center px-[40px] pb-10 pt-14">
       <h1 className="mb-10">Overview</h1>
       <div className="flex w-full max-w-3xl flex-col">
         <div className="mb-8 flex flex-col">
@@ -18,16 +18,29 @@ export default function Overview() {
         <div className="mb-8 flex flex-col">
           <h3 className="mb-3">Solution</h3>
           <p>
-            To solve this, I designed Plannit, a mobile platform that allows
-            event planners to stay up-to-date on upcoming events, keep track of
-            contacts, such as clients, vendors, and venues, and manage tasks for
-            each event.
+            I designed Plannit, a mobile platform that allows event planners to
+            stay up-to-date on upcoming events, keep track of contacts, such as
+            clients, vendors, and venues, and manage tasks for each event.
           </p>
         </div>
-        <div className="mb-8 flex flex-col">
-          <h4 className="mb-3">My Role</h4>
-          <p>UX Design Lead</p>
-        </div>
+        <ul className="justify-left flex flex-wrap bg-amber-50 p-4">
+          <li className="mb-2 mr-6">
+            <h4 className="mb-1 font-medium">My Role</h4>
+            <p>UX Design Lead</p>
+          </li>
+          <li className="mb-2 mr-6">
+            <h4 className="mb-1 font-medium">Timeline</h4>
+            <p>September 2023 – November 2023</p>
+          </li>
+          <li className="mb-2 mr-6">
+            <h4 className="mb-1 font-medium">Project Type</h4>
+            <p>Mobile design exercise</p>
+          </li>
+          <li className="mb-2 mr-6">
+            <h4 className="mb-1 font-medium">Tools</h4>
+            <p>Figma</p>
+          </li>
+        </ul>
       </div>
       <div className="flex flex-col"></div>
     </section>
