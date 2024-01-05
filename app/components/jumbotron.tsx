@@ -22,6 +22,7 @@ export default function Jumbotron() {
         <Link
           href="https://drive.google.com/file/d/1RO_wivepMED410EoNMQeD5jam5J7awYe/view?usp=share_link"
           className="focus:shadow-outline my-3 flex h-16 w-fit items-center justify-center bg-slate-800 px-6 py-3 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
+          target="_blank"
         >
           Download CV
         </Link>
