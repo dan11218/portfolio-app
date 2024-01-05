@@ -26,7 +26,8 @@ export default function Navbar() {
           </Link>
           <Link
             className="text-centertransition flex h-full w-full flex-col items-center justify-center duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50 dark:hover:bg-slate-50 dark:hover:text-slate-800"
-            href="https://drive.google.com/file/d/1nTI56A3wOYprQhMZaEhc4_X8DhuG4c_5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RO_wivepMED410EoNMQeD5jam5J7awYe/view?usp=share_link"
+            target="_blank"
           >
             Resumé
           </Link>
