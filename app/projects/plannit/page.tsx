@@ -1,3 +1,4 @@
+import FinalDesign from "./finalDesign";
 import Hero from "./hero";
 import Overview from "./overview";
 
@@ -6,6 +7,7 @@ export default function Plannit() {
     <main className="h-screen w-screen flex-col items-start justify-start">
       <Hero />
       <Overview />
+      <FinalDesign />
     </main>
   );
 }

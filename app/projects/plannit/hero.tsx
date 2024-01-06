@@ -13,7 +13,7 @@ export default function Hero() {
         ></Image>
         <div className="flex h-fit w-fit flex-col border-l-2 border-solid border-slate-300 px-[25px]">
           <h1 className="font-medium text-slate-100">Plannit</h1>
-          <h3 className="font-light text-slate-200 dark:text-slate-50">
+          <h3 className="text-3xl text-slate-50">
             Your next event is ready for take off. 🚀
           </h3>
         </div>
