@@ -3,10 +3,13 @@ import Image from "next/image";
 export default function FinalDesign() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-[40px] pb-24 pt-14">
-      <h1 className="mb-10">Final Designs</h1>
+      <h1 className="mb-10 text-3xl md:text-5xl">Final Designs</h1>
       <div className="flex w-full max-w-4xl flex-col">
         <h3 className="mb-4">Sign-up</h3>
-        <div id="signup-screens" className="mb-10 flex h-fit flex-wrap">
+        <div
+          id="signup-screens"
+          className="mb-12 flex h-fit flex-wrap justify-center md:justify-normal"
+        >
           <Image
             src="/plannit/login/Splash screen.png"
             width={185}
@@ -44,7 +47,10 @@ export default function FinalDesign() {
           />
         </div>
         <h3 className="mb-4">Create new event</h3>
-        <div id="new-event-screens" className="mb-10 flex h-fit flex-wrap">
+        <div
+          id="new-event-screens"
+          className="mb-12 flex h-fit flex-wrap justify-center md:justify-normal"
+        >
           <Image
             src="/plannit/create-new-event/New Event.png"
             width={185}

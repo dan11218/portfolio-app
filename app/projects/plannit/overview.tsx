@@ -25,7 +25,7 @@ export default function Overview() {
           </p>
         </div>
       </div>
-      <ul className="flex h-fit w-full max-w-2xl flex-col justify-center bg-amber-50 py-2 text-stone-700 sm:flex-row">
+      <ul className="flex h-fit w-full max-w-lg flex-col items-center justify-around bg-amber-50 py-2 text-stone-700 sm:flex-row md:max-w-3xl">
         <li className="m-2">
           <h4 className="text-md mb-1 font-medium md:text-2xl">My Role</h4>
           <p>UX Design Lead</p>
