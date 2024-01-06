@@ -24,29 +24,29 @@ export default function Overview() {
             clients, vendors, and venues, and manage tasks for each event.
           </p>
         </div>
-        <ul className="flex h-fit flex-row justify-around bg-amber-50 py-2 py-6 text-stone-700">
-          <li className="mx-4 mr-6">
-            <h4 className="text-md mb-1 font-medium md:text-2xl">My Role</h4>
-            <p>UX Design Lead</p>
-          </li>
-          <li className="mx-4 mr-6">
-            <h4 className="text-md mb-1 font-medium md:text-2xl">Timeline</h4>
-            <p>
-              September 2023–
-              <br />
-              November 2023
-            </p>
-          </li>
-          <li className="mx-4 mr-6">
-            <h4 className="text-md mb-1 font-medium">Project Type</h4>
-            <p>Mobile design exercise</p>
-          </li>
-          <li className="mb-2 mr-6">
-            <h4 className="mb-1 font-medium md:text-2xl">Tools</h4>
-            <p>Figma</p>
-          </li>
-        </ul>
       </div>
+      <ul className="flex h-fit w-full max-w-2xl flex-col justify-center bg-amber-50 py-2 text-stone-700 sm:flex-row">
+        <li className="m-2">
+          <h4 className="text-md mb-1 font-medium md:text-2xl">My Role</h4>
+          <p>UX Design Lead</p>
+        </li>
+        <li className="m-2">
+          <h4 className="text-md mb-1 font-medium md:text-2xl">Timeline</h4>
+          <p>
+            September 2023–
+            <br />
+            November 2023
+          </p>
+        </li>
+        <li className="m-2">
+          <h4 className="text-md mb-1 font-medium md:text-2xl">Project Type</h4>
+          <p>Mobile design exercise</p>
+        </li>
+        <li className="m-2">
+          <h4 className="text-md mb-1 font-medium md:text-2xl">Tools</h4>
+          <p>Figma</p>
+        </li>
+      </ul>
       <Link
         href="https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?page-id=0%3A1&type=design&node-id=702-427&viewport=35%2C-512%2C0.71&t=AEP1ckLGHKcaCH2v-1&scaling=scale-down&starting-point-node-id=702%3A427"
         className="focus:shadow-outline my-12 flex h-16 w-fit items-center justify-center bg-slate-800 px-6 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
