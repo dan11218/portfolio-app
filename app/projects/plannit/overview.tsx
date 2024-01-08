@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Overview() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-[40px] pt-14">
-      <h1 className="mb-10">Overview</h1>
+      <h1 className="mb-20">Overview</h1>
       <div className="flex w-full max-w-3xl flex-col">
-        <div className="mb-8 flex flex-col">
+        <div className="mb-20 flex flex-col">
           <h3 className="mb-3">Problem</h3>
           <p>
             Planners work with a vast network of clients, vendors, and venues.
@@ -16,7 +16,7 @@ export default function Overview() {
             event, among other duties.
           </p>
         </div>
-        <div className="mb-8 flex flex-col">
+        <div className="mb-20 flex flex-col">
           <h3 className="mb-3">Solution</h3>
           <p>
             I designed Plannit, a mobile platform that allows event planners to
@@ -25,7 +25,7 @@ export default function Overview() {
           </p>
         </div>
       </div>
-      <ul className="flex h-fit w-full max-w-lg flex-col items-center justify-around bg-amber-50 py-2 text-stone-700 sm:flex-row md:max-w-3xl">
+      <ul className="flex h-fit w-full max-w-72 flex-col justify-around bg-slate-200 py-2 text-stone-700 sm:max-w-3xl sm:flex-row dark:bg-blue-900 dark:text-slate-50">
         <li className="m-2">
           <h4 className="text-md mb-1 font-medium md:text-2xl">My Role</h4>
           <p>UX Design Lead</p>
