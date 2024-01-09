@@ -2,12 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { space_mono, kalam } from "@/app/fonts";
 import ProjectDetails from "./projectDetails";
+import Problem from "./problem";
 
 export default function Overview() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-[40px] pt-14">
       <div className="flex w-full max-w-3xl flex-col items-center">
-        <div className="mb-16 flex flex-col">
+        <div className="fle mb-16 flex flex-col">
           <h1 className="mb-16 text-center">Overview</h1>
           <p>
             Plannit is an event management tool that allows users to quickly
@@ -37,34 +38,7 @@ export default function Overview() {
             />
           </svg>
         </Link>
-        <div className="mb-16 flex flex-col">
-          <h3 className="mb-3">Problem</h3>
-          <p>
-            Planners work with a vast network of clients, vendors, and venues.
-            It can be difficult to keep track of all the details, such as which
-            vendors are assigned to which events, contacting venues for
-            availability, or remembering to complete specific tasks for each
-            event, among other duties.
-          </p>
-        </div>
-        <ul className="mb-16 w-fit max-w-2xl list-inside list-disc px-14">
-          <li className={`m-2 inline-flex text-xl ${kalam.className}`}>
-            Planners need a way to view upcoming events and tasks at a quick
-            glance.
-          </li>
-          <li className={`text-xl ${kalam.className} m-2 inline-flex`}>
-            There are a lot of different vendors that planners work with, but no
-            directory to easily search for them.
-          </li>
-        </ul>
-        <div className="mb-16 flex flex-col">
-          <h3 className="mb-3">Solution</h3>
-          <p>
-            I designed Plannit, a mobile platform that allows event planners to
-            stay up-to-date on upcoming events, keep track of contacts, such as
-            clients, vendors, and venues, and manage tasks for each event.
-          </p>
-        </div>
+        <Problem />
         <ProjectDetails />
       </div>
     </section>
