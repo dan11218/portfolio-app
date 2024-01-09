@@ -16,9 +16,10 @@ export default function Overview() {
             of clients and vendors.
           </p>
         </div>
+        <ProjectDetails />
         <Link
           href="https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?page-id=0%3A1&type=design&node-id=702-427&viewport=35%2C-512%2C0.71&t=AEP1ckLGHKcaCH2v-1&scaling=scale-down&starting-point-node-id=702%3A427"
-          className="focus:shadow-outline my-12 flex h-16 w-fit items-center justify-center bg-slate-800 px-6 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
+          className="focus:shadow-outline mb-16 flex h-16 w-fit items-center justify-center bg-slate-800 px-6 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
           target="_blank"
         >
           Open Prototype
@@ -39,7 +40,6 @@ export default function Overview() {
           </svg>
         </Link>
         <Problem />
-        <ProjectDetails />
       </div>
     </section>
   );
