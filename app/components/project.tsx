@@ -15,7 +15,9 @@ export default function Project(props: any) {
         alt="project thumbnail"
       />
       <div className="flex h-full w-full flex-col px-[20px] py-[10px]">
-        <h4 className="my-1 font-light italic text-slate-500 dark:text-indigo-400">
+        <h4
+          className={`my-1 text-sm text-slate-700 dark:text-indigo-400 ${space_mono.className}`}
+        >
           {props.skills}
         </h4>
         <h3 className="text-2xl">
