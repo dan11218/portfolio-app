@@ -23,8 +23,8 @@ export default function BlockQuotes() {
         </blockquote>
         <blockquote className="mb-8">
           <p>
-            "It&apos;s difficult to keep track of various tasks for each of my
-            events."
+            &quot;It&apos;s difficult to keep track of various tasks for each of
+            my events.&quot;
           </p>
         </blockquote>
         <blockquote className="mb-8">
