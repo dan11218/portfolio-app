@@ -16,14 +16,14 @@ export default function BlockQuotes() {
         <blockquote className="mb-8">
           <p>
             "I have a network of vendors I work with that I refer to to my
-            clients, and they know the event spaces I work with inside-out. I’d
-            love to be able to keep a list of vendors that I can choose from and
-            assign them to events."
+            clients, and they know the event spaces I work with inside-out.
+            I&apos;d love to be able to keep a list of vendors that I can choose
+            from and assign them to events."
           </p>
         </blockquote>
         <blockquote className="mb-8">
           <p>
-            "It’s difficult to keep track of various tasks for each of my
+            "It&apos;s difficult to keep track of various tasks for each of my
             events."
           </p>
         </blockquote>
