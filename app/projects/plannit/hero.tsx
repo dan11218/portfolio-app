@@ -8,7 +8,6 @@ export default function Hero() {
           src="/plannit/todayView.png"
           width={500}
           height={500}
-          layout="responsive"
           alt="screenshot of Today View"
           className="mx-10 mb-6 max-w-40 md:max-w-60"
         ></Image>
