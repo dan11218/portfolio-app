@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { kalam } from "../fonts";
+import { kalam } from "./fonts";
 import Image from "next/image";
-import background from "../../public/graphics/Cube_Name.png";
+import background from "../public/graphics/Cube_Name.png";
 
-export default function Jumbotron() {
+export default function Hero() {
   return (
     <section className="flex w-screen flex-col items-center justify-center bg-slate-200 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 py-20">
       <div className="flex h-fit w-full flex-col items-center justify-center px-2 sm:max-w-6xl">
