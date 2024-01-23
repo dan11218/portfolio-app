@@ -1,6 +1,6 @@
 # Overview
 
-This is a portfolio website I developed to show samples of my work! The goal was to learn Next and Tailwin CSS and using Front End skills to design and develop the portfolio from the ground up. Feel free to take a look around `/src` directory and see the code.
+This is a portfolio website I developed to show samples of my work! The goal was to learn Next and Tailwind CSS and using Front-end skills to design the portfolio from the ground up. Feel free to take a look around `/src` directory and see the code.
 
 You can check out my portfolio in [this link](https://www.danielgraugnard.com/).
 
