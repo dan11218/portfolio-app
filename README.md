@@ -4,7 +4,7 @@ This is a portfolio website I developed to show samples of my work! The goal was
 
 You can check out my portfolio in [this link](https://www.danielgraugnard.com/).
 
-![screenshot of home page](/screenshots/Screenshot 2023-12-22 at 3.31.50 PM.png)
+![screenshot of home page] (/screenshots/Screenshot 2023-12-22 at 3.31.50 PM.png)
 
 ## My role
 
