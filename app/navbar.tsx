@@ -17,7 +17,7 @@ export default function Navbar() {
             className="dark:invert"
           ></Image>
         </Link>
-        <div className="collapse flex w-[400px] flex-row justify-between self-stretch md:visible">
+        <div className="flex w-[400px] flex-row justify-between self-stretch">
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50 dark:hover:bg-slate-50 dark:hover:text-slate-800"
             href="/"
