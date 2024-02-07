@@ -20,7 +20,7 @@ export default function Hero() {
           Customer Support
         </h2>
         <Link
-          href="https://drive.google.com/file/d/1WMV5pV0rkMN2G9_MguwqU_J2HX9z2XbA/view?usp=sharing"
+          href="https://drive.google.com/file/d/18DgJpb3HD3YhUw_39MSjiMzwhV5CSeSj/view?usp=sharing"
           className="focus:shadow-outline my-3 flex h-16 w-fit items-center justify-center bg-slate-800 px-6 py-3 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
           target="_blank"
         >
