@@ -12,7 +12,7 @@
     "id": 1,
     "title": "Usabilla Gift Shop",
     "description": "A gift shop developed with ReactJS and designed in Figma.",
-    "skills": "Javascript, HTML, CSS, ReactJS, Figma",
+    "skills": "React, HTML, CSS, Javascript, Figma",
     "image_url": "/mockups/giftshop_thumbnail.png",
     "project_url": "https://www.figma.com/proto/xYEyhgRizw6Q1upeB8Vw8x/Usabilla-Demo-Case-Study?page-id=0%3A1&type=design&node-id=1-19&viewport=449%2C2370%2C0.63&t=G0LEv1s6mPI7SLbJ-1&scaling=min-zoom&mode=design",
     "prototype_url": "https://demo-usabilla.netlify.app/"
