@@ -2,8 +2,11 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <div className="flex w-screen flex-col items-center px-[20px]">
-      <div className="flex w-full max-w-6xl flex-wrap justify-center py-[80px]">
+    <div className="flex w-screen flex-col items-center px-[20px] py-20">
+      <div
+        id="section_1"
+        className="flex w-full max-w-6xl flex-wrap justify-center py-[80px]"
+      >
         <div className="mx-6 mb-6 flex h-full flex-col items-center">
           <Image
             src="/profiles/portfolio_about_me.png"
@@ -25,16 +28,18 @@ export default function Introduction() {
               passion for design and software when I was an Event Coordinator
               working at a boutique hotel in NYC.
             </p>
+            <br />
             <p>
               One day, I had an idea for an app that would help planners stay
               organised and solve some of the pain points I felt in my
               experience. I wanted to learn more about software development on
               both the engineering and design sides of the process.
             </p>
+            <br />
             <p>
               When I&apos;m not working, I&apos;m either cooking, reading
               poetry, gaming/streaming, or trying out new restaurants NYC with
-              my husband. I&apos;m also working on an indie-horror game built in
+              my partner. I&apos;m also working on an indie-horror game built in
               Godot.
             </p>
           </div>
