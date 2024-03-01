@@ -4,7 +4,7 @@ export default function BlockQuotes() {
   return (
     <div className="mb-16 flex flex-col">
       <div className="mb-16 flex flex-col">
-        <h3 className="mb-3">Understanding the user's needs</h3>
+        <h3 className="mb-3">Understanding the user&apos;s needs</h3>
         <p>
           When users were asked about their experience planning events,
           here&apos;s what they said...
