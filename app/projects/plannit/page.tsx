@@ -9,8 +9,8 @@ export default function Plannit() {
     <main className="h-screen w-screen flex-col items-start justify-start">
       <Hero />
       <Overview />
-      {/* <Research /> */}
-      <DesignSystem />
+      <Research />
+      {/* <DesignSystem /> */}
       <FinalDesign />
     </main>
   );

@@ -6,7 +6,7 @@ export default function Introduction() {
       <div className="flex w-full max-w-6xl flex-wrap justify-center py-[80px]">
         <div className="mx-6 mb-6 flex h-full flex-col items-center">
           <Image
-            src="/profiles/portfolio_about_me.png"
+            src="/profiles/profile_background.png"
             width={475}
             height={300}
             alt="profile image"

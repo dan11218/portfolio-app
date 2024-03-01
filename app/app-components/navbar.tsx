@@ -17,7 +17,7 @@ export default function Navbar() {
             className="dark:invert"
           ></Image>
         </Link>
-        <div className="collapse flex w-[400px] flex-row justify-between self-stretch md:visible">
+        <div className="flex w-[400px] flex-row justify-between self-stretch">
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50 dark:hover:bg-slate-50 dark:hover:text-slate-800"
             href="/"
@@ -38,7 +38,7 @@ export default function Navbar() {
             About me
           </Link>
         </div>
-        <div className="absolute right-0 flex h-full w-[60px] flex-col items-center justify-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50 md:invisible dark:hover:bg-slate-50 dark:hover:text-slate-800">
+        {/* <div className="absolute right-0 flex h-full w-[60px] flex-col items-center justify-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50 md:invisible dark:hover:bg-slate-50 dark:hover:text-slate-800">
           <svg
             className="h-7 w-7"
             aria-hidden="true"
@@ -54,7 +54,7 @@ export default function Navbar() {
               d="M1 1h15M1 7h15M1 13h15"
             />
           </svg>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
