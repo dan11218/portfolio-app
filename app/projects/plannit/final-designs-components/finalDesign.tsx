@@ -5,8 +5,10 @@ export default function FinalDesign() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-[40px] pb-24 pt-14">
       <div className="flex w-full max-w-4xl flex-col items-center">
-        <h1>Final Designs</h1>
-        <hr className="m-auto my-1 mb-16 h-1 w-[150px] rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
+        <div>
+          <h1>Final Designs</h1>
+          <hr className="m-auto my-1 mb-16 h-1 w-[150px] rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
+        </div>
         <div className="flex w-full max-w-4xl flex-col">
           <h3 className="mb-4">Sign-up</h3>
           <div

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { albert_sans } from "./fonts";
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "./app-components/navbar";
+import Footer from "./app-components/footer";
 
 export const metadata: Metadata = {
   title: "Danny Graugnard",

@@ -9,7 +9,8 @@ export default function Footer() {
           href="https://github.com/dan11218/portfolio-app"
         >
           <p className="text-center text-sm hover:text-sky-600 dark:text-slate-50">
-            Made with Next.js and Tailwind CSS by Danny Graugnard ©2023
+            This site was handcoded with Next.js and Tailwind CSS by Danny
+            Graugnard ©2023
           </p>
         </Link>
         <div className="flex w-full max-w-[100px] flex-row justify-between">

@@ -12,15 +12,11 @@ export default function Overview() {
 
   return (
     <section className="flex h-fit w-screen flex-col items-center px-[40px] pt-14">
-      <div className="mb-16 flex w-full max-w-3xl flex-col items-center">
-        <Paragraph
-          title={"Overview"}
-          body={overviewCopy}
-          showTitle={true}
-          underlined={true}
-          headerSize={"text-4xl"}
-          textAlign={"text-center"}
-        />
+      <div className="flex w-full max-w-3xl flex-col items-center">
+        <div>
+          <h1>Overview</h1>
+          <hr className="m-auto my-1 mb-16 h-1 w-[150px] rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
+        </div>
         <Problem />
         <Solution />
         <ProjectDetails />

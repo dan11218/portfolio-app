@@ -7,6 +7,11 @@ export default function Hero() {
   return (
     <section className="flex w-screen flex-col items-center justify-center bg-slate-200 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 py-20">
       <div className="flex h-fit w-full flex-col items-center justify-center px-2 sm:max-w-6xl">
+        {/* <h2
+          className={`${kalam.className} py-5 text-center text-2xl font-light text-sky-100 sm:text-3xl`}
+        >
+          Hi there! 👋 I'm...
+        </h2> */}
         <Image
           src={background}
           width={500}
@@ -14,7 +19,7 @@ export default function Hero() {
           alt="Daniel Graugnard"
         />
         <h2
-          className={`${kalam.className} py-5 text-center text-2xl font-medium text-sky-100 sm:text-3xl`}
+          className={`${kalam.className} py-5 text-center text-2xl font-light text-sky-100 sm:text-3xl`}
         >
           I&apos;m a Designer with a background in Software Engineering and
           Customer Support
