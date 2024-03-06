@@ -25,7 +25,7 @@ export default function Hero() {
           Customer Support
         </h2>
         <Link
-          href="https://drive.google.com/file/d/1c5zASscLeGxG7RA2lTU7cwAaZOiUmPif/view?usp=sharing"
+          href="https://drive.google.com/file/d/1oNhGsp4Q_Fla_8gLx5cAX6Etbz1uBm3E/view?usp=sharing"
           className="focus:shadow-outline my-3 flex h-16 w-fit items-center justify-center bg-slate-800 px-6 py-3 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
           target="_blank"
         >
