@@ -1,17 +1,14 @@
-import DesignSystem from "./design-system/designSystem";
 import FinalDesign from "./final-designs/finalDesign";
 import Hero from "./hero";
 import Overview from "./overview/overview";
-import Research from "./research/research";
-import Researc from "./research/research";
+import DesignProcess from "./design-process/design-process";
 
-export default function Plannit() {
+export default function GiftShopDemo() {
   return (
     <main className="h-screen w-screen flex-col items-start justify-start">
       <Hero />
       <Overview />
-      <Research />
-      {/* <DesignSystem /> */}
+      <DesignProcess />
       <FinalDesign />
     </main>
   );
