@@ -23,7 +23,7 @@
     "description": "A gift shop developed with ReactJS and designed in Figma.",
     "skills": "React, Gatsby, HTML, CSS, Javascript, Figma",
     "image_url": "/mockups/giftshop_thumbnail.png",
-    "project_url": "/projects/gift-shop-demo",
+    "project_url": "https://demo-usabilla.netlify.app/",
     "prototype_url": "https://demo-usabilla.netlify.app/"
   },
   {
