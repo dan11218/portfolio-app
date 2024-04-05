@@ -12,7 +12,7 @@
     "id": 1,
     "title": "Fashion E-commerce Site",
     "description": "A luxury fashion website designed with Figma's auto-layouts to create a responsive website",
-    "skills": "Figma, UI Design, NextJS, responsive design",
+    "skills": "Figma, UI Design, Next JS, Tailwind CSS",
     "image_url": "/mockups/bodos_thumbnail.png",
     "project_url": "https://www.figma.com/proto/CpbbW6VAdOsRvsR0osZMfx/Ecommerce-Landing-Page?page-id=0%3A1&type=design&node-id=1-3&viewport=597%2C443%2C0.78&t=GArUGuFVxxSusMwJ-1&scaling=min-zoom&mode=design",
     "prototype_url": "https://www.figma.com/proto/CpbbW6VAdOsRvsR0osZMfx/Ecommerce-Landing-Page?page-id=0%3A1&type=design&node-id=1-3&viewport=597%2C443%2C0.78&t=GArUGuFVxxSusMwJ-1&scaling=min-zoom&mode=design"
@@ -21,9 +21,9 @@
     "id": 2,
     "title": "Usabilla Gift Shop",
     "description": "A gift shop developed with ReactJS and designed in Figma.",
-    "skills": "React, HTML, CSS, Javascript, Figma",
+    "skills": "React, Gatsby, HTML, CSS, Javascript, Figma",
     "image_url": "/mockups/giftshop_thumbnail.png",
-    "project_url": "https://www.figma.com/proto/xYEyhgRizw6Q1upeB8Vw8x/Usabilla-Demo-Case-Study?page-id=0%3A1&type=design&node-id=1-19&viewport=449%2C2370%2C0.63&t=G0LEv1s6mPI7SLbJ-1&scaling=min-zoom&mode=design",
+    "project_url": "/projects/gift-shop-demo",
     "prototype_url": "https://demo-usabilla.netlify.app/"
   },
   {

@@ -1,6 +1,6 @@
 import { kalam } from "@/app/fonts";
 import BlockQuotes from "./blockQuotes";
-import Solution from "../overview-components/solution";
+import Solution from "../overview/solution";
 
 export default function Research() {
   return (
