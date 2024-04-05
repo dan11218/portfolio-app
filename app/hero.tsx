@@ -10,7 +10,7 @@ export default function Hero() {
         <h2
           className={`${kalam.className} py-5 text-center text-2xl text-sky-100 sm:text-3xl`}
         >
-          Hi there! I'm...
+          {`Hi there! I'm...`}
         </h2>
         <Image
           src={background}
@@ -21,8 +21,8 @@ export default function Hero() {
         <h2
           className={`${kalam.className} py-5 text-center text-2xl text-sky-100 sm:text-3xl`}
         >
-          I&apos;m a Designer with a background in Software Engineering and
-          Customer Support
+          {`I'm a Designer with a background in Software Engineering and
+          Customer Support`}
         </h2>
         <Link
           href="https://drive.google.com/file/d/1wsS9BgnEgdDFCAAui8uuUc4nb1w0LRXZ/view?usp=sharing"
