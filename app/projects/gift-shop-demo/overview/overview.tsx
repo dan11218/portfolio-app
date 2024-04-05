@@ -9,13 +9,13 @@ import Image from "next/image";
 export default function Overview() {
   return (
     <section className="mb-16 flex h-fit w-screen flex-col items-center">
-      <div className="mb-16 flex w-full max-w-5xl flex-col items-center">
+      <div className="mb-16 flex w-full max-w-5xl flex-col items-center px-10">
         <div className={"mb-16 flex flex-col"}>
           <h1>Overview</h1>
           <hr className="m-auto my-1 h-1 w-[150px] rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
         </div>
         <div className="mb-16 flex w-full flex-col items-center justify-between md:flex-row md:items-start">
-          <p className={"mb-8 max-w-md"}>
+          <p className={"mb-8 w-full md:max-w-sm"}>
             {`Usabilla (acquired by `}
             <i>SurveyMonkey</i>
             {` and re-branded to `}
