@@ -3,87 +3,111 @@ import Image from "next/image";
 
 export default function FinalDesign() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-[40px] pb-24 pt-14">
-      <div className="flex w-full max-w-4xl flex-col items-center">
+    <section className="flex h-fit w-screen flex-col items-center px-10">
+      <div className="flex w-full max-w-7xl flex-col items-center">
         <div>
           <h1>Final Designs</h1>
           <hr className="m-auto my-1 mb-16 h-1 w-[150px] rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
         </div>
-        <div className="flex w-full max-w-4xl flex-col">
-          <h3 className="mb-4">Sign-up</h3>
-          <div
-            id="signup-screens"
-            className="mb-12 flex h-fit flex-wrap justify-center md:justify-normal"
-          >
-            <Image
-              src="/plannit/login/Splash screen.png"
-              width={185}
-              height={100}
-              alt="registration"
-              className="mb-4 mr-8 shadow-lg"
-            />
-            <Image
-              src="/plannit/login/Sign Up.png"
-              width={185}
-              height={100}
-              alt="choose profile type"
-              className="mb-4 mr-8 shadow-lg"
-            />
-            <Image
-              src="/plannit/login/Sign Up - Planner.png"
-              width={185}
-              height={100}
-              alt="profile selected"
-              className="mb-4 mr-8 shadow-lg"
-            />
-            <Image
-              src="/plannit/login/Create profile.png"
-              width={185}
-              height={100}
-              alt="create a proifle"
-              className="mb-4 mr-8 shadow-lg"
-            />
-            <Image
-              src="/plannit/login/Today View.png"
-              width={185}
-              height={100}
-              alt="welcome screen"
-              className="mb-4 mr-8 shadow-lg"
-            />
+        <div className="flex w-full flex-col space-y-16">
+          <div>
+            <h3 className="mb-4">Add to cart</h3>
+            <div id="shop flow" className="flex flex-wrap items-start">
+              <Image
+                src="/gift-shop-demo/screens/Home-page.png"
+                width={300}
+                height={300}
+                alt="Home page"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Product-research.png"
+                width={300}
+                height={300}
+                alt="Shop page"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Product-page.png"
+                width={300}
+                height={300}
+                alt="Product page"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Cart.png"
+                width={300}
+                height={300}
+                alt="Cart page"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Cart-campaign.png"
+                width={300}
+                height={300}
+                alt="cart with modal"
+                className="mb-2 mr-4 shadow-lg"
+              />
+            </div>
           </div>
-          <h3 className="mb-4">Create new event</h3>
-          <div
-            id="new-event-screens"
-            className="mb-12 flex h-fit flex-wrap justify-center md:justify-normal"
-          >
-            <Image
-              src="/plannit/create-new-event/New Event.png"
-              width={185}
-              height={100}
-              alt="new event form"
-              className="mb-4 mr-8 shadow-lg"
-            />
-            <Image
-              src="/plannit/create-new-event/Vendors (filtered).png"
-              width={185}
-              height={100}
-              alt="list of vendors (filtered)"
-              className="mb-4 mr-8 shadow-lg"
-            />
-            <Image
-              src="/plannit/create-new-event/Venue.png"
-              width={185}
-              height={100}
-              alt="venue page"
-              className="mb-4 mr-8 shadow-lg"
-            />
-            <Image
-              src="/plannit/create-new-event/New Event with vendor.png"
-              width={185}
-              height={100}
-              alt="new event form with vendor selected"
-              className="mb-4 mr-8 shadow-lg"
-            />
+          <div>
+            <h3 className="mb-4">Checkout</h3>
+            <div id="new-event-screens" className="flex flex-wrap items-start">
+              <Image
+                src="/gift-shop-demo/screens/Payment.png"
+                width={300}
+                height={300}
+                alt="new event form"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Payment-Delivery-Options.png"
+                width={300}
+                height={300}
+                alt="list of vendors (filtered)"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Payment-Pay.png"
+                width={300}
+                height={300}
+                alt="list of vendors (filtered)"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Payment-Campaign.png"
+                width={300}
+                height={300}
+                alt="list of vendors (filtered)"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Post-payment.png"
+                width={300}
+                height={300}
+                alt="list of vendors (filtered)"
+                className="mb-2 mr-4 shadow-lg"
+              />
+            </div>
+          </div>
+          <div>
+            <h3 className="mb-4">Registration</h3>
+            <div id="new-event-screens" className="flex flex-wrap items-start">
+              <Image
+                src="/gift-shop-demo/screens/Checkout.png"
+                width={300}
+                height={300}
+                alt="new event form"
+                className="mb-2 mr-4 shadow-lg"
+              />
+              <Image
+                src="/gift-shop-demo/screens/Checkout-campaign.png"
+                width={300}
+                height={300}
+                alt="list of vendors (filtered)"
+                className="mb-2 mr-4 shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </div>

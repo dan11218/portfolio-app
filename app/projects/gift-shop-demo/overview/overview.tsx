@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Overview() {
   return (
-    <section className="mb-16 flex h-fit w-screen flex-col items-center">
+    <section className="flex h-fit w-screen flex-col items-center">
       <div className="mb-16 flex w-full max-w-5xl flex-col items-center px-10">
         <div className={"mb-16 flex flex-col"}>
           <h1>Overview</h1>
@@ -41,14 +41,13 @@ export default function Overview() {
             className={"px-5"}
           />
         </div>
-        <div className="mb-16 flex flex-col md:flex-row">
+        <div className="mb-16 flex w-full flex-col items-center justify-between md:flex-row md:items-start">
           <div className={"mb-8 flex flex-col"}>
             {/* <Problem /> */}
             <MyRole />
           </div>
           <ProjectDetails />
         </div>
-
         <CustomLink
           url={"https://demo-usabilla.netlify.app"}
           text={"Open prototype"}
