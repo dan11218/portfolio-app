@@ -17,35 +17,35 @@ export default function FinalDesign() {
               className="flex flex-wrap items-start justify-center md:justify-normal"
             >
               <Image
-                src="/gift-shop-demo/screens/Home-page.png"
+                src="/gift-shop-demo/screens/home_page.png"
                 width={300}
                 height={300}
                 alt="Home page"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Product-research.png"
+                src="/gift-shop-demo/screens/product_research.png"
                 width={300}
                 height={300}
                 alt="Shop page"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Product-page.png"
+                src="/gift-shop-demo/screens/product_page.png"
                 width={300}
                 height={300}
                 alt="Product page"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Cart.png"
+                src="/gift-shop-demo/screens/cart.png"
                 width={300}
                 height={300}
                 alt="Cart page"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Cart-campaign.png"
+                src="/gift-shop-demo/screens/cart_campaign.png"
                 width={300}
                 height={300}
                 alt="cart with modal"
@@ -60,42 +60,42 @@ export default function FinalDesign() {
               className="flex flex-wrap items-start justify-center md:justify-normal"
             >
               <Image
-                src="/gift-shop-demo/screens/Payment.png"
+                src="/gift-shop-demo/screens/payment.png"
                 width={300}
                 height={300}
                 alt="new event form"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Payment-Delivery-Options.png"
+                src="/gift-shop-demo/screens/payment_delivery_options.png"
                 width={300}
                 height={300}
                 alt="list of vendors (filtered)"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Payment-Pay.png"
+                src="/gift-shop-demo/screens/payment_pay.png"
                 width={300}
                 height={300}
                 alt="list of vendors (filtered)"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Payment-Campaign.png"
+                src="/gift-shop-demo/screens/payment_campaign.png"
                 width={300}
                 height={300}
                 alt="list of vendors (filtered)"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Post-payment.png"
+                src="/gift-shop-demo/screens/post_payment.png"
                 width={300}
                 height={300}
                 alt="list of vendors (filtered)"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Post-payment-Campaign.png"
+                src="/gift-shop-demo/screens/post_payment_campaign.png"
                 width={300}
                 height={300}
                 alt="list of vendors (filtered)"
@@ -110,14 +110,14 @@ export default function FinalDesign() {
               className="flex flex-wrap items-start justify-center md:justify-normal"
             >
               <Image
-                src="/gift-shop-demo/screens/Checkout.png"
+                src="/gift-shop-demo/screens/checkout.png"
                 width={300}
                 height={300}
                 alt="new event form"
                 className="mb-4 mr-4 shadow-lg"
               />
               <Image
-                src="/gift-shop-demo/screens/Checkout-campaign.png"
+                src="/gift-shop-demo/screens/checkout_campaign.png"
                 width={300}
                 height={300}
                 alt="list of vendors (filtered)"
