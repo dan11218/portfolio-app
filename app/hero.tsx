@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { kalam, albert_sans, space_mono } from "./fonts";
 import Image from "next/image";
-import background from "../public/graphics/Cube_Name.png";
+import background from "/graphics/Cube_Name.png";
 
 export default function Hero() {
   return (
@@ -13,7 +13,7 @@ export default function Hero() {
           {`Hi there! I'm...`}
         </h2>
         <Image
-          src={background}
+          src={"/graphics/Cube_Name.png"}
           width={500}
           height={500}
           alt="Daniel Graugnard"
