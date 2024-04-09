@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="flex h-fit w-screen flex-col items-center bg-gradient-to-r from-rose-400 to-orange-300 px-6 pb-8 pt-28">
       <div className="flex w-full max-w-6xl flex-col items-center justify-center md:flex-row">
         <Image
-          src="/plannit/todayView.png"
+          src="/static/plannit/todayView.png"
           width={500}
           height={500}
           alt="screenshot of Today View"
