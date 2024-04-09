@@ -34,7 +34,7 @@ export default function Overview() {
             surveys are launched during the checkout flow.`}
           </p>
           <Image
-            src="/gift-shop-demo/screens/payment_campaign.png"
+            src="/static/gift-shop-demo/screens/payment_campaign.png"
             width={500}
             height={500}
             alt="screenshot of survey modal"

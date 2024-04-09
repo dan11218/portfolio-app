@@ -14,7 +14,7 @@ export default function Hero() {
           </h3>
         </div>
         <Image
-          src="/gift-shop-demo/macbook-bezel.png"
+          src="/static/gift-shop-demo/macbook-bezel.png"
           width={800}
           height={800}
           alt="screenshot of Cart screen"
