@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Danny Graugnard",
   description: "My portfolio site created with Nextjs",
   icons: {
-    icon: "/icons/favicon",
+    icon: "/static/icons/favicon",
   },
 };
 
