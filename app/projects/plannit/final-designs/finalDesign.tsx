@@ -16,35 +16,35 @@ export default function FinalDesign() {
             className="mb-12 flex h-fit flex-wrap justify-center md:justify-normal"
           >
             <Image
-              src="/plannit/login/Splash screen.png"
+              src="/static/plannit/login/Splash screen.png"
               width={185}
               height={100}
               alt="registration"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/plannit/login/Sign Up.png"
+              src="/static/plannit/login/Sign Up.png"
               width={185}
               height={100}
               alt="choose profile type"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/plannit/login/Sign Up - Planner.png"
+              src="/static/plannit/login/Sign Up - Planner.png"
               width={185}
               height={100}
               alt="profile selected"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/plannit/login/Create profile.png"
+              src="/static/plannit/login/Create profile.png"
               width={185}
               height={100}
               alt="create a proifle"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/plannit/login/Today View.png"
+              src="/static/plannit/login/Today View.png"
               width={185}
               height={100}
               alt="welcome screen"
@@ -57,28 +57,28 @@ export default function FinalDesign() {
             className="mb-12 flex h-fit flex-wrap justify-center md:justify-normal"
           >
             <Image
-              src="/plannit/create-new-event/New Event.png"
+              src="/static/plannit/create-new-event/New Event.png"
               width={185}
               height={100}
               alt="new event form"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/plannit/create-new-event/Vendors (filtered).png"
+              src="/static/plannit/create-new-event/Vendors (filtered).png"
               width={185}
               height={100}
               alt="list of vendors (filtered)"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/plannit/create-new-event/Venue.png"
+              src="/static/plannit/create-new-event/Venue.png"
               width={185}
               height={100}
               alt="venue page"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/plannit/create-new-event/New Event with vendor.png"
+              src="/static/plannit/create-new-event/New Event with vendor.png"
               width={185}
               height={100}
               alt="new event form with vendor selected"
