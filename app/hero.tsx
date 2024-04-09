@@ -12,7 +12,7 @@ export default function Hero() {
           {`Hi there! I'm...`}
         </h2>
         <Image
-          src={"/graphics/Cube_Name.png"}
+          src={"/static/graphics/Cube_Name.png"}
           width={500}
           height={500}
           alt="Daniel Graugnard"
