@@ -10,7 +10,7 @@ export default function Navbar() {
           className="inline-flex w-fit items-center justify-center py-2"
         >
           <Image
-            src="/logos/black_logo.png"
+            src="/static/logos/black_logo.png"
             width={200}
             height={100}
             alt="DG Logo"

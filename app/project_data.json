@@ -4,8 +4,8 @@
     "title": "Plannit",
     "description": "An event management tool that allows users to quickly view upcoming events, manage tasks, and connect with a wide network of clients and vendors.",
     "skills": "Figma, UI Design, Prototyping",
-    "image_url": "/plannit/plannit_thumbnail.png",
-    "project_url": "/projects/plannit",
+    "image_url": "/static/plannit/plannit_thumbnail.png",
+    "project_url": "/static/projects/plannit",
     "prototype_url": "https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?page-id=0%3A1&type=design&node-id=702-427&viewport=511%2C280%2C0.29&t=Qd4MypES8hqiaxYG-1&scaling=scale-down&starting-point-node-id=702%3A427&mode=design"
   },
   {
@@ -22,7 +22,7 @@
     "title": "Usabilla Gift Shop",
     "description": "A gift shop developed with ReactJS and designed in Figma.",
     "skills": "React, Gatsby, HTML, CSS, Javascript, Figma",
-    "image_url": "/mockups/giftshop_thumbnail.png",
+    "image_url": "/static/mockups/giftshop_thumbnail.png",
     "project_url": "projects/gift-shop-demo",
     "prototype_url": "https://demo-usabilla.netlify.app/"
   },
@@ -31,7 +31,7 @@
     "title": "Landing Page Concept",
     "description": "A minimalist landing page designed for desktop and mobile platforms.",
     "skills": "Figma, UI Design, Prototyping",
-    "image_url": "/mockups/menny_thumbnail.png",
+    "image_url": "/static/mockups/menny_thumbnail.png",
     "project_url": "https://www.figma.com/proto/uOT4HL1LZ9fohQFR4xJfBa/Menny-Landing-Page-Concept?page-id=0%3A1&type=design&node-id=419-589&viewport=1093%2C-157%2C0.75&t=n0H0mAEcCWB57Gto-1&scaling=min-zoom&mode=design",
     "prototype_url": "https://www.figma.com/proto/uOT4HL1LZ9fohQFR4xJfBa/Menny-Landing-Page-Concept?page-id=0%3A1&type=design&node-id=419-589&viewport=1093%2C-157%2C0.75&t=n0H0mAEcCWB57Gto-1&scaling=min-zoom&mode=design"
   },
@@ -40,7 +40,7 @@
     "title": "Christian Lange Photography",
     "description": "A portfolio website that I designed for a commercial photographer. I consulted with the client and illustrated wireframes and overall design of each page.",
     "skills": "HTML, CSS, Javascript, UI Design",
-    "image_url": "/mockups/cl_thumbnail.png",
+    "image_url": "/static/mockups/cl_thumbnail.png",
     "project_url": "https://www.christianlange.com/",
     "prototype_url": "https://www.christianlange.com/"
   }
