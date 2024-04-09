@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { kalam, albert_sans, space_mono } from "./fonts";
 import Image from "next/image";
-import background from "/graphics/Cube_Name.png";
 
 export default function Hero() {
   return (
