@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${albert_sans.className} flex h-screen flex-col justify-center bg-slate-50 text-slate-700 dark:bg-slate-950 dark:text-slate-100`}
+        className={`${albert_sans.className} flex flex-col justify-between bg-slate-50 text-slate-700 dark:bg-slate-950 dark:text-slate-100`}
       >
         <Navbar />
         {children}

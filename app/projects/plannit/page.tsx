@@ -7,7 +7,7 @@ import Researc from "./research/research";
 
 export default function Plannit() {
   return (
-    <main className="h-screen w-screen flex-col items-start justify-start">
+    <main className="w-screen flex-col">
       <Hero />
       <Overview />
       <Research />

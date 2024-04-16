@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function FinalDesign() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-10">
+    <section className="mb-16 flex h-fit w-screen flex-col items-center px-10">
       <div className="flex w-full max-w-7xl flex-col items-center">
         <div>
           <h1>Final Designs</h1>

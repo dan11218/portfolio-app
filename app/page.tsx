@@ -5,7 +5,7 @@ import ProjectSection from "./project-components/projectSection";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen flex-col items-start justify-start">
+    <main className="mb-16 w-screen flex-col">
       <Hero />
       <ProjectSection />
     </main>
