@@ -1,4 +1,4 @@
-import Paragraph from "@/app/app-components/paragraph";
+import Paragraph from "@/app/components/paragraph";
 import { kalam } from "@/app/fonts";
 
 export default function Problem() {

@@ -1,8 +1,8 @@
 import { space_mono, kalam } from "@/app/fonts";
 import ProjectDetails from "./projectDetails";
 import Problem from "./problem";
-import CustomLink from "@/app/app-components/customLink";
-import Paragraph from "@/app/app-components/paragraph";
+import CustomLink from "@/app/components/customLink";
+import Paragraph from "@/app/components/paragraph";
 import MyRole from "./my-role";
 import Image from "next/image";
 

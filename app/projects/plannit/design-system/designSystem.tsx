@@ -1,4 +1,4 @@
-import Paragraph from "@/app/app-components/paragraph";
+import Paragraph from "@/app/components/paragraph";
 
 export default function DesignSystem() {
   return (

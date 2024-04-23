@@ -1,4 +1,4 @@
-import CustomLink from "@/app/app-components/customLink";
+import CustomLink from "@/app/components/customLink";
 import Image from "next/image";
 
 export default function FinalDesign() {
