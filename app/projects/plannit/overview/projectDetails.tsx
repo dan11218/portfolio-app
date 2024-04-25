@@ -1,25 +1,23 @@
 export default function ProjectDetails() {
   return (
-    <ul className="mb-16 flex h-fit w-full max-w-72 flex-col justify-around bg-slate-200 py-2 text-stone-700 sm:max-w-3xl sm:flex-row dark:bg-blue-900 dark:text-slate-50">
+    <ul className="mb-16 flex w-full flex-col bg-rose-50 px-6 py-3 text-stone-700 md:flex-row dark:bg-slate-600 dark:text-slate-50">
       <li className="m-2">
-        <h4 className="text-md mb-1 font-medium md:text-2xl">My Role</h4>
-        <p>UX Design Lead</p>
-      </li>
-      <li className="m-2">
-        <h4 className="text-md mb-1 font-medium md:text-2xl">Timeline</h4>
+        <h6 className="mb-1 font-bold">Team</h6>
         <p>
-          September 2023–
-          <br />
-          November 2023
+          {`Danny Graugnard -`} <br /> {`UX Designer/React Native Developer`}
         </p>
       </li>
       <li className="m-2">
-        <h4 className="text-md mb-1 font-medium md:text-2xl">Project Type</h4>
-        <p>Mobile design exercise</p>
+        <h6 className="mb-1 font-bold">Timeline</h6>
+        <p>{`September 2023 – present`}</p>
       </li>
       <li className="m-2">
-        <h4 className="text-md mb-1 font-medium md:text-2xl">Tools</h4>
-        <p>Figma</p>
+        <h6 className="mb-1 font-bold">Project Type</h6>
+        <p>{`Mobile design exercise`}</p>
+      </li>
+      <li className="m-2">
+        <h6 className="mb-1 font-bold">Tools</h6>
+        <p>{`Figma, React Native`}</p>
       </li>
     </ul>
   );

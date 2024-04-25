@@ -6,12 +6,8 @@ import Paragraph from "@/app/components/paragraph";
 import Solution from "./solution";
 
 export default function Overview() {
-  const overviewCopy = `Plannit is a mobile platform that aims to connect Event Planners with
-          clients, venues, and vendors—all in one place! Set reminders, and get
-          notified on To-Do items for upcoming events. 🎉`;
-
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-[40px] pt-14">
+    <section className="flex h-fit w-screen flex-col items-center px-[40px] py-24">
       <div className="flex w-full max-w-3xl flex-col items-center">
         <div>
           <h1>Overview</h1>

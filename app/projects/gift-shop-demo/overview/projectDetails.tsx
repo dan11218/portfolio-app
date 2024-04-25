@@ -3,7 +3,7 @@ export default function ProjectDetails() {
     <ul className="flex w-full max-w-md flex-col justify-between bg-slate-200 px-6 py-3 text-stone-700 dark:bg-blue-900 dark:text-slate-50">
       <li className="m-2">
         <h6 className="mb-1 font-bold">Team</h6>
-        <p>{`Danny Graugnard - React Develope`}r</p>
+        <p>{`Danny Graugnard - React Developer`}</p>
         <p>{`Andrea Iori - UX Designer`}</p>
       </li>
       <li className="m-2">
@@ -12,7 +12,7 @@ export default function ProjectDetails() {
       </li>
       <li className="m-2">
         <h6 className="mb-1 font-bold">Project Type</h6>
-        <p>{`Mobile design exercise`}</p>
+        <p>{`Front-end coding exercise`}</p>
       </li>
       <li className="m-2">
         <h6 className="mb-1 font-bold">Tools</h6>

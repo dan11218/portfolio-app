@@ -11,7 +11,7 @@ export default function Plannit() {
       <Hero />
       <Overview />
       <Research />
-      {/* <DesignSystem /> */}
+      <DesignSystem />
       <FinalDesign />
     </main>
   );
