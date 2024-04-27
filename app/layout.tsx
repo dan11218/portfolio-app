@@ -6,9 +6,10 @@ import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "Danny Graugnard",
-  description: "My portfolio site created with Nextjs",
+  description:
+    "My portfolio site was created with Next JS and deployed with Vercel",
   icons: {
-    icon: "/static/icons/favicon",
+    icon: "/static/favicon.ico",
   },
 };
 
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${albert_sans.className} flex flex-col justify-between bg-slate-50 text-slate-700 dark:bg-slate-950 dark:text-slate-100`}
+        className={`${albert_sans.className} flex flex-col bg-slate-50 text-slate-700 dark:bg-slate-800 dark:text-slate-100`}
       >
         <Navbar />
         {children}
