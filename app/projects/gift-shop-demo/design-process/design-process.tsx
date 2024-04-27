@@ -2,31 +2,31 @@ import { kalam } from "@/app/fonts";
 import Solution from "../overview/my-role";
 import DesignRequirements from "./design-requirements";
 import TechnicalRequirements from "./technical-requirements copy";
-import CodeSample from "./code-sample";
+import Handoff from "./handoff";
 import Image from "next/image";
 import CustomLink from "@/app/components/customLink";
 
 export default function DesignProcess() {
   return (
-    <section className="mb-16 flex h-fit w-screen flex-col items-center px-10">
-      <div className="flex w-full max-w-7xl flex-col items-center">
-        <div>
+    <section className="mb-24 flex h-fit w-screen flex-col items-center px-10">
+      <div className="flex w-full max-w-6xl flex-col items-center">
+        <div className="items-center">
           <h1>Design Process</h1>
           <hr className="m-auto my-1 mb-16 h-1 w-[150px] rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
         </div>
-        <div className="mb-16 flex flex-col justify-between md:flex-row">
+        <div className="mb-16 flex max-w-4xl flex-col justify-between md:flex-row">
           <DesignRequirements />
           <TechnicalRequirements />
         </div>
-        <div className="mb-16 flex flex-col-reverse items-center justify-center md:flex-row">
+        <div className="mb-16 flex flex-col-reverse items-center justify-center lg:flex-row">
           <Image
-            src="/static/gift-shop-demo/code-sample.png"
-            width={700}
-            height={700}
+            src="/static/gift-shop-demo/code_sample.png"
+            width={600}
+            height={600}
             className="rounded-lg"
             alt="screenshot of code editor"
           />
-          <CodeSample />
+          <Handoff />
         </div>
         <CustomLink
           url={"https://github.com/dan11218/gatsby-e-commerce-demo"}

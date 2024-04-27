@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function FinalDesign() {
   return (
-    <section className="mb-16 flex h-fit w-screen flex-col items-center px-10">
+    <section className="mb-24 flex h-fit w-screen flex-col items-center px-10">
       <div className="flex w-full max-w-7xl flex-col items-center">
         <div>
           <h1>Final Designs</h1>
@@ -11,7 +11,7 @@ export default function FinalDesign() {
         </div>
         <div className="flex w-full flex-col space-y-16">
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="mb-4">Add to cart</h3>
+            <h3 className="mb-4 font-bold text-cyan-500">Add to cart</h3>
             <div
               id="shop flow"
               className="flex flex-wrap items-start justify-center md:justify-normal"
@@ -54,7 +54,9 @@ export default function FinalDesign() {
             </div>
           </div>
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="mb-4">Checkout with survey</h3>
+            <h3 className="mb-4 font-bold text-cyan-500">
+              Checkout with survey
+            </h3>
             <div
               id="new-event-screens"
               className="flex flex-wrap items-start justify-center md:justify-normal"
@@ -104,7 +106,7 @@ export default function FinalDesign() {
             </div>
           </div>
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="mb-4">Registration</h3>
+            <h3 className="mb-4 font-bold text-cyan-500">Registration</h3>
             <div
               id="new-event-screens"
               className="flex flex-wrap items-start justify-center md:justify-normal"

@@ -9,13 +9,13 @@ import Image from "next/image";
 export default function Overview() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-10">
-      <div className="mb-16 flex w-full max-w-6xl flex-col items-center">
+      <div className="mb-24 flex w-full max-w-4xl flex-col items-center">
         <div className={"mb-16 flex flex-col"}>
           <h1>Overview</h1>
           <hr className="m-auto my-1 h-1 w-[150px] rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
         </div>
-        <div className="mb-16 flex w-full flex-col justify-between md:flex-row">
-          <p className={"mb-8 max-w-xl"}>
+        <div className="mb-16 flex w-full flex-col items-center justify-between md:flex-row">
+          <p className={"mb-8 md:mb-0 md:mr-8"}>
             {`Usabilla (acquired by `}
             <i>SurveyMonkey</i>
             {` and re-branded to `}
@@ -34,11 +34,10 @@ export default function Overview() {
             surveys are launched during the checkout flow.`}
           </p>
           <Image
-            src="/static/gift-shop-demo/screens/payment_campaign.png"
+            src="/static/gift-shop-demo/screens/post_payment_campaign.png"
             width={500}
             height={500}
             alt="screenshot of survey modal"
-            className={""}
           />
         </div>
         <div className="mb-16 flex w-full flex-col justify-between md:flex-row">

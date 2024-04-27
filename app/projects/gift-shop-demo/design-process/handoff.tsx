@@ -1,6 +1,6 @@
 import { kalam } from "@/app/fonts";
 
-export default function CodeSample() {
+export default function Handoff() {
   return (
     <div className="mb-16 flex w-full max-w-xl flex-col sm:ml-8">
       <h3 className="mb-3 font-bold text-cyan-500">Design Handoff</h3>
