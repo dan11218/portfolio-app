@@ -24,15 +24,15 @@ export default function Introduction() {
           </div>
           <div className="font-light">
             <p>
-              {`I'm a UX Designer based in Queens, New York. I found my
+              {`I'm a developer based in Queens, New York. I found my
               passion for design and software when I was an Event Coordinator
               working at a boutique hotel in NYC.`}
             </p>
             <br />
             <p>
               {`One day, I had an idea for an app that would help planners stay
-              organised and solve some of the pain points I felt in my
-              experience. I wanted to learn more about software development on
+              organized and solve some of the pain points I felt in my
+              experience. From then, I wanted to learn more about software development on
               both the engineering and design sides of the process.`}
             </p>
             <br />

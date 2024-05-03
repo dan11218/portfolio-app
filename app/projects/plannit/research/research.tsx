@@ -1,7 +1,6 @@
-import { kalam } from "@/app/fonts";
 import BlockQuotes from "./blockQuotes";
-import Solution from "../overview/solution";
 import Background from "./background";
+import { DomainResearch } from "./domain-research";
 
 export default function Research() {
   return (
@@ -11,6 +10,7 @@ export default function Research() {
         <hr className="m-auto my-1 mb-16 h-1 w-[150px] rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
         <Background />
         <BlockQuotes />
+        {/* <DomainResearch /> */}
       </div>
     </section>
   );
