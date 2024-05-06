@@ -1,7 +1,7 @@
 import Project from "./project";
 import { promises as fs } from "fs";
 
-const getData = async () => {
+async function getData() {
   const file = await fs.readFile(
     process.cwd() + "/app/project_data.json",
     "utf8",
@@ -27,7 +27,7 @@ const getData = async () => {
   // } catch (error) {
   //   console.log(error);
   // }
-};
+}
 
 export default async function ProjectSection() {
   const data = await getData();

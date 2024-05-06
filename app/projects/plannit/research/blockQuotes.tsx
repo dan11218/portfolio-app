@@ -1,5 +1,3 @@
-import { kalam } from "@/app/fonts";
-
 export default function BlockQuotes() {
   return (
     <div className="mb-16 flex flex-col">

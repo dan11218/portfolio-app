@@ -3,12 +3,13 @@ import FinalDesign from "./final-designs/finalDesign";
 import Hero from "./hero";
 import Overview from "./overview/overview";
 import Research from "./research/research";
-import Researc from "./research/research";
+import Summary from "./summary/summary";
 
 export default function Plannit() {
   return (
     <main className="w-screen flex-col">
       <Hero />
+      <Summary />
       <Overview />
       <Research />
       <DesignSystem />

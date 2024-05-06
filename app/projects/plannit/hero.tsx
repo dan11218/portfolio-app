@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="flex h-fit w-screen flex-col items-center bg-gradient-to-r from-rose-400 to-orange-300 px-6 pb-8 pt-28">
+    <section className="mb-16 flex h-fit w-screen flex-col items-center bg-gradient-to-r from-rose-400 to-orange-300 px-6 pb-8 pt-28">
       <div className="flex w-full max-w-6xl flex-col items-center justify-center md:flex-row">
         <Image
           src="/static/plannit/todayView.png"
@@ -18,6 +18,6 @@ export default function Hero() {
           </h3>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
