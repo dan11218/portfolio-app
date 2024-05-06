@@ -5,7 +5,7 @@ export default function BlockQuotes() {
     <div className="mb-16 flex flex-col">
       <div className="mb-8 flex flex-col">
         <h3 className="mb-3 font-bold text-rose-400">
-          Understanding the user's needs
+          {`Understanding the user's needs`}
         </h3>
         <p>
           {`When users were asked about their experience planning events,
