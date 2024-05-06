@@ -12,7 +12,7 @@ export default function Paragraph(props: any) {
       </p>
       {props.underlined ? (
         <hr
-          className={`m-auto my-1 mb-8 h-1 w-[150px] rounded ${props.underlineColor}`}
+          className={`m-auto my-1 mb-8 h-1 w-full max-w-32 rounded ${props.underlineColor}`}
         />
       ) : (
         ""

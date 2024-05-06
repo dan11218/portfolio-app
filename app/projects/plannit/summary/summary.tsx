@@ -7,14 +7,14 @@ import CustomLink from "@/app/components/customLink";
 
 export default function Summary() {
   return (
-    <section className="mb-16 flex h-fit w-screen flex-col items-center">
-      <div className="flex h-fit w-full max-w-6xl flex-col rounded-3xl bg-white px-16 py-8">
-        <div className="mb-8 w-fit">
+    <section className="mb-32 flex h-fit w-screen flex-col items-center">
+      <div className="flex h-fit w-full max-w-6xl flex-col items-center rounded-3xl bg-white px-8 py-8">
+        <div className="mb-8 flex w-full flex-col items-center">
           <h2>{`Summary`}</h2>
-          <hr className="my-1 h-1 w-full rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
+          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
         </div>
         <div className="mb-8 flex flex-col justify-between md:flex-row">
-          <div className="flex w-full max-w-2xl grid-cols-2 grid-rows-2 flex-col gap-8 md:grid">
+          <div className="flex w-full max-w-xl grid-cols-2 grid-rows-2 flex-col gap-8 md:grid">
             <Problem />
             <Solution />
             <Goals />

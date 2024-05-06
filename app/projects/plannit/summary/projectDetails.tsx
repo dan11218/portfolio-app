@@ -17,7 +17,7 @@ export default function ProjectDetails() {
       </li>
       <li className="m-2">
         <h6 className="mb-1 font-bold">Tools</h6>
-        <p>{`Figma, React Native`}</p>
+        <p>{`Figma, Expo (React Native)`}</p>
       </li>
     </ul>
   );

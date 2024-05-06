@@ -12,7 +12,7 @@ export default function Overview() {
       <div className="mb-24 flex w-full max-w-4xl flex-col items-center">
         <div className={"mb-16 flex flex-col"}>
           <h1>Overview</h1>
-          <hr className="m-auto my-1 h-1 w-[150px] rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
+          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
         </div>
         <div className="mb-16 flex w-full flex-col items-center justify-between md:flex-row">
           <p className={"mb-8 md:mb-0 md:mr-8"}>

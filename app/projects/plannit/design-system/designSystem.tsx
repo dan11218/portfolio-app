@@ -8,7 +8,7 @@ export default function DesignSystem() {
       <div className="flex w-full max-w-7xl flex-col items-center">
         <div className="mb-16 flex flex-col items-center justify-center">
           <h1>Design System</h1>
-          <hr className="m-auto my-1 h-1 w-[150px] rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
+          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="mr-8 flex flex-col">

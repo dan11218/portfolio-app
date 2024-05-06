@@ -7,7 +7,7 @@ export default function FinalDesign() {
       <div className="flex w-full max-w-7xl flex-col items-center">
         <div>
           <h1>Final Designs</h1>
-          <hr className="m-auto my-1 mb-16 h-1 w-[150px] rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
+          <hr className="m-auto my-1 mb-16 h-1 w-full max-w-32 rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
         </div>
         <div className="flex w-full flex-col space-y-16">
           <div className="flex flex-col items-center md:items-start">
