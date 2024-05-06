@@ -1,5 +1,3 @@
-import CustomLink from "@/app/components/customLink";
-import Summary from "../summary/summary";
 import Background from "./background";
 
 export default function Overview() {
