@@ -15,11 +15,11 @@ export default function Project(props: any) {
         alt="project thumbnail"
       />
       <div className="flex h-full w-full flex-col px-[20px] py-[10px]">
-        <h4
+        <h3
           className={`my-1 text-sm text-slate-700 dark:text-indigo-400 ${space_mono.className}`}
         >
           {props.skills}
-        </h4>
+        </h3>
         <h3 className="text-2xl">
           {props.title}
           <span className="my-1 mr-auto block h-0.5 max-w-0 rounded border-0 bg-sky-500 transition-all duration-500 group-hover:max-w-full dark:bg-gray-300"></span>

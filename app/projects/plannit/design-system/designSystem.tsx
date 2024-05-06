@@ -1,12 +1,10 @@
-import CustomLink from "@/app/components/customLink";
-import Paragraph from "@/app/components/paragraph";
 import Image from "next/image";
 
 export default function DesignSystem() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-[40px] pt-14">
+    <section className="flex h-fit w-screen flex-col items-center px-4 pt-14">
       <div className="flex w-full max-w-7xl flex-col items-center">
-        <div className="mb-16 flex flex-col items-center justify-center">
+        <div className="mb-16 flex flex-col items-center">
           <h1>Design System</h1>
           <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
         </div>

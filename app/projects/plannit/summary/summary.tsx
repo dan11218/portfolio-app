@@ -7,7 +7,7 @@ import CustomLink from "@/app/components/customLink";
 
 export default function Summary() {
   return (
-    <section className="mb-32 flex h-fit w-screen flex-col items-center">
+    <section className="mb-32 flex h-fit w-screen flex-col items-center px-4">
       <div className="flex h-fit w-full max-w-6xl flex-col items-center rounded-3xl bg-white px-8 py-8">
         <div className="mb-8 flex w-full flex-col items-center">
           <h2>{`Summary`}</h2>

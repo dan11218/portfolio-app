@@ -1,3 +1,4 @@
+import AboutMe from "./about-me";
 import Hero from "./hero";
 import ProjectSection from "./projectSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
     <main className="w-screen flex-col">
       <Hero />
       <ProjectSection />
+      <AboutMe />
     </main>
   );
 }

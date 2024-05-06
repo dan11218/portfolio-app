@@ -3,7 +3,7 @@ import { DomainResearch } from "./domain-research";
 
 export default function Research() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-[40px] pt-14">
+    <section className="flex h-fit w-screen flex-col items-center px-8 pt-14">
       <div className="flex w-full max-w-3xl flex-col items-center">
         <h1>Research</h1>
         <hr className="m-auto my-1 mb-16 h-1 w-full max-w-32 rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
