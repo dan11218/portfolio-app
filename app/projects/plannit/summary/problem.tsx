@@ -1,6 +1,3 @@
-import Paragraph from "@/app/components/paragraph";
-import { kalam } from "@/app/fonts";
-
 export default function Problem() {
   return (
     <div className="flex flex-col">
