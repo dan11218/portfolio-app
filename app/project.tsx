@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { space_mono } from "../fonts";
+import { space_mono } from "./fonts";
 
 export default function Project(props: any) {
   return (

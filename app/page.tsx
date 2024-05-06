@@ -1,5 +1,5 @@
 import Hero from "./hero";
-import ProjectSection from "./project-components/projectSection";
+import ProjectSection from "./projectSection";
 
 // Home page
 

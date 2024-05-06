@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${albert_sans.className} flex flex-col bg-slate-50 text-slate-700 dark:bg-slate-800 dark:text-slate-100`}
+        className={`${albert_sans.className} flex flex-col bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-100`}
       >
         <Navbar />
         {children}
