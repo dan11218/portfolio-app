@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Header from "./components/header";
 
 export default function AboutMe() {
   return (
-    <section className="flex w-screen flex-col items-center bg-slate-50">
+    <section className="flex w-screen flex-col items-center bg-slate-50 text-slate-600">
       <div
         id="section_1"
         className="flex w-full max-w-6xl flex-wrap justify-center py-16"
@@ -16,12 +17,11 @@ export default function AboutMe() {
           ></Image>
         </div>
         <div className="mx-6 flex w-[500px] flex-col border-l-2 border-solid border-slate-200 px-[25px]">
-          <div className="flex flex-col">
-            <h2 className="text-royal-blue dark:text-slate-50">
-              {`Hi, I'm Danny! 👋`}
-            </h2>
-            <hr className="my-2 mr-auto h-1 w-48 rounded border-0 bg-sky-300 md:my-4 dark:bg-indigo-800"></hr>
-          </div>
+          <Header
+            title={`Hi, I'm Danny! 👋`}
+            color={`from-sky-500 to-cyan-300`}
+            largeFont={false}
+          />
           <div>
             <p>
               {`I'm a web developer with a passion for both Software Engineering and UX Design. I thrive on collaboration as a developer, focusing primarily on Product Design and Problem Solving. I find great excitement in extracting user needs through thorough research, and designing solutions to meet these needs. `}
