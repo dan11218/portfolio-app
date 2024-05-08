@@ -11,7 +11,7 @@ export default function Summary() {
       <div className="flex h-fit w-full max-w-6xl flex-col items-center rounded-3xl bg-slate-50 p-16 shadow-md dark:text-slate-600">
         <div className="mb-8 flex w-full flex-col items-center">
           <h2>{`Summary`}</h2>
-          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
+          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
         </div>
         <div className="mb-8 flex w-full flex-col justify-between md:flex-row">
           <div className="flex w-fit max-w-[700px] grid-cols-2 grid-rows-2 flex-col gap-8 md:grid">
@@ -26,9 +26,7 @@ export default function Summary() {
         </div>
         <div className="flex w-full flex-col items-center justify-center">
           <CustomLink
-            url={
-              "https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?page-id=0%3A1&type=design&node-id=702-427&viewport=35%2C-512%2C0.71&t=AEP1ckLGHKcaCH2v-1&scaling=scale-down&starting-point-node-id=702%3A427"
-            }
+            url={"https://demo-usabilla.netlify.app"}
             text={"Open prototype"}
             showIcon={true}
           />

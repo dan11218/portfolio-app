@@ -15,14 +15,14 @@ export default function DesignSystem() {
               width={600}
               height={600}
               alt="screenshot of typography"
-              className="mb-8"
+              className="mb-8 rounded-lg shadow-md"
             />
             <Image
               src={"/static/plannit/Components.png"}
               width={600}
               height={600}
               alt="screenshot of typography"
-              className="mb-8"
+              className="mb-8 rounded-lg shadow-md"
             />
           </div>
           <div className="flex flex-col">
@@ -31,14 +31,14 @@ export default function DesignSystem() {
               width={600}
               height={600}
               alt="screenshot of typography"
-              className="mb-8"
+              className="mb-8 rounded-lg shadow-md"
             />
             <Image
               src={"/static/plannit/Logos.png"}
               width={600}
               height={600}
               alt="screenshot of typography"
-              className="mb-8"
+              className="mb-8 rounded-lg shadow-md"
             />
           </div>
         </div>

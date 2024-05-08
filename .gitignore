@@ -38,3 +38,4 @@ next-env.d.ts
 # prettier
 .prettierignore
 .prettierrc
+*storybook.log

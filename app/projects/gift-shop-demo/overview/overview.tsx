@@ -1,16 +1,15 @@
-import ProjectDetails from "./projectDetails";
-import CustomLink from "@/app/components/customLink";
-import MyRole from "./my-role";
 import Image from "next/image";
+import Header from "@/app/components/header";
 
 export default function Overview() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-10">
       <div className="mb-24 flex w-full max-w-4xl flex-col items-center">
-        <div className={"mb-16 flex flex-col"}>
-          <h1>Overview</h1>
-          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
-        </div>
+        <Header
+          title={`Overview`}
+          largeFont={true}
+          color={`from-sky-500 to-cyan-300`}
+        />
         <div className="mb-16 flex w-full flex-col items-center justify-between md:flex-row">
           <p className={"mb-8 md:mb-0 md:mr-8"}>
             {`Usabilla (acquired by `}
@@ -37,15 +36,6 @@ export default function Overview() {
             alt="screenshot of survey modal"
           />
         </div>
-        <div className="mb-16 flex w-full flex-col justify-between md:flex-row">
-          <MyRole />
-          <ProjectDetails />
-        </div>
-        <CustomLink
-          url={"https://demo-usabilla.netlify.app"}
-          text={"Open prototype"}
-          showIcon={true}
-        />
       </div>
     </section>
   );
