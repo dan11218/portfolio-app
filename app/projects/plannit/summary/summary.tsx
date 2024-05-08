@@ -13,14 +13,14 @@ export default function Summary() {
           <h2>{`Summary`}</h2>
           <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
         </div>
-        <div className="mb-8 flex w-full flex-col justify-between md:flex-row">
-          <div className="flex w-fit max-w-[700px] grid-cols-2 grid-rows-2 flex-col gap-8 md:grid">
+        <div className="mb-8 flex w-full flex-col items-center justify-between md:flex-row">
+          <div className="mb-8 flex w-fit max-w-[700px] grid-cols-2 grid-rows-2 flex-col gap-8 md:mb-0 md:grid">
             <Problem />
             <Solution />
             <Goals />
             <MyRole />
           </div>
-          <div className="max-w-96 px-4">
+          <div className="w-full px-4 md:max-w-96">
             <ProjectDetails />
           </div>
         </div>

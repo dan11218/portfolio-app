@@ -11,7 +11,7 @@ export default function Summary() {
       <div className="flex h-fit w-full max-w-7xl flex-col items-center p-16 text-slate-50">
         <div className="mb-8 flex w-full flex-col items-center">
           <h2>{`Summary`}</h2>
-          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-red-600 text-red-600" />
+          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-red-600" />
         </div>
         <div className="mb-8 flex w-full flex-col items-center justify-between md:flex-row">
           <div className="mb-8 flex w-fit max-w-[700px] grid-cols-2 grid-rows-2 flex-col gap-8 md:mb-0 md:grid">

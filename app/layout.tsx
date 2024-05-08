@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "My portfolio site was created with Next JS and deployed with Vercel",
   icons: {
-    icon: "/static/favicon.ico",
+    icon: "/favicon.ico",
   },
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${albert_sans.className} flex flex-col bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-100`}
+        className={`${albert_sans.className} bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-100`}
       >
         <Navbar />
         {children}
