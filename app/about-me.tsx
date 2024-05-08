@@ -33,7 +33,7 @@ export default function AboutMe() {
             <br />
             <p>
               {`When I'm not working, I'm either cooking up a new dish, reading
-              fiction and poetry, gaming/streaming, or trying out new restaurants NYC with my partner. On my spare time, I'm studying game design and working on an indie-horror game built in Godot. I'd love to share these projects with you soon! `}
+              fiction or poetry, gaming/streaming, or trying out new restaurants in NYC with my partner. On my spare time I study game design and contribute to on an indie-horror game I'm developing in Godot. `}
             </p>
           </div>
         </div>
