@@ -12,9 +12,9 @@ export default function Hero() {
           className="mx-10 mb-6 max-w-40 md:max-w-60"
         ></Image>
         <div className="flex h-fit w-fit flex-col border-l-2 border-solid border-slate-300 px-[25px]">
-          <h1 className="font-medium text-slate-100">Plannit</h1>
+          <h1 className="font-medium text-slate-100">{`Plannit`}</h1>
           <h3 className="text-xl font-light text-slate-50 md:text-3xl">
-            Your next event is ready for take off. 🚀
+            {`Your next event is ready for take off. 🚀`}
           </h3>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Overview from "./overview/overview";
 import DesignProcess from "./design-process/design-process";
 import Summary from "./summary/summary";
 
-export default function GiftShopDemo() {
+export default function Page() {
   return (
     <main className="w-screen flex-col items-start justify-start">
       <Hero />

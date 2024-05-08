@@ -35,7 +35,7 @@ export default function Navbar() {
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50 dark:hover:bg-slate-50 dark:hover:text-slate-800"
             href="mailto:danielgraugnard@gmail.com"
           >
-            Message me
+            Contact
           </Link>
         </div>
         {/* <div className="absolute right-0 flex h-full w-[60px] flex-col items-center justify-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50 md:invisible dark:hover:bg-slate-50 dark:hover:text-slate-800">

@@ -6,11 +6,11 @@ export default function Hero() {
       <div className="flex w-full max-w-6xl flex-col items-center justify-center">
         <div className="my-10 flex h-fit w-fit flex-col px-[25px]">
           <h1 className="font-medium text-slate-100">
-            Usabilla Gift Shop Demo
+            {`Usabilla Gift Shop Demo`}
           </h1>
           <h3 className="text-xl font-light text-slate-50 md:text-2xl">
-            An E-commerce experience designed with the Voice of Customer in
-            mind.
+            {`An E-commerce experience designed with the Voice of Customer in
+            mind.`}
           </h3>
         </div>
         <Image

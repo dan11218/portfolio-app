@@ -4,7 +4,7 @@ export default function CustomLink(props: any) {
   return (
     <Link
       href={props.url}
-      className="focus:shadow-outline flex h-16 w-fit items-center justify-center bg-slate-800 px-6 text-lg font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-600"
+      className={`focus:shadow-outline flex h-16 w-fit items-center justify-center px-6 text-lg font-medium ${props.textColor} ${props.bgColor}`}
       target="_blank"
     >
       {props.text}

@@ -31,6 +31,8 @@ export default function Summary() {
             }
             text={"Open prototype"}
             showIcon={true}
+            bgColor={`transition-colors duration-150 bg-slate-800 hover:bg-slate-600`}
+            textColor={`text-slate-50`}
           />
         </div>
       </div>

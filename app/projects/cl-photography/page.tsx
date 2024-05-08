@@ -1,15 +1,13 @@
-import AboutMe from "./about-me";
+import Summary from "./summary/summary";
 import Hero from "./hero";
-import ProjectSection from "./projectSection";
-
-// Home page
+import Overview from "./overview";
 
 export default function Page() {
   return (
     <main className="w-screen flex-col">
       <Hero />
-      <ProjectSection />
-      <AboutMe />
+      <Summary />
+      {/* <Overview /> */}
     </main>
   );
 }

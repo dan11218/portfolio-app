@@ -41,7 +41,7 @@
     "description": "A portfolio website that I designed for a commercial photographer. I consulted with the client and illustrated wireframes and overall design of each page. Built with HTML, CSS, Javascript, and jQuery.",
     "skills": "HTML, CSS, Javascript, UI Design",
     "image_url": "/static/mockups/cl_thumbnail.png",
-    "project_url": "https://www.christianlange.com/",
+    "project_url": "projects/cl-photography",
     "prototype_url": "https://www.christianlange.com/"
   }
 ]
