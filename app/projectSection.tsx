@@ -33,7 +33,10 @@ async function getData() {
 export default async function ProjectSection() {
   const data = await getData();
   return (
-    <section className="flex w-screen flex-col items-center px-3 py-8">
+    <section
+      id={"projects"}
+      className="flex w-screen flex-col items-center px-3 py-8"
+    >
       <Header
         largeFont={true}
         color={`bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300`}

@@ -22,6 +22,12 @@ export default function Hero() {
           {`I'm a Designer with a background in Software Engineering and
           Customer Support`}
         </h2>
+        <Link
+          href={`/#projects`}
+          className={`text-slate-600s rounded-full bg-slate-100 p-3 shadow-xl transition-colors duration-150 hover:bg-slate-600`}
+        >
+          <p>{`Scroll to projects`}</p>
+        </Link>
       </div>
     </section>
   );

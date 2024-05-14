@@ -4,10 +4,10 @@ export default function CustomLink(props: any) {
   return (
     <Link
       href={props.url}
-      className={`focus:shadow-outline flex h-16 w-fit items-center justify-center px-6 text-lg font-medium ${props.textColor} ${props.bgColor}`}
+      className={`focus:shadow-outline flex h-12 w-fit items-center justify-center px-6 text-lg font-medium ${props.textColor} ${props.bgColor}`}
       target="_blank"
     >
-      {props.text}
+      <p>{props.text}</p>
       {props.showIcon ? (
         <svg
           className={`mx-3 h-5 w-5 ${props.textColor}`}
