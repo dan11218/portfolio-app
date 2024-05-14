@@ -6,7 +6,7 @@ export default function Project(props: any) {
   return (
     <Link
       href={props.project_url}
-      className="group mx-6 mb-6 flex h-[500px] w-[400px] flex-col overflow-hidden rounded-md border-[0.5px] border-solid border-slate-400 bg-slate-50 shadow-lg transition duration-300 dark:border-slate-600 dark:bg-slate-900"
+      className="group mx-6 mb-8 flex h-[450px] w-[400px] flex-col overflow-hidden rounded-md border-[0.5px] border-solid border-slate-400 bg-slate-50 shadow-lg transition duration-300 dark:border-slate-600 dark:bg-slate-900"
     >
       <Image
         src={props.image_url}

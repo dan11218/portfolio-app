@@ -8,8 +8,8 @@ export default function Page() {
   return (
     <main className="w-screen flex-col">
       <Hero />
-      <ProjectSection />
       <AboutMe />
+      <ProjectSection />
     </main>
   );
 }

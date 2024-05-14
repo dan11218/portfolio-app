@@ -7,8 +7,8 @@ import CustomLink from "@/app/components/customLink";
 
 export default function Summary() {
   return (
-    <section className="mb-32 flex h-fit w-screen flex-col items-center px-4">
-      <div className="flex h-fit w-full max-w-6xl flex-col items-center rounded-3xl bg-slate-50 p-16 shadow-md dark:text-slate-600">
+    <section className="mb-32 flex h-fit w-screen flex-col items-center bg-slate-600 px-4 py-16">
+      <div className="flex h-fit w-full max-w-6xl flex-col items-center rounded-md bg-slate-50 p-16 shadow-md dark:text-slate-600">
         <div className="mb-8 flex w-full flex-col items-center">
           <h2>{`Summary`}</h2>
           <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300" />
@@ -29,6 +29,8 @@ export default function Summary() {
             url={"https://demo-usabilla.netlify.app"}
             text={"Open prototype"}
             showIcon={true}
+            bgColor="bg-slate-800 transition-colors duration-150 hover:bg-slate-600"
+            textColor={"text-slate-50 dark:text-white"}
           />
         </div>
       </div>

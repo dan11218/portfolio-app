@@ -1,13 +1,11 @@
 import Image from "next/image";
 import Header from "./components/header";
+import CustomLink from "./components/customLink";
 
 export default function AboutMe() {
   return (
     <section className="flex w-screen flex-col items-center bg-slate-50 text-slate-600">
-      <div
-        id="section_1"
-        className="flex w-full max-w-6xl flex-wrap justify-center py-16"
-      >
+      <div className="flex w-full max-w-6xl flex-col items-center justify-center py-16 md:flex-row">
         <div className="mx-6 mb-6 flex h-full flex-col items-center">
           <Image
             src="/static/profiles/profile_no_background.png"
@@ -17,12 +15,12 @@ export default function AboutMe() {
           ></Image>
         </div>
         <div className="mx-6 flex w-[500px] flex-col border-l-2 border-solid border-slate-200 px-[25px]">
-          <Header
+          {/* <Header
             title={`Hi, I'm Danny! 👋`}
             color={`from-sky-500 to-cyan-300`}
             largeFont={false}
-          />
-          <div>
+          /> */}
+          <div className="mb-8">
             <p>
               {`I'm a web developer with a passion for both Software Engineering and UX Design. I thrive on collaboration as a developer, focusing primarily on Product Design and Problem Solving. I find great excitement in extracting user needs through thorough research, and designing solutions to meet these needs. `}
             </p>
@@ -36,6 +34,15 @@ export default function AboutMe() {
               fiction or poetry, gaming/streaming, or trying out new restaurants in NYC with my partner. On my spare time I study game design and contribute to on an indie-horror game I'm developing in Godot. `}
             </p>
           </div>
+          <CustomLink
+            url={
+              "https://drive.google.com/file/d/1Nhj6ZBJWFyppEytRExZPTS4lZxXgn91a/view?usp=sharing"
+            }
+            text={"Download CV"}
+            showIcon={false}
+            bgColor="bg-slate-800 transition-colors duration-150 hover:bg-slate-600"
+            textColor={"text-slate-50 dark:text-white"}
+          />
         </div>
       </div>
     </section>
