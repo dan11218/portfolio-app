@@ -14,7 +14,7 @@ export default function AboutMe() {
             alt="profile image"
           ></Image>
         </div>
-        <div className="mx-6 flex w-[500px] flex-col border-l-2 border-solid border-slate-200 px-[25px]">
+        <div className="mx-6 flex w-full max-w-md flex-col border-l-2 border-solid border-slate-200 px-[25px]">
           {/* <Header
             title={`Hi, I'm Danny! 👋`}
             color={`from-sky-500 to-cyan-300`}
