@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="flex w-screen flex-col items-center justify-center bg-slate-200 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 pb-16 pt-24">
       <div className="flex h-fit w-full flex-col items-center justify-center px-2 sm:max-w-6xl">
         <h2
-          className={`${kalam.className} py-5 text-center text-2xl text-sky-100 sm:text-3xl`}
+          className={`${kalam.className} mb-8 text-center text-2xl text-sky-100 sm:text-3xl`}
         >
           {`Hi there! I'm...`}
         </h2>
@@ -17,16 +17,17 @@ export default function Hero() {
           width={500}
           height={500}
           alt="Daniel Graugnard"
+          className={`mb-8`}
         />
-        <h2 className={`${kalam.className} py-5 text-center text-sky-100`}>
+        <h2 className={`${kalam.className} mb-8 text-center text-sky-100`}>
           {`I'm a Designer with a background in Software Engineering and
           Customer Support`}
         </h2>
         <Link
-          href={`/#projects`}
-          className={`text-slate-600s rounded-full bg-slate-100 p-3 shadow-xl transition-colors duration-150 hover:bg-slate-600`}
+          href={`mailto:danielgraugnard@gmail.com`}
+          className={`text-slate-600s rounded-full bg-slate-100 p-3 font-medium shadow-xl transition-colors duration-150 hover:bg-slate-600 hover:text-slate-50`}
         >
-          <p>{`Scroll to projects`}</p>
+          <p>{`danielgraugnard@gmail.com`}</p>
         </Link>
       </div>
     </section>

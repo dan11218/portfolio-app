@@ -8,21 +8,21 @@ export default function AboutMe() {
       <div className="flex w-full max-w-6xl flex-col items-center justify-center py-16 md:flex-row">
         <div className="mx-6 mb-6 flex h-full flex-col items-center">
           <Image
-            src="/static/profiles/profile_no_background.png"
+            src="/static/profiles/profile_color.png"
             width={475}
             height={300}
             alt="profile image"
           ></Image>
         </div>
         <div className="mx-6 flex w-full max-w-md flex-col border-l-2 border-solid border-slate-200 px-[25px]">
-          {/* <Header
+          <Header
             title={`Hi, I'm Danny! 👋`}
             color={`from-sky-500 to-cyan-300`}
             largeFont={false}
-          /> */}
+          />
           <div className="mb-8">
             <p>
-              {`I'm a web developer with a passion for both Software Engineering and UX Design. I thrive on collaboration as a developer, focusing primarily on Product Design and Problem Solving. I find great excitement in extracting user needs through thorough research, and designing solutions to meet these needs. `}
+              {`I'm a UI designer with a passion for both Front-end technologies and UX Design. I thrive on collaboration as a developer, focusing primarily on Product Design and Problem Solving. I find great excitement in extracting user needs through thorough research, and designing solutions to meet these needs. `}
             </p>
             <br />
             <p>
