@@ -35,13 +35,6 @@ export default function Hero() {
             alt="Daniel Graugnard"
             className={`z-10 bg-stone-400`}
           />
-          {/* <Image
-            src={`/static/graphics/jumbotron-graphics.svg`}
-            width={1000}
-            height={1000}
-            alt={`background graphics`}
-            className={`absolute z-0`}
-          /> */}
           <Image
             src={`/static/graphics/spiral-design.svg`}
             width={500}
@@ -54,7 +47,7 @@ export default function Hero() {
             width={500}
             height={500}
             alt={`background graphics`}
-            className={`absolute -bottom-72 -left-12 z-0`}
+            className={`absolute -bottom-64 -left-12 z-0`}
           />
         </div>
       </div>
