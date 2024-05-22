@@ -11,8 +11,8 @@ export default function Hero() {
         <div
           className={`${playfair_display.className} z-20 mb-8 flex w-full flex-col justify-center bg-inherit`}
         >
-          <h1 className={`mb-8 font-bold`}>{`Hi, I'm Danny 👋`}</h1>
-          <h3 className={`mb-8`}>
+          <h1 className={`mb-4 font-bold`}>{`Hi, I'm Danny 👋`}</h1>
+          <h3 className={`mb-12`}>
             {`UI Designer for SaaS companies with a background in Software Engineering and CX.`}
           </h3>
           <Link
