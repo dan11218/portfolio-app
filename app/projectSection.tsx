@@ -1,4 +1,3 @@
-import Header from "./components/header";
 import Project from "./project";
 import { promises as fs } from "fs";
 
@@ -37,11 +36,6 @@ export default async function ProjectSection() {
       id={"projects"}
       className="flex w-screen flex-col items-center px-3 py-8"
     >
-      <Header
-        largeFont={true}
-        color={`bg-gradient-to-r from-sky-500 to-cyan-300 dark:bg-gray-300`}
-        title={`Projects`}
-      />
       <div className="flex w-full flex-wrap content-start justify-center">
         {data.map((project: any) => (
           <Project

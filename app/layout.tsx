@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${albert_sans.className} bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-100`}
+        className={`${albert_sans.className} bg-slate-100 text-stone-800 dark:bg-stone-900 dark:text-slate-50`}
       >
         <Navbar />
         {children}

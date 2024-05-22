@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,34 +1,45 @@
 import Link from "next/link";
-import { kalam, albert_sans, space_mono } from "./fonts";
+import { playfair_display, albert_sans } from "./fonts";
 import Image from "next/image";
-import CustomLink from "./components/customLink";
 
 export default function Hero() {
   return (
-    <section className="flex w-screen flex-col items-center justify-center bg-slate-200 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 pb-16 pt-24">
-      <div className="flex h-fit w-full flex-col items-center justify-center px-2 sm:max-w-6xl">
-        <h2
-          className={`${kalam.className} mb-8 text-center text-2xl text-sky-100 sm:text-3xl`}
+    <section className="flex h-fit w-screen flex-col items-center bg-slate-50 px-24 pb-32 pt-32 dark:bg-stone-900">
+      <div
+        className={`flex h-full w-full flex-col items-center bg-inherit sm:flex-row`}
+      >
+        <div
+          className={`${playfair_display.className} z-20 mb-8 flex w-full flex-col justify-center bg-inherit`}
         >
-          {`Hi there! I'm...`}
-        </h2>
-        <Image
-          src={"/static/graphics/Cube_Name.png"}
-          width={500}
-          height={500}
-          alt="Daniel Graugnard"
-          className={`mb-8`}
-        />
-        <h2 className={`${kalam.className} mb-8 text-center text-sky-100`}>
-          {`I'm a Designer with a background in Software Engineering and
-          Customer Support`}
-        </h2>
-        <Link
-          href={`mailto:danielgraugnard@gmail.com`}
-          className={`text-slate-600s rounded-full bg-slate-100 p-3 font-medium shadow-xl transition-colors duration-150 hover:bg-slate-600 hover:text-slate-50`}
+          <h1 className={`mb-8 font-bold`}>{`Hi, I'm Danny 👋`}</h1>
+          <h3 className={`mb-8`}>
+            {`UI Designer for SaaS companies with a background in Software Engineering and CX.`}
+          </h3>
+          <Link
+            href={`mailto:danielgraugnard@gmail.com`}
+            className={`w-fit rounded-md bg-stone-950 p-3 font-medium text-slate-50 transition-colors duration-150 hover:bg-slate-300 hover:text-slate-600 dark:bg-stone-50 dark:text-slate-800 ${albert_sans.className}`}
+          >
+            <p>{`danielgraugnard@gmail.com`}</p>
+          </Link>
+        </div>
+        <div
+          className={`mb-8 flex h-fit w-full flex-col items-center justify-end px-16 sm:mb-0`}
         >
-          <p>{`danielgraugnard@gmail.com`}</p>
-        </Link>
+          <Image
+            src={"/static/profiles/profile_bw.png"}
+            width={400}
+            height={400}
+            alt="Daniel Graugnard"
+            className={`z-10 bg-stone-400`}
+          />
+          <Image
+            src={`/static/graphics/jumbotron-graphics.svg`}
+            width={700}
+            height={700}
+            alt={`background graphics`}
+            className={`absolute z-0`}
+          />
+        </div>
       </div>
     </section>
   );
