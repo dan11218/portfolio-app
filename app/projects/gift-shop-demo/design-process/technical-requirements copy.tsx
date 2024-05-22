@@ -1,5 +1,3 @@
-import { kalam } from "@/app/fonts";
-
 export default function TechnicalRequirements() {
   return (
     <div className="mb-16 flex w-full max-w-xl flex-col">
