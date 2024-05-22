@@ -7,7 +7,7 @@ import { usePathname, useRouter } from "next/navigation";
 
 export default function Navbar() {
   // set state
-  const [show, setShow] = useState("-translate-y-24");
+  const [show, setShow] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [currentPage, setCurrentPage] = useState("");
 
@@ -21,10 +21,10 @@ export default function Navbar() {
     // if position is greater than the previous position, trigger animation and set the new scroll position
     if (position > scrollPosition) {
       // when scrolling down, hide the navbar
-      setShow("-translate-y-24");
+      setShow(false);
     } else {
       // when scrolling up, show the navbar
-      setShow("translate-y-0");
+      setShow(true);
     }
     setScrollPosition(window.scrollY);
   };
@@ -41,7 +41,9 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`${show} fixed top-0 z-40 flex h-fit w-screen flex-col items-center bg-slate-50 px-[20px] transition duration-300 ease-in-out dark:bg-stone-800`}
+      className={`${
+        show && "hidden"
+      } fixed top-0 z-40 flex h-fit w-screen flex-col items-center bg-slate-50 px-[20px] transition-transform duration-300 ease-in-out dark:bg-stone-800`}
     >
       <div className="relative flex w-full max-w-7xl flex-row items-start justify-between">
         <Link
