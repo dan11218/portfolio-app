@@ -1,5 +1,3 @@
-import { kalam } from "@/app/fonts";
-import Solution from "../overview/my-role";
 import DesignRequirements from "./design-requirements";
 import TechnicalRequirements from "./technical-requirements copy";
 import Handoff from "./handoff";
