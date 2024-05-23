@@ -40,7 +40,7 @@ export default function AboutMe() {
             }
             text={"Download CV"}
             showIcon={false}
-            bgColor="bg-slate-800 transition-colors duration-150 hover:bg-slate-600"
+            bgColor="bg-slate-800 rounded-md transition-colors duration-150 hover:bg-slate-600"
             textColor={"text-slate-50 dark:text-white"}
           />
         </div>
