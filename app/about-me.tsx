@@ -36,7 +36,7 @@ export default function AboutMe() {
           </div>
           <CustomLink
             url={
-              "https://drive.google.com/file/d/1Nhj6ZBJWFyppEytRExZPTS4lZxXgn91a/view?usp=sharing"
+              "https://drive.google.com/file/d/1gWSmphdd8nQio8K98L-znsjbQM_G9rUe/view?usp=sharing"
             }
             text={"Download CV"}
             showIcon={false}
