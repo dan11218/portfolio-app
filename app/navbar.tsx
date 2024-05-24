@@ -41,7 +41,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`${show} fixed top-0 z-40 flex h-fit w-screen flex-col items-center bg-slate-50 px-[20px] transition duration-300 ease-in-out dark:bg-stone-800`}
+      className={`${show} fixed top-0 z-40 flex h-fit w-screen flex-col items-center bg-inherit px-[20px] transition duration-300 ease-in-out`}
     >
       <div className="relative flex w-full max-w-7xl flex-row items-start justify-between">
         <Link
