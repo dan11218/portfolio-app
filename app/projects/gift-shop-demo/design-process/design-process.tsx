@@ -2,7 +2,7 @@ import DesignRequirements from "./design-requirements";
 import TechnicalRequirements from "./technical-requirements copy";
 import Handoff from "./handoff";
 import Image from "next/image";
-import CustomLink from "@/app/components/customLink";
+import Button from "@/app/components/button";
 
 export default function DesignProcess() {
   return (
@@ -26,7 +26,7 @@ export default function DesignProcess() {
           />
           <Handoff />
         </div>
-        <CustomLink
+        <Button
           url={"https://github.com/dan11218/gatsby-e-commerce-demo"}
           text={"See the code"}
           showIcon={true}

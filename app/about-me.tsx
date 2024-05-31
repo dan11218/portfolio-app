@@ -1,15 +1,14 @@
 import Image from "next/image";
-import Header from "./components/header";
-import CustomLink from "./components/customLink";
+import Button from "./components/button";
 
 export default function AboutMe() {
   return (
     <section
-      className="flex w-screen flex-col items-center bg-slate-50 px-4
-     text-slate-600"
+      id={`about-me`}
+      className="flex w-screen flex-col items-center bg-inherit px-4"
     >
-      <div className="flex w-full max-w-6xl flex-col items-center justify-center py-16 md:flex-row">
-        <div className="mb-6 flex h-full w-full flex-col items-center">
+      <div className="flex w-full max-w-5xl flex-col items-center py-16 md:flex-row">
+        <div className="mb-6 flex h-full w-full flex-col">
           <Image
             src="/static/graphics/Cube_Name.png"
             width={500}
@@ -17,13 +16,12 @@ export default function AboutMe() {
             alt="profile image"
           ></Image>
         </div>
-        <div className="flex w-full max-w-md flex-col border-l-2 border-solid border-slate-200 pl-[25px]">
-          <Header
-            title={`About me`}
-            color={`from-sky-500 to-cyan-300`}
-            largeFont={false}
-          />
-          <div className="mb-8 font-medium">
+        <div className="flex w-full max-w-md flex-col border-l-2 border-solid border-slate-300 pl-[25px]">
+          {/* <div className={"mb-8 flex w-fit flex-col items-center"}>
+            <h3>{`Hey again!`}</h3>
+            <hr className={`my-1 h-1 w-full rounded bg-gradient-to-r`} />
+          </div> */}
+          <div className="mb-8">
             <p>
               {`I'm a NY based UI Designer with a passion for web design. My expertise in Front-end technologies, UX Design, and CX help me communicate my ideas clearly among various teams, whether they're Users, Customer Success, Engineering, and Product teams. `}
             </p>
@@ -33,7 +31,7 @@ export default function AboutMe() {
               fiction or poetry, gaming/streaming, or trying out new restaurants in NYC with my partner. On my spare time I study game design and contribute to on an indie-horror game I'm developing in Godot. `}
             </p>
           </div>
-          <CustomLink
+          <Button
             url={
               "https://drive.google.com/file/d/1gWSmphdd8nQio8K98L-znsjbQM_G9rUe/view?usp=sharing"
             }

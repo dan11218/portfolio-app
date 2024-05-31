@@ -6,7 +6,7 @@ import ProjectSection from "./projectSection";
 
 export default function Page() {
   return (
-    <main className="w-screen flex-col">
+    <main className="w-screen flex-col bg-inherit">
       <Hero />
       <ProjectSection />
       <AboutMe />

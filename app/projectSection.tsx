@@ -33,10 +33,27 @@ export default async function ProjectSection() {
   const data = await getData();
   return (
     <section
-      id={"projects"}
-      className="flex w-screen flex-col items-center px-3 py-8"
+      id={`projects`}
+      className="flex w-screen flex-col items-center bg-inherit px-8"
     >
-      <div className="flex w-full flex-wrap content-start justify-center">
+      {/* <div
+        id={`highlight-1`}
+        className="flex h-full w-full flex-row content-start justify-center"
+      >
+        {`Image`}
+        <div
+          className={`flex w-full max-w-xl flex-col justify-center bg-stone-200 px-16 py-8 text-stone-700 shadow-[18px_18px_0px_0px_rgba(0,0,0)] sm:mb-0`}
+        >
+          <h2 className={`mb-6 leading-none md:leading-normal`}>{"Plannit"}</h2>
+          <p className={`mb-12 font-light`}>
+            {`An event management tool that allows users to quickly view upcoming events, manage tasks, and connect with a wide network of clients and vendors. Designed and developed a new dashboard interface, improving usability and customer satisfaction.`}
+          </p>
+        </div>
+      </div> */}
+      <div
+        id={`experience`}
+        className="flex w-full flex-wrap justify-center md:justify-start"
+      >
         {data.map((project: any) => (
           <Project
             key={project.id}

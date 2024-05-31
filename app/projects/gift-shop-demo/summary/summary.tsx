@@ -3,7 +3,7 @@ import ProjectDetails from "./projectDetails";
 import Solution from "./solution";
 import Goals from "./goals";
 import MyRole from "./my-role";
-import CustomLink from "@/app/components/customLink";
+import Button from "@/app/components/button";
 
 export default function Summary() {
   return (
@@ -25,7 +25,7 @@ export default function Summary() {
           </div>
         </div>
         <div className="flex w-full flex-col items-center justify-center">
-          <CustomLink
+          <Button
             url={"https://demo-usabilla.netlify.app"}
             text={"Open prototype"}
             showIcon={true}
