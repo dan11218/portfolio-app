@@ -14,7 +14,7 @@ export default function Navbar() {
 
   // Set element ref
 
-  const ref = useRef(null);
+  const ref = useRef<any>(null);
 
   // Detect router
   const router = useRouter();
@@ -46,6 +46,7 @@ export default function Navbar() {
     // cleanup function
     return () => {
       window.removeEventListener("scroll", showNavbar);
+      window.removeEventListener("click", collapseNavbar);
     };
   }, [scrollPosition, currentPage]);
 
@@ -53,10 +54,10 @@ export default function Navbar() {
     setToggle(!toggle);
   };
 
-  const collapseNavbar = () => {
-    if (ref.current && !ref.current.contains(event.target)) {
+  const collapseNavbar = (event: MouseEvent | TouchEvent) => {
+    console.log(ref.current);
+    if (ref.current && !ref.current.contains(event.target as Node)) {
       setToggle(false);
-      console.log(ref);
     }
   };
 
