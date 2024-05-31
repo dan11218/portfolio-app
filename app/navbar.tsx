@@ -137,26 +137,26 @@ export default function Navbar() {
         } flex w-full flex-col justify-between bg-inherit`}
       >
         <Link
-          className="flex h-full w-full flex-col items-center justify-center py-8 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
+          className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
           href="/#projects"
         >
           {`Projects`}
         </Link>
         <Link
-          className="flex h-full w-full flex-col items-center justify-center py-8 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
+          className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
           href="https://drive.google.com/file/d/1gWSmphdd8nQio8K98L-znsjbQM_G9rUe/view?usp=sharing"
           target="_blank"
         >
           {`Resumé`}
         </Link>
         <Link
-          className="flex h-full w-full flex-col items-center justify-center py-8 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
+          className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
           href="/#about-me"
         >
           {`About me`}
         </Link>
         <Link
-          className="flex h-full w-full flex-col items-center justify-center py-8 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
+          className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
           href="mailto:danielgraugnard@gmail.com"
         >
           {`Email`}
