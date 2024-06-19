@@ -11,7 +11,6 @@ export default async function Plannit() {
   return (
     <main className="w-screen flex-col">
       <Hero />
-      {/*make props for color, team, timeline, project type, skills */}
       <Summary />
       <Overview />
       <Research />

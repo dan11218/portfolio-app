@@ -2,7 +2,7 @@ export default function BlockQuotes() {
   return (
     <div className="mb-16 flex flex-col">
       <div className="mb-8 flex flex-col">
-        <h3 className="mb-3 font-bold text-rose-400">
+        <h3 className="mb-3 text-rose-400">
           {`Understanding the user's needs`}
         </h3>
         <p>

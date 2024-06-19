@@ -14,6 +14,11 @@ const config: Config = {
       boxShadow: {
         solid: "border-2 border-solid border-blue-400",
       },
+      // fontFamily: {
+      //   playfair_display: "var(--font-playfair_display)",
+      //   space_mono: "var(--font-space_mono)",
+      //   inter: "var(--font-inter)",
+      // },
     },
   },
   plugins: [],

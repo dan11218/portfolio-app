@@ -1,8 +1,11 @@
-import { Albert_Sans, Space_Mono, Playfair_Display } from "next/font/google";
+import { Space_Mono, Playfair_Display, Inter } from "next/font/google";
 
-export const albert_sans = Albert_Sans({
+export const inter = Inter({
   subsets: ["latin"],
   display: "swap",
+  weight: ["300", "400", "500"],
+  style: ["normal"],
+  variable: "--font-inter",
 });
 
 export const space_mono = Space_Mono({
@@ -10,6 +13,7 @@ export const space_mono = Space_Mono({
   style: ["italic", "normal"],
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-space_mono",
 });
 
 export const playfair_display = Playfair_Display({
@@ -17,4 +21,5 @@ export const playfair_display = Playfair_Display({
   style: ["italic", "normal"],
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-playfair_display",
 });
