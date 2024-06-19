@@ -103,6 +103,7 @@ export default async function ProjectSection() {
           className={`h-full w-full`}
         />
       </div>
+      <h1 className="underline">Previous work</h1>
       <div
         id={`experience`}
         className="flex h-full w-full flex-wrap justify-center py-24"
