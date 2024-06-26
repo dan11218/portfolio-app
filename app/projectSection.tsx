@@ -14,21 +14,6 @@ async function getData() {
   }
 
   return data;
-
-  // Debug: attempting to consume the app's own API below (ERR_INVALID_URL)
-
-  // try {
-  //   const res = await fetch("/api/projects", {
-  //     headers: {
-  //       Accept: "application/json",
-  //       method: "GET",
-  //     },
-  //   });
-  //   const data = await res.json();
-  //   console.log(data);
-  // } catch (error) {
-  //   console.log(error);
-  // }
 }
 
 export default async function ProjectSection() {
@@ -57,7 +42,7 @@ export default async function ProjectSection() {
           </div>
         </div>
         <Image
-          src={`/static/mockups/phone_no_events+calendar.png`}
+          src={`/static/plannit/mockups/phone_no_events+calendar.png`}
           width={700}
           height={700}
           alt={`device mockups`}
