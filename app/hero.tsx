@@ -17,7 +17,7 @@ export default function Hero() {
         <div
           className={`z-30 flex w-full max-w-6xl flex-col items-center bg-inherit p-8 text-center`}
         >
-          <h2 className={`mb-12 font-[700]`}>
+          <h2 className={`mb-12 font-[500]`}>
             <u className="decoration-sky-500">{`Product Designer`}</u>
             {` + `}
             <u className="decoration-rose-400">{`Front-End Developer`}</u>
