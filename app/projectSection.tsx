@@ -1,6 +1,7 @@
 import Project from "./project";
 import { promises as fs } from "fs";
 import Image from "next/image";
+import Link from "next/link";
 import Button from "./components/button";
 
 async function getData() {
@@ -33,12 +34,12 @@ export default async function ProjectSection() {
             <p className={`mb-12`}>
               {`Collaborate with your team to organize events, create and manage tasks, and connect with a wide network of clients and vendors to plan the perfect event.`}
             </p>
-            <a
+            <Link
               href={`/projects/plannit`}
               className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50`}
             >
               {"Learn more"}
-            </a>
+            </Link>
           </div>
         </div>
         <Image
@@ -58,12 +59,12 @@ export default async function ProjectSection() {
             <p className={`mb-12`}>
               {`A gift shop built in React and integrated with SurveyMonkey's Feedback Button to analyze the customer journey.`}
             </p>
-            <a
+            <Link
               href={`/projects/gift-shop-demo`}
               className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-50 hover:bg-slate-50 hover:text-slate-700`}
             >
               {"Learn more"}
-            </a>
+            </Link>
           </div>
         </div>
         <Image
@@ -75,7 +76,7 @@ export default async function ProjectSection() {
       </div>
       <div
         id={`highlight-3`}
-        className="min-w-md mb-16 flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden bg-stone-700 py-24 text-slate-50 sm:flex-row"
+        className="min-w-md mb-16 flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden bg-stone-700 py-32 text-slate-50 sm:flex-row"
       >
         <div className={`flex w-full flex-col justify-center`}>
           <div className="px-16 py-8">
@@ -85,12 +86,12 @@ export default async function ProjectSection() {
             <p className={`mb-12`}>
               {`A portfolio website for commercial photographer agency. Built with HTML, CSS, Javascript, and jQuery.`}
             </p>
-            <a
+            <Link
               href={`https://christianlange.com`}
               className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-50 hover:bg-slate-50 hover:text-slate-700`}
             >
               {"Learn more"}
-            </a>
+            </Link>
           </div>
         </div>
         <Image
