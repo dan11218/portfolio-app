@@ -35,9 +35,6 @@ export default function AboutMe() {
               "https://drive.google.com/file/d/1gWSmphdd8nQio8K98L-znsjbQM_G9rUe/view?usp=sharing"
             }
             text={"Download CV"}
-            showIcon={false}
-            bgColor="bg-slate-800 rounded-md transition-colors duration-150 hover:bg-slate-600"
-            textColor={"text-slate-50 dark:text-white"}
           />
         </div>
       </div>

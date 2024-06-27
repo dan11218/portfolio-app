@@ -26,7 +26,7 @@ export default async function ProjectSection() {
     >
       <div
         id={`highlight-1`}
-        className="min-w-md flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden bg-rose-200 px-8 py-8 text-slate-700 sm:flex-row"
+        className="min-w-md flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden py-8 text-slate-700 sm:flex-row"
       >
         <div className={`flex flex-col justify-center`}>
           <div className="px-16 py-8">
@@ -51,10 +51,10 @@ export default async function ProjectSection() {
       </div>
       <div
         id={`highlight-2`}
-        className="min-w-md flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden bg-cyan-500 py-8 text-white sm:flex-row-reverse"
+        className="min-w-md flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden bg-cyan-500 py-8 sm:flex-row-reverse"
       >
         <div className={`flex flex-col justify-center`}>
-          <div className="px-16 py-8">
+          <div className="px-16 py-8 text-slate-50">
             <h1 className={`mb-6 font-[500]`}>{"Usabilla Feedback"}</h1>
             <p className={`mb-12`}>
               {`A gift shop built in React and integrated with SurveyMonkey's Feedback Button to analyze the customer journey.`}
@@ -69,8 +69,8 @@ export default async function ProjectSection() {
         </div>
         <Image
           src={`/static/gift-shop-demo/desktop.png`}
-          width={500}
-          height={500}
+          width={700}
+          height={700}
           alt={`device mockups`}
         />
       </div>
