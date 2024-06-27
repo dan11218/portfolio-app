@@ -15,14 +15,14 @@ export default function FinalDesign() {
             className="mb-12 flex h-fit flex-wrap justify-center md:justify-normal"
           >
             <Image
-              src="/static/plannit/login/Splash screen.png"
+              src="/static/plannit/login/welcome screen.png"
               width={185}
               height={100}
               alt="registration"
               className="mb-4 mr-8 shadow-lg"
             />
             <Image
-              src="/static/plannit/login/Sign Up.png"
+              src="/static/plannit/login/sign up - vendor.png"
               width={185}
               height={100}
               alt="choose profile type"
