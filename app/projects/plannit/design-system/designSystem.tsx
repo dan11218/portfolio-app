@@ -3,42 +3,49 @@ import Image from "next/image";
 export default function DesignSystem() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-4 pt-14">
-      <div className="flex w-full max-w-7xl flex-col items-center">
+      <div className="flex w-full flex-col items-center">
         <div className="mb-16 flex flex-col items-center">
-          <h1>Design System</h1>
-          <hr className="m-auto my-1 h-1 w-full max-w-32 rounded bg-gradient-to-r from-rose-400 to-orange-400 dark:bg-gray-300" />
+          <h2 className="mb-3 font-bold">Design System</h2>
         </div>
-        <div className="flex flex-col md:flex-row">
-          <div className="mr-8 flex flex-col">
+        <div className="flex flex-col">
+          <div className="mb-8 flex h-fit w-full">
             <Image
               src={"/static/plannit/Typography.png"}
               width={600}
               height={600}
+              layout="responsive"
               alt="screenshot of typography"
-              className="mb-8 rounded-lg shadow-md"
+              className="rounded-lg shadow-md"
             />
+          </div>
+          <div className="mb-8 flex h-fit w-full">
             <Image
               src={"/static/plannit/Components.png"}
               width={600}
               height={600}
-              alt="screenshot of typography"
-              className="mb-8 rounded-lg shadow-md"
+              layout="responsive"
+              alt="screenshot of components"
+              className="rounded-lg shadow-md"
             />
           </div>
-          <div className="flex flex-col">
+          <div className="mb-8 flex h-fit w-full">
             <Image
               src={"/static/plannit/color_scheme.png"}
               width={600}
               height={600}
+              layout="responsive"
               alt="screenshot of typography"
-              className="mb-8 rounded-lg shadow-md"
+              className="rounded-lg shadow-md"
             />
+          </div>
+          <div className="mb-8 flex h-fit w-full">
             <Image
               src={"/static/plannit/Logos.png"}
               width={600}
               height={600}
+              layout="responsive"
               alt="screenshot of typography"
-              className="mb-8 rounded-lg shadow-md"
+              className="rounded-lg shadow-md"
             />
           </div>
         </div>

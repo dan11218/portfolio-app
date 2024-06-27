@@ -12,7 +12,7 @@ export default async function Plannit() {
     <main className="w-screen flex-col">
       <Hero />
       <Summary />
-      <Overview />
+      {/* <Overview /> */}
       <Research />
       <DesignSystem />
       <FinalDesign />
