@@ -5,7 +5,7 @@ export default function DesignSystem() {
     <section className="flex h-fit w-screen flex-col items-center px-4 pt-14">
       <div className="flex w-full flex-col items-center">
         <div className="mb-16 flex flex-col items-center">
-          <h2 className="mb-3 font-bold">Design System</h2>
+          <h3 className="mb-3 font-bold text-rose-400">Design System</h3>
         </div>
         <div className="flex flex-col">
           <div className="mb-8 flex h-fit w-full">

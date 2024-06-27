@@ -22,13 +22,13 @@ export default function Hero() {
           />
         </div>
         <div
-          className={`flex h-full w-full flex-row items-center justify-between`}
+          className={`flex h-full w-full flex-col items-center justify-center md:flex-row`}
         >
           <div className="flex h-full w-full flex-col px-8">
             <Image
               src="/static/plannit/mockups/choose account type.png"
-              width={300}
-              height={300}
+              width={500}
+              height={500}
               layout="responsive"
               alt="screenshot of Today View"
             />
@@ -36,8 +36,8 @@ export default function Hero() {
           <div className="flex h-full w-full flex-col px-8">
             <Image
               src="/static/plannit/mockups/home - events.png"
-              width={300}
-              height={300}
+              width={500}
+              height={500}
               layout="responsive"
               alt="screenshot of Today View"
             />
@@ -45,8 +45,8 @@ export default function Hero() {
           <div className="flex h-full w-full flex-col px-8">
             <Image
               src="/static/plannit/mockups/venue page.png"
-              width={300}
-              height={300}
+              width={500}
+              height={500}
               layout="responsive"
               alt="screenshot of Today View"
             />

@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Summary() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-8 py-16">
+    <section className="flex h-fit w-screen flex-col items-center py-16">
       <ProjectDetails />
       <Problem />
       <Solution />
