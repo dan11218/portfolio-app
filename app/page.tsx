@@ -1,6 +1,6 @@
 import AboutMe from "./about-me";
 import Hero from "./hero";
-import ProjectSection from "./projectSection";
+import ProjectSection from "./projects/projectSection";
 
 // Home page
 
