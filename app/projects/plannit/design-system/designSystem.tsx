@@ -7,7 +7,7 @@ export default function DesignSystem() {
         <div className="mb-16 flex flex-col items-center">
           <h3 className="mb-3 font-bold text-rose-400">Design System</h3>
         </div>
-        <div className="flex flex-col">
+        <div className="flex w-full max-w-6xl flex-col">
           <div className="mb-8 flex h-fit w-full">
             <Image
               src={"/static/plannit/Typography.png"}
