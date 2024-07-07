@@ -22,7 +22,7 @@ export default function Hero() {
           />
         </div>
         <div
-          className={`flex h-full w-full flex-col items-center justify-center md:flex-row`}
+          className={`flex h-full w-full max-w-7xl flex-col items-center justify-center md:flex-row`}
         >
           <div className="flex h-full w-full flex-col px-8">
             <Image
@@ -30,7 +30,7 @@ export default function Hero() {
               width={500}
               height={500}
               layout="responsive"
-              alt="screenshot of Today View"
+              alt="screenshot of sign up"
             />
           </div>
           <div className="flex h-full w-full flex-col px-8">
@@ -48,7 +48,7 @@ export default function Hero() {
               width={500}
               height={500}
               layout="responsive"
-              alt="screenshot of Today View"
+              alt="screenshot of venue page"
             />
           </div>
         </div>

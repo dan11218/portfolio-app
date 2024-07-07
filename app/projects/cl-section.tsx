@@ -14,7 +14,7 @@ export default function CLSection() {
             {`A portfolio website for commercial photographer agency. Built with HTML, CSS, Javascript, and jQuery.`}
           </p>
           <Link
-            href={`https://christianlange.com`}
+            href={`/projects/cl-photography`}
             className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-50 hover:bg-slate-50 hover:text-slate-700`}
           >
             {"Learn more"}

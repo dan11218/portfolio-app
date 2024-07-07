@@ -9,7 +9,7 @@ export default function PlannitSection() {
     >
       <div className={`flex flex-col justify-center`}>
         <div className="w-full max-w-2xl px-16 py-8">
-          <h1 className={`mb-6 font-[500] text-rose-500`}>{"Plannit"}</h1>
+          <h1 className={`mb-6 font-[500] text-rose-400`}>{"Plannit"}</h1>
           <p className={`mb-12`}>
             {`Collaborate with your team to organize events, create and manage tasks, and connect with a wide network of clients and vendors to plan the perfect event.`}
           </p>
