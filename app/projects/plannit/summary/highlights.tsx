@@ -17,7 +17,7 @@ export default function Highlights() {
           <h2
             className={`${inter.className} mb-4 font-medium`}
           >{`Ready for launch.`}</h2>
-          <p>{`The Dashboard shows you all of your events for day, and will let you know if you have any tasks due before the event. `}</p>
+          <p>{`The Dashboard shows you all of your events for the day, and will let you know if you have any tasks due before the event. `}</p>
         </div>
         <div className="w-full max-w-xs">
           <Image
