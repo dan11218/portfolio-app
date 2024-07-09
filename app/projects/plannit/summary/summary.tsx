@@ -14,7 +14,9 @@ export default function Summary() {
       <Highlights />
       <ProjectDetails />
       <div className="flex w-full flex-col items-center bg-sky-50 py-16">
-        <h2 className={`font-bold ${inter.className}`}>{`Overview`}</h2>
+        <h2
+          className={`mb-8 font-bold ${inter.className} text-rose-500`}
+        >{`Overview`}</h2>
         <div className="flex w-full max-w-6xl md:flex-row">
           <Problem />
           <Solution />
