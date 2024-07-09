@@ -7,7 +7,7 @@ export default function NewEvent() {
       <div id="new-event-screens" className="flex h-full w-full flex-wrap">
         <div className={`mb-8 mr-8 flex w-full max-w-[200px] flex-col`}>
           <Image
-            src="/static/plannit/create-new-event/new event.png"
+            src="/static/plannit/create-new-event/New_Event.png"
             width={500}
             height={500}
             layout="responsive"
@@ -17,7 +17,7 @@ export default function NewEvent() {
         </div>
         <div className={`mb-8 mr-8 flex w-full max-w-[200px] flex-col`}>
           <Image
-            src="/static/plannit/create-new-event/vendors - venues (search).png"
+            src="/static/plannit/create-new-event/vendors_venues_search.png"
             width={500}
             height={500}
             layout="responsive"
@@ -27,7 +27,7 @@ export default function NewEvent() {
         </div>
         <div className={`mb-8 mr-8 flex w-full max-w-[200px] flex-col`}>
           <Image
-            src="/static/plannit/create-new-event/vendors - venues (keywords).png"
+            src="/static/plannit/create-new-event/vendors_venues_keywords.png"
             width={500}
             height={500}
             layout="responsive"
@@ -37,7 +37,7 @@ export default function NewEvent() {
         </div>
         <div className={`mb-8 mr-8 flex w-full max-w-[200px] flex-col`}>
           <Image
-            src="/static/plannit/create-new-event/vendor page - hotel.png"
+            src="/static/plannit/create-new-event/vendor_page_hotel.png"
             width={500}
             height={500}
             layout="responsive"
@@ -47,7 +47,7 @@ export default function NewEvent() {
         </div>
         <div className={`mb-8 mr-8 flex w-full max-w-[200px] flex-col`}>
           <Image
-            src="/static/plannit/create-new-event/new event with vendor.png"
+            src="/static/plannit/create-new-event/New_Event_with_vendor.png"
             width={500}
             height={500}
             layout="responsive"
