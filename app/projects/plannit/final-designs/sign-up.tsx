@@ -37,14 +37,14 @@ export default function SignUp() {
           src="/static/plannit/login/create_profile.png"
           width={185}
           height={100}
-          alt="welcome screen"
+          alt="create profile"
           className="mb-4 mr-8 shadow-lg"
         />
         <Image
           src="/static/plannit/login/create_profile_populated.png"
           width={185}
           height={100}
-          alt="welcome screen"
+          alt="create profile populated"
           className="mb-4 mr-8 shadow-lg"
         />
         <Image
