@@ -42,8 +42,8 @@ export default function Highlights() {
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 `}>
           <h2
             className={`${inter.className} mb-4 font-medium`}
-          >{`Explore a vast marketplace of venues.`}</h2>
-          <p>{`Use Plannit to explore a wide network of venues. Need an outdoor space? Want to bring your own catering? Filter venues to match your exact needs. We'll tell you if it's a good match.`}</p>
+          >{`Explore a vast marketplace of spaces.`}</h2>
+          <p>{`Use Plannit to explore a wide network of Spaces . Need an outdoor space? Want to bring your own catering? Filter venues to match your exact needs. We'll tell you if it's a good match.`}</p>
         </div>
       </div>
     </div>
