@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { inter } from "../../fonts";
 import Button from "@/app/components/button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -14,12 +15,12 @@ export default function Hero() {
           <h4
             className={`mb-16 ${inter.className} font-light`}
           >{`Your next event is ready for take-off. 🚀`}</h4>
-          <Button
-            url={
-              "https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?page-id=0%3A1&type=design&node-id=702-427&viewport=35%2C-512%2C0.71&t=AEP1ckLGHKcaCH2v-1&scaling=scale-down&starting-point-node-id=702%3A427"
-            }
-            text={"Open prototype"}
-          />
+          <Link
+            href={`https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?page-id=0%3A1&type=design&node-id=702-427&viewport=35%2C-512%2C0.71&t=AEP1ckLGHKcaCH2v-1&scaling=scale-down&starting-point-node-id=702%3A427`}
+            className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
+          >
+            {"Open prototype"}
+          </Link>
         </div>
         <div
           className={`flex h-full w-full max-w-7xl flex-col items-center justify-center md:flex-row`}
