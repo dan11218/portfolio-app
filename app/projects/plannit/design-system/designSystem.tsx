@@ -10,7 +10,7 @@ export default function DesignSystem() {
         <div className="flex w-full max-w-6xl flex-col">
           <div className="mb-8 flex h-fit w-full">
             <Image
-              src={"/static/plannit/Typography.png"}
+              src={"/static/plannit/design-system/Typography.png"}
               width={600}
               height={600}
               layout="responsive"
@@ -20,7 +20,7 @@ export default function DesignSystem() {
           </div>
           <div className="mb-8 flex h-fit w-full">
             <Image
-              src={"/static/plannit/Components.png"}
+              src={"/static/plannit/design-system/Components.png"}
               width={600}
               height={600}
               layout="responsive"
@@ -30,7 +30,7 @@ export default function DesignSystem() {
           </div>
           <div className="mb-8 flex h-fit w-full">
             <Image
-              src={"/static/plannit/color_scheme.png"}
+              src={"/static/plannit/design-system/color_scheme.png"}
               width={600}
               height={600}
               layout="responsive"
@@ -40,7 +40,7 @@ export default function DesignSystem() {
           </div>
           <div className="mb-8 flex h-fit w-full">
             <Image
-              src={"/static/plannit/Logos.png"}
+              src={"/static/plannit/design-system/Logos.png"}
               width={600}
               height={600}
               layout="responsive"
