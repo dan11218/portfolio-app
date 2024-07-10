@@ -19,7 +19,7 @@ export default function Hero() {
           className={`z-30 flex w-fit max-w-5xl flex-col items-center px-8 text-center`}
         >
           <h2
-            className={`dar:bg-stone-700 mb-12 bg-slate-50 text-3xl font-[500] md:text-4xl`}
+            className={`dar:bg-stone-700 mb-12 bg-slate-50 text-3xl font-[500] md:text-4xl dark:bg-stone-900`}
           >
             {`Product Designer + Front-End Developer creating intuitive web and mobile interfaces for startups`}
             .
@@ -27,7 +27,7 @@ export default function Hero() {
 
           <Link
             href={`mailto:danielgraugnard@gmail.com`}
-            className={`w-fit border-2 border-current bg-slate-50 p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50 dark:bg-stone-700  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
+            className={`w-fit border-2 border-current bg-slate-50 p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50 dark:bg-stone-900  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
           >
             {`danielgraugnard@gmail.com`}
           </Link>

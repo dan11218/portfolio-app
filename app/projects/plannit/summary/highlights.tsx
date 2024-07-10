@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Highlights() {
   return (
-    <div className={`flex h-full w-full flex-col px-8`}>
-      <div className="flex w-full flex-col items-center py-16">
+    <section className={`flex h-full w-full flex-col py-16`}>
+      <div className="flex w-full flex-col items-center bg-slate-100 px-8 py-36 dark:bg-stone-800">
         <div className={`flex w-full max-w-4xl flex-col items-center`}>
           <h3 className={`${inter.className} mb-4`}>
             <span className="text-rose-400">{`Plannit`}</span>
@@ -12,7 +12,7 @@ export default function Highlights() {
           </h3>
         </div>
       </div>
-      <div className="flex w-full flex-col items-center justify-center py-16 md:flex-row ">
+      <div className="flex w-full flex-col items-center justify-center px-8 py-16 md:flex-row ">
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 md:mr-24`}>
           <h2
             className={`${inter.className} mb-4 font-medium`}
@@ -29,7 +29,7 @@ export default function Highlights() {
           />
         </div>
       </div>
-      <div className="flex w-full flex-col-reverse items-center justify-center py-16 md:flex-row">
+      <div className="flex w-full flex-col-reverse items-center justify-center px-8 py-16 md:flex-row">
         <div className="w-full max-w-xs md:mr-24">
           <Image
             src="/static/plannit/mockups/venue page.png"
@@ -42,10 +42,10 @@ export default function Highlights() {
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 `}>
           <h2
             className={`${inter.className} mb-4 font-medium`}
-          >{`Explore a vast marketplace of spaces.`}</h2>
-          <p>{`Use Plannit to explore a wide network of Spaces . Need an outdoor space? Want to bring your own catering? Filter venues to match your exact needs. We'll tell you if it's a good match.`}</p>
+          >{`Explore a vast marketplace of Spaces.`}</h2>
+          <p>{`Use Plannit to explore a wide network of Spaces ready to host your event. Need an outdoor space? Want to bring your own catering? We'll filter venues to match your exact needs.`}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
