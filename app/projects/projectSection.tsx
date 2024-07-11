@@ -28,11 +28,11 @@ export default async function ProjectSection() {
       <GiftShopSection />
       <CLSection />
 
-      <div className="flex flex-col items-center py-16">
+      <div className="flex w-full flex-col items-center py-16">
         <h1 className="underline">Previous work</h1>
         <div
           id={`experience`}
-          className="flex h-full w-full flex-wrap justify-center py-24"
+          className="flex h-full w-full max-w-6xl flex-wrap justify-center py-24"
         >
           {data.map((project: any) => (
             <Project

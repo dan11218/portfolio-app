@@ -1,17 +1,16 @@
 export default function BlockQuotes() {
   return (
-    <div className="mb-16 flex flex-col">
-      <div className="mb-8 flex flex-col">
-        <h3 className="mb-3 font-semibold text-rose-500">
+    <div className="mb-16 flex w-full flex-col">
+      <div className="mb-8 flex w-full max-w-4xl flex-col">
+        <h3 className="font-semibold text-rose-500">
           {`Understanding the user's needs`}
         </h3>
         <p>
-          {`When users were asked about their experience planning events,
-          here's what they said...`}
+          {`When users were asked about their experience planning events, here's what they said...`}
         </p>
       </div>
       <div
-        className={`flex h-fit w-full max-w-3xl flex-col italic text-slate-700 dark:text-white`}
+        className={`flex w-full max-w-3xl flex-col italic text-slate-700 dark:text-white`}
       >
         <blockquote className="mb-8">
           <li>
