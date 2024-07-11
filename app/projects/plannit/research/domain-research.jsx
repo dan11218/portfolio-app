@@ -1,5 +1,6 @@
 import CaseStudyA from "./case-study-a";
 import CaseStudyB from "./case-study-b";
+import CaseStudyC from "./case-study-c";
 
 export const DomainResearch = () => {
   return (
@@ -10,9 +11,10 @@ export const DomainResearch = () => {
           {`In order to find inspiration for a starting point, I researched the market for similar solutions for event planning apps. Here's what I found:`}
         </p>
       </div>
-      <div className={`flex w-full flex-col md:flex-row`}>
+      <div className={`flex w-full flex-col justify-center md:flex-row`}>
         <CaseStudyA />
         <CaseStudyB />
+        <CaseStudyC />
       </div>
     </div>
   );
