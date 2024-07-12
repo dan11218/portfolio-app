@@ -1,7 +1,7 @@
 export default function CaseStudyA() {
   return (
     <div
-      className={`mb-8 flex w-full max-w-md flex-col bg-stone-200 px-4 py-8 md:mb-0 md:mr-8 dark:bg-stone-700`}
+      className={`mb-8 flex w-full max-w-md flex-col bg-sky-300 px-4 py-8 md:mb-0 md:mr-8 dark:bg-sky-800`}
     >
       <div className="mb-4">
         <h4>{`Tripleseat`}</h4>
