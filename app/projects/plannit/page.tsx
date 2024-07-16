@@ -1,6 +1,6 @@
 "use server";
 
-import DesignSystem from "./design-system/designSystem";
+import Design from "./design/design";
 import FinalDesign from "./final-designs/finalDesign";
 import Hero from "./hero";
 import Overview from "./overview/overview";
@@ -14,9 +14,8 @@ export default async function Plannit() {
       <Hero />
       <Highlights />
       <Summary />
-      {/* <Overview /> */}
       <Research />
-      <DesignSystem />
+      <Design />
       <FinalDesign />
     </main>
   );

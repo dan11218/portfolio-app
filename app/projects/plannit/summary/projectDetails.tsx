@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function ProjectDetails() {
   return (
-    <div className="flex max-w-5xl flex-col items-center border border-slate-700 p-8 shadow-[18px_18px_0px_0px_rgba(0,0,0)]">
+    <div className="flex max-w-5xl flex-col items-center border border-slate-700 bg-slate-50 p-8 shadow-[18px_18px_0px_0px_rgba(0,0,0)] dark:bg-slate-700">
       <ul className="mb-4 flex h-full w-full flex-col justify-between  md:flex-row">
         <li className="m-2 w-full">
           <h6 className="mb-1 font-bold">{`My Role 👨‍💻`}</h6>
-          <p>{`Product Designer + React Native Developer`}</p>
+          <p>{`Product Designer`}</p>
         </li>
         <li className="m-2 w-full">
           <h6 className="mb-1 font-bold">{`Timeline ⏰`}</h6>

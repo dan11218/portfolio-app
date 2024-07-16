@@ -4,7 +4,7 @@ import CaseStudyC from "./case-study-c";
 
 export const DomainResearch = () => {
   return (
-    <div className="mb-16 flex flex-col">
+    <div className="mb-24 flex flex-col">
       <div className="mb-16 flex w-full max-w-lg flex-col">
         <h3 className="font-bold text-rose-500">{`Competitive Analysis`}</h3>
         <p>
