@@ -6,14 +6,14 @@ export default function Hero() {
   return (
     <section className="relative flex h-full w-full flex-col items-center overflow-hidden">
       <div
-        className={`flex h-full w-full max-w-7xl flex-col items-center justify-center sm:h-[1100px] md:py-72`}
+        className={`flex h-full w-full max-w-7xl flex-col items-center justify-center pb-16 pt-24`}
       >
         <Image
           src={`/static/graphics/Cube_Name.png`}
           width={500}
           height={500}
           alt={`spiral graphics`}
-          className={`z-30 py-32`}
+          className={`z-30 mb-16`}
         />
         <div
           className={`z-30 flex w-fit max-w-5xl flex-col items-center px-8 text-center`}
