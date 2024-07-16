@@ -1,11 +1,13 @@
 export default function CaseStudyB() {
   return (
     <div
-      className={`mb-8 w-full max-w-md bg-stone-200 px-4 py-8 md:mb-0 md:mr-8 dark:bg-stone-700`}
+      className={`mb-8 flex w-full max-w-md flex-col bg-violet-200 px-4 py-8 md:mb-0 md:mr-8 dark:bg-violet-700`}
     >
       <div className="mb-4">
-        <h4>{`Eventbrite`}</h4>
-        <h6>{`A platforms where users can sign up and search for public events.`}</h6>
+        <h4 className={`font-semibold`}>{`Eventbrite`}</h4>
+        <p
+          className={`mb-8 italic`}
+        >{`Users can sign-up and search for public events.`}</p>
       </div>
       <div className={`mb-8`}>
         <p>{`Pros:`}</p>
@@ -21,7 +23,7 @@ export default function CaseStudyB() {
           </li>
         </ul>
       </div>
-      <div className={`mb-8`}>
+      <div className={``}>
         <p>{`Cons:`}</p>
         <ul className={`list-disc`}>
           <li className="ml-4">

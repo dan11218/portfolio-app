@@ -1,11 +1,11 @@
 export default function CaseStudyA() {
   return (
     <div
-      className={`mb-8 flex w-full max-w-md flex-col bg-sky-300 px-4 py-8 md:mb-0 md:mr-8 dark:bg-sky-800`}
+      className={`mb-8 flex w-full max-w-md flex-col bg-sky-200 px-4 py-8 md:mb-0 md:mr-8 dark:bg-sky-800`}
     >
       <div className="mb-4">
-        <h4>{`Tripleseat`}</h4>
-        <h6>{`Event sales management software.`}</h6>
+        <h4 className={`font-semibold`}>{`Tripleseat`}</h4>
+        <p className={`mb-8 italic`}>{`Event sales management software.`}</p>
       </div>
       <div className={`mb-8`}>
         <p>{`Pros:`}</p>
@@ -21,7 +21,7 @@ export default function CaseStudyA() {
           </li>
         </ul>
       </div>
-      <div className={`mb-8`}>
+      <div className={``}>
         <p>{`Cons:`}</p>
         <ul className={`list-disc`}>
           <li className="ml-4">
