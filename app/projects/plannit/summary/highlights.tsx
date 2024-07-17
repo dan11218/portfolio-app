@@ -8,7 +8,7 @@ export default function Highlights() {
         <div className={`flex w-full max-w-4xl flex-col items-center`}>
           <h3 className={`${inter.className} mb-4`}>
             <span className="text-rose-400">{`Plannit`}</span>
-            {` is an all-in-one event management platform designed to keep your tasks organized, and connect you with a vast network of professional vendors to create the perfect event.`}
+            {` is an all-in-one event management platform designed to organize tasks and connect you with a vast network of professional vendors to create the perfect event.`}
           </h3>
         </div>
       </div>
