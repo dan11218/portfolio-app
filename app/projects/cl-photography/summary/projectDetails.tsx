@@ -5,7 +5,7 @@ export default function ProjectDetails() {
         <h6 className="mb-1 font-bold">{`Team`}</h6>
         <ul className={`list-disc px-6`}>
           <li>
-            <p>{`Danny Graugnard - Web Developer`}</p>
+            <p>{`Danny Graugnard - Contract Web Developer`}</p>
           </li>
         </ul>
       </li>

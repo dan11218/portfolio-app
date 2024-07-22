@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Button from "./components/button";
 import Link from "next/link";
 
 export default function Hero() {
@@ -19,7 +18,7 @@ export default function Hero() {
           className={`z-30 flex w-fit max-w-5xl flex-col items-center px-8 text-center`}
         >
           <h2
-            className={`dar:bg-stone-700 mb-12 bg-slate-50 text-3xl font-[500] md:text-4xl dark:bg-stone-900`}
+            className={`dar:bg-stone-700 mb-12 bg-slate-50 text-3xl md:text-4xl dark:bg-stone-900`}
           >
             {`Product Designer + Front-End Developer creating intuitive web and mobile interfaces for startups`}
             .

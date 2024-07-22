@@ -1,7 +1,7 @@
 export default function CaseStudyA() {
   return (
     <div
-      className={`mb-8 flex w-full max-w-md flex-col bg-sky-200 px-4 py-8 md:mb-0 md:mr-8 dark:bg-sky-800`}
+      className={`mb-8 flex w-full max-w-md flex-col border border-slate-300 bg-slate-100 px-4 py-8 md:mb-0 md:mr-8 dark:bg-sky-800`}
     >
       <div className="mb-4">
         <h4 className={`font-semibold`}>{`Tripleseat`}</h4>
