@@ -1,7 +1,7 @@
 export default function CaseStudyC() {
   return (
     <div
-      className={`mb-8 flex w-full max-w-md flex-col justify-between border border-slate-300 bg-slate-100 px-4 py-8 md:mb-0 md:mr-8 dark:bg-emerald-700`}
+      className={`mb-8 flex w-full max-w-md flex-col justify-between border border-slate-300 bg-slate-100 px-4 py-8 md:mb-0 md:mr-8 dark:bg-stone-700`}
     >
       <div className="flex flex-col">
         <div className="mb-4">

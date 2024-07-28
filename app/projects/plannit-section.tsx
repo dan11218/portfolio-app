@@ -5,7 +5,7 @@ export default function PlannitSection() {
   return (
     <div
       id={`highlight-1`}
-      className="min-w-md p flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden px-16 py-8 sm:flex-row"
+      className="min-w-md mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center justify-center overflow-hidden rounded-3xl border border-slate-400 bg-rose-100 px-4 py-8 md:flex-row dark:text-slate-800"
     >
       <div className={`flex flex-col justify-center`}>
         <div className="w-full max-w-2xl px-16 py-8">

@@ -5,7 +5,7 @@ export default function CLSection() {
   return (
     <div
       id={`highlight-3`}
-      className="min-w-md flex h-[700px] w-full flex-col-reverse items-center justify-center overflow-hidden px-16 py-8 sm:flex-row-reverse "
+      className="min-w-md mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center justify-center overflow-hidden rounded-3xl border border-slate-400 px-4 py-8 md:flex-row-reverse"
     >
       <div className={`flex flex-col justify-center`}>
         <div className="w-full max-w-2xl px-16 py-8">

@@ -23,10 +23,10 @@ export default async function ProjectSection() {
   return (
     <section
       id={`projects`}
-      className="flex w-screen flex-col items-center bg-inherit pt-16"
+      className="flex w-screen flex-col items-center justify-center bg-inherit px-8 pt-32"
     >
       <PlannitSection />
-      <FreshDirectSection />
+      {/* <FreshDirectSection /> */}
       <GiftShopSection />
       <CLSection />
 

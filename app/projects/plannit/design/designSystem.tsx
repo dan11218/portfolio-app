@@ -5,7 +5,7 @@ export default function DesignSystem() {
     <div className="flex w-full flex-col items-center">
       <div className="mb-24 flex w-full max-w-6xl flex-col">
         <h3 className="mb-3 font-bold text-rose-500">Design System</h3>
-        <p>{`Design stuff here about the design system blah blah blah`}</p>
+        {/* <p>{`The design for Plannit was created from the perspective of an expert party-planner. The design is playful without being too silly. And elegant, with moments of fun and surprises.`}</p> */}
       </div>
       <div className="flex w-full max-w-6xl flex-col">
         <div className="mb-8 flex h-fit w-full">
