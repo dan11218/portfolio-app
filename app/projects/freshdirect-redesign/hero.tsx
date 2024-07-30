@@ -12,9 +12,6 @@ export default function Hero() {
         ></Image>
         <div className="my-10 flex h-fit w-fit flex-col px-[25px]">
           <h1 className="font-medium text-[#639B40]">{`Mobile Redesign`}</h1>
-          {/* <h3 className="text-xl font-light md:text-2xl">
-            {``}
-          </h3> */}
         </div>
       </div>
     </section>

@@ -26,7 +26,7 @@ export default async function ProjectSection() {
       className="flex w-screen flex-col items-center justify-center bg-inherit px-8 pt-32"
     >
       <PlannitSection />
-      {/* <FreshDirectSection /> */}
+      <FreshDirectSection />
       <GiftShopSection />
       <CLSection />
 
