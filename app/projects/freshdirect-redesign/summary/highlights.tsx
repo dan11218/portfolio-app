@@ -34,7 +34,7 @@ export default function Highlights() {
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 `}>
           <h4
             className={`${inter.className} mb-4 font-medium`}
-          >{`Redesigned checkout flow is now easier and quicker.`}</h4>
+          >{`Re-designed checkout flow is now easier and quicker.`}</h4>
           <p>{`A new progress bar helps easily navigate the checkout flow, and now it's easier than ever to switch between Deliver and Pickup options.`}</p>
         </div>
       </div>
