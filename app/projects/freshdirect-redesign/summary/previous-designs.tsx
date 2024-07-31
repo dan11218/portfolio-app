@@ -6,9 +6,9 @@ export default function PreviousDesigns() {
     <section className={`flex h-full w-full flex-col py-16`}>
       <div className="flex w-full flex-col items-center justify-center px-8 py-16 md:flex-row ">
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 md:mr-24`}>
-          <h3
+          <h4
             className={`${inter.className} mb-4 font-medium`}
-          >{`Poor user control in navigation elements.`}</h3>
+          >{`Poor user control in navigation elements.`}</h4>
           <p>{`Horizontal scrolling in these menus does not align with best UX practices and standards/existing mental models, as well as the fact that entire sections of info and options could be missed by the user.`}</p>
         </div>
         <div className="w-full max-w-xs">
@@ -32,9 +32,9 @@ export default function PreviousDesigns() {
           />
         </div>
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 `}>
-          <h3
+          <h4
             className={`${inter.className} mb-4 font-medium`}
-          >{`Inconsistencies in visual hierarchy.`}</h3>
+          >{`Inconsistencies in visual hierarchy.`}</h4>
           <p>{`Various areas of the app can be improved visually by enforcing a consistent line heights and alignment.`}</p>
         </div>
       </div>

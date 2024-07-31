@@ -3,8 +3,10 @@ import Link from "next/link";
 
 export default function Solution() {
   return (
-    <div className="flex h-full w-full max-w-3xl flex-col items-center p-8">
-      <h4 className="mb-4 font-semibold text-[#6F9848]">Solution</h4>
+    <div className="flex h-full w-full max-w-3xl flex-col p-8">
+      <h3 className="mb-4 font-semibold text-[#6F9848] dark:text-slate-50">
+        Solution
+      </h3>
       <p>
         {` With`}{" "}
         <Link

@@ -6,10 +6,10 @@ export default function Highlights() {
     <section className={`flex h-full w-full flex-col py-16`}>
       <div className="flex w-full flex-col items-center justify-center px-8 py-16 md:flex-row ">
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 md:mr-24`}>
-          <h3
+          <h4
             className={`${inter.className} mb-4 font-medium`}
-          >{`Poor user control in navigation elements.`}</h3>
-          <p>{`Horizontal scrolling in these menus does not align with best UX practices and standards/existing mental models, as well as the fact that entire sections of info and options could be missed by the user.`}</p>
+          >{`All-new search results page.`}</h4>
+          <p>{`Easily view all tags to refine your search. Updated product information is easier to read and more useful.`}</p>
         </div>
         <div className="w-full max-w-xs">
           <Image
@@ -32,10 +32,10 @@ export default function Highlights() {
           />
         </div>
         <div className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 `}>
-          <h3
+          <h4
             className={`${inter.className} mb-4 font-medium`}
-          >{`Inconsistencies in visual hierarchy.`}</h3>
-          <p>{`Various areas of the app can be improved visually by enforcing a consistent line heights and alignment.`}</p>
+          >{`Redesigned checkout flow is now easier and quicker.`}</h4>
+          <p>{`A new progress bar helps easily navigate the checkout flow, and now it's easier than ever to switch between Deliver and Pickup options.`}</p>
         </div>
       </div>
     </section>

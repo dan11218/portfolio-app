@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center bg-[#FDF9EF] px-6 pb-16 pt-64">
+    <section className="flex h-[800px] w-screen flex-col items-center bg-[#edf7dc] px-6 pt-80">
       <div className="flex w-full max-w-6xl flex-col items-center justify-center">
         <Image
           src="/static/freshdirect-redesign/logos/freshdirect-logo.png"
