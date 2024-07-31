@@ -25,8 +25,8 @@ export default function Summary() {
         <ProjectDetails />
       </div>
       <div className="mb-16 flex max-w-4xl flex-row items-center rounded-xl border border-slate-700 bg-white p-8 dark:bg-slate-700">
-        <p className="mr-4">⚠️</p>
-        <p className="italics">
+        <h4 className="mr-4">⚠️</h4>
+        <p>
           {`Note: this page is still under construction. Full project and design process is coming soon! If you have any questions about it, send me a message `}
           <Link
             href={"mailto:danielgraugnard@gmail.com"}
