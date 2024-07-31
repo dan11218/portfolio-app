@@ -1,7 +1,7 @@
 import { inter } from "@/app/fonts";
 import Image from "next/image";
 
-export default function Highlights() {
+export default function PreviousDesigns() {
   return (
     <section className={`flex h-full w-full flex-col py-16`}>
       <div className="flex w-full flex-col items-center justify-center px-8 py-16 md:flex-row ">
@@ -13,7 +13,7 @@ export default function Highlights() {
         </div>
         <div className="w-full max-w-xs">
           <Image
-            src="/static/freshdirect-redesign/mockups/search results.png"
+            src="/static/freshdirect-redesign/deprecated-designs/home screen.png"
             width={500}
             height={500}
             layout="responsive"
@@ -24,7 +24,7 @@ export default function Highlights() {
       <div className="flex w-full flex-col-reverse items-center justify-center px-8 py-16 md:flex-row">
         <div className="w-full max-w-xs md:mr-24">
           <Image
-            src="/static/freshdirect-redesign/mockups/review order.png"
+            src="/static/freshdirect-redesign/deprecated-designs/results screen.png"
             width={500}
             height={500}
             layout="responsive"

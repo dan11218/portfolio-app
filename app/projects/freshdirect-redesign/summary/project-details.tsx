@@ -6,8 +6,20 @@ export default function ProjectDetails() {
       <ul className="mb-4 flex h-full w-full flex-col justify-between  md:flex-row">
         <li className="m-2 w-full text-nowrap">
           <h6 className="mb-1 font-bold">{`Team 👨‍💻`}</h6>
-          <p>{`Daniel Graugnard - UX/UI Designer`}</p>
-          <p>{`Eric Lemaire - UX/UI Designer`}</p>
+          <p>
+            <Link
+              className="underline hover:text-sky-500"
+              href={"https://www.linkedin.com/in/danielgraugnard"}
+            >{`Daniel Graugnard`}</Link>
+            {` - UX/UI Designer`}
+          </p>
+          <p>
+            <Link
+              className="underline hover:text-sky-500"
+              href={"https://www.linkedin.com/in/elemaire"}
+            >{`Eric Lemaire`}</Link>
+            {` - UX/UI Designer`}
+          </p>
         </li>
         <li className="m-2 w-full">
           <h6 className="mb-1 font-bold">{`Timeline ⏰`}</h6>
@@ -15,11 +27,11 @@ export default function ProjectDetails() {
         </li>
         <li className="m-2 w-full">
           <h6 className="mb-1 font-bold">{`Project Type 📱`}</h6>
-          <p>{`Mobile design exercise, coding exercise`}</p>
+          <p>{`Mobile redesign`}</p>
         </li>
         <li className="m-2 w-full">
           <h6 className="mb-1 font-bold">{`Skills 🕺`}</h6>
-          <p>{`Figma, Procreate, React Native, Wireframes & prototyping`}</p>
+          <p>{`Figma, Wireframes & prototyping, React Native`}</p>
         </li>
       </ul>
     </div>

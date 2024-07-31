@@ -23,7 +23,7 @@ export default function FreshDirectSection() {
       </div>
       <div className="flex w-full max-w-2xl flex-col">
         <Image
-          src={`/static/freshdirect-redesign/mockups/search results.png`}
+          src={`/static/freshdirect-redesign/mockups/search results angled.png`}
           width={500}
           height={500}
           layout="responsive"
