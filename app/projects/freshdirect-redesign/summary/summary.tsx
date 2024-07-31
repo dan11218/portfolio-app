@@ -15,7 +15,7 @@ export default function Summary() {
           <h3 className={`${inter.className} mb-4`}>
             {`We redesigned the FreshDirect app to make it`}
             <span className="font-bold text-[#558537] dark:text-[#639B40]">{` easier than ever `}</span>
-            {`to search your favorite items and filter your searches. Checkout is now easier than ever with a redesigned flow.`}
+            {`to search your favorite items and filter your searches. Checkout is now simpler thanks a redesigned flow with the User in mind.`}
           </h3>
         </div>
         <Problem />
