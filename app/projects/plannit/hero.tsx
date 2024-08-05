@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="flex h-fit w-screen flex-col items-center px-6 pb-24 pt-64">
+    <section className="flex h-fit w-screen flex-col items-center px-6 pb-48 pt-64">
       <div className="flex w-full flex-col items-center justify-center">
         <div className="mb-24 flex h-fit w-fit flex-col items-center">
           <h1 className={`${inter.className}`}>

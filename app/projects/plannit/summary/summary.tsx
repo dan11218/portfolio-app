@@ -15,8 +15,8 @@ export default function Summary() {
           className={`font-bold ${inter.className} text-stone-50`}
         >{`Summary`}</h2>
       </div>
-      <div className="flex w-full flex-col items-center">
-        <div className="mb-8 flex w-full max-w-6xl flex-col md:flex-row">
+      <div className="flex w-full flex-col items-center px-8">
+        <div className="mb-16 flex w-full max-w-6xl flex-col justify-between md:flex-row">
           <Problem />
           <Solution />
           <Requirements />

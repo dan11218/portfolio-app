@@ -1,7 +1,7 @@
 export default function Requirements() {
   return (
-    <div className="flex h-full w-full flex-col justify-center p-8">
-      <h4 className="mb-4 font-semibold text-rose-500">Requirements</h4>
+    <div className="mb-8 flex h-full w-full max-w-[350px] flex-col justify-center sm:mb-0">
+      <h4 className="mb-4 font-semibold text-rose-500">{`Requirements`}</h4>
       <ul className="list-disc px-2 text-sm">
         <li>
           <strong>{`Business: `}</strong>

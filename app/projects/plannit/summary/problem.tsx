@@ -1,6 +1,6 @@
 export default function Problem() {
   return (
-    <div className="flex h-full w-full flex-col justify-center p-8">
+    <div className="mb-8 flex h-full w-full max-w-[350px] flex-col justify-center sm:mb-0">
       <h4 className="mb-4 font-semibold text-rose-500">{`Problem`}</h4>
       <p>
         {`It can be `}

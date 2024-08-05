@@ -10,7 +10,7 @@ export default function FinalDesign() {
           className={`font-bold ${inter.className} text-stone-50`}
         >{`Final Designs`}</h2>
       </div>
-      <div className="flex w-full flex-col items-center">
+      <div className="flex w-full flex-col items-center px-8">
         <SignUp />
         <NewEvent />
       </div>
