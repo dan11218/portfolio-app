@@ -24,14 +24,14 @@ export default function Summary() {
         <Highlights />
         <ProjectDetails />
       </div>
-      <div className="mb-16 flex max-w-4xl flex-row items-center rounded-xl border border-slate-700 bg-white p-8 dark:bg-slate-700">
+      <div className="mb-16 flex max-w-4xl flex-row items-center rounded-xl border border-slate-400 bg-white p-8 dark:bg-slate-700">
         <h4 className="mr-4">⚠️</h4>
         <p>
-          {`Note: this page is still under construction. Full project and design process is coming soon! If you have any questions about it, send me a message `}
+          {`Note: this page is still under construction. Full project and design process is coming soon! If you'd like to learn more, send me a message `}
           <Link
             href={"mailto:danielgraugnard@gmail.com"}
             className="underline hover:text-sky-500"
-          >{`here`}</Link>
+          >{`here!`}</Link>
         </p>
       </div>
     </section>
