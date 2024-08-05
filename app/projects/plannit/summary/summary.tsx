@@ -8,12 +8,14 @@ export default function Summary() {
   return (
     <section
       id="summary"
-      className="flex h-fit w-screen flex-col items-center bg-slate-100 px-8 py-24 dark:bg-slate-700"
+      className="flex h-fit w-screen flex-col pb-24 dark:bg-slate-700"
     >
-      <div className="flex w-full flex-col items-center">
+      <div className="mb-16 flex w-fit flex-col justify-center bg-rose-400 p-6 pl-16">
         <h2
-          className={`mb-16 font-semibold ${inter.className}`}
+          className={`font-bold ${inter.className} text-stone-50`}
         >{`Summary`}</h2>
+      </div>
+      <div className="flex w-full flex-col items-center">
         <div className="mb-8 flex w-full max-w-6xl flex-col md:flex-row">
           <Problem />
           <Solution />

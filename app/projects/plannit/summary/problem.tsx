@@ -1,7 +1,7 @@
 export default function Problem() {
   return (
     <div className="flex h-full w-full flex-col justify-center p-8">
-      <h4 className="mb-4 font-semibold text-rose-500">Problem</h4>
+      <h4 className="mb-4 font-semibold text-rose-500">{`Problem`}</h4>
       <p>
         {`It can be `}
         <mark className="bg-yellow-100">

@@ -1,6 +1,6 @@
 export default function BlockQuotes() {
   return (
-    <div className="mb-16 flex w-full flex-col">
+    <div className="mb-16 flex w-full max-w-6xl flex-col">
       <div className="mb-8 flex w-full max-w-4xl flex-col">
         <h3 className="font-semibold text-rose-500">
           {`Understanding the user's needs`}

@@ -12,8 +12,8 @@ export default async function Plannit() {
   return (
     <main className="w-screen flex-col">
       <Hero />
-      <Highlights />
       <Summary />
+      <Highlights />
       <Research />
       <Design />
       <FinalDesign />
