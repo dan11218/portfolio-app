@@ -6,10 +6,7 @@ import { inter } from "@/app/fonts";
 
 export default function Summary() {
   return (
-    <section
-      id="summary"
-      className="flex h-fit w-screen flex-col pb-24 dark:bg-slate-700"
-    >
+    <section id="summary" className="flex h-fit w-screen flex-col pb-24">
       <div className="mb-16 flex w-fit flex-col justify-center bg-rose-400 p-6 pl-16">
         <h2
           className={`font-bold ${inter.className} text-stone-50`}
