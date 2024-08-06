@@ -25,7 +25,7 @@ export default function Hero() {
         <div
           className={`flex h-full w-full max-w-7xl flex-col items-center justify-center md:flex-row`}
         >
-          <div className="flex h-full w-full flex-col px-8">
+          <div className="flex w-full flex-col px-8">
             <Image
               src="/static/plannit/mockups/choose account type.png"
               width={500}

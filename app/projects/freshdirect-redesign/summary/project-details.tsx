@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function ProjectDetails() {
   return (
-    <div className="mb-16 flex max-w-5xl flex-col items-center rounded-xl border border-slate-400 bg-white p-8 dark:bg-slate-700">
-      <ul className="mb-4 flex h-full w-full flex-col justify-between  md:flex-row">
+    <div className="mx-8 mb-16 flex max-w-5xl flex-col items-center rounded-xl border border-slate-400 bg-white p-8 dark:bg-slate-700">
+      <ul className="mb-4 flex h-full w-full flex-col justify-between">
         <li className="m-2 w-full text-nowrap">
-          <h6 className="mb-1 font-bold">{`Team 👨‍💻`}</h6>
+          <h6 className="mb-1 font-bold">{`Team 👯`}</h6>
           <p>
             <Link
               className="underline hover:text-sky-500"
