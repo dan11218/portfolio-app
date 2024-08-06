@@ -5,11 +5,11 @@ export default function GiftShopSection() {
   return (
     <div
       id={`highlight-2`}
-      className="min-w-md mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center justify-center overflow-hidden rounded-3xl border border-slate-400 bg-sky-50 px-4 py-8 md:flex-row dark:text-slate-800"
+      className="mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center rounded-3xl border border-slate-400 bg-sky-50 p-16 md:flex-row dark:text-slate-800"
     >
       <div className={`flex flex-col justify-center`}>
-        <div className="w-full max-w-2xl px-16 py-8">
-          <h1 className={`mb-2 font-[500]`}>{"Usabilla Feedback"}</h1>
+        <div className="w-full max-w-2xl">
+          <h2 className={`mb-2 font-[500]`}>{"Usabilla Feedback"}</h2>
           <p className={`mb-12`}>
             {`A gift shop built in React and integrated with SurveyMonkey's Feedback Button to analyze the customer journey.`}
           </p>

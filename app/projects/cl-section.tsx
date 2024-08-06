@@ -5,11 +5,11 @@ export default function CLSection() {
   return (
     <div
       id={`highlight-3`}
-      className="min-w-md mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center justify-center overflow-hidden rounded-3xl border border-slate-400 bg-slate-50 px-4 py-8 text-slate-800 md:flex-row-reverse"
+      className="mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center rounded-3xl border border-slate-400 bg-slate-50 p-16 md:flex-row-reverse dark:text-slate-800"
     >
       <div className={`flex flex-col justify-center`}>
-        <div className="w-full max-w-2xl px-16 py-8">
-          <h1 className={`mb-2 font-[500]`}>{"Christian Lange Photography"}</h1>
+        <div className="w-full max-w-2xl">
+          <h2 className={`mb-2 font-[500]`}>{"Christian Lange Photography"}</h2>
           <p className={`mb-12`}>
             {`A portfolio website for commercial photographer agency. Built with HTML, CSS, Javascript, and jQuery.`}
           </p>
@@ -21,7 +21,7 @@ export default function CLSection() {
           </Link>
         </div>
       </div>
-      <div className="flex w-full max-w-2xl">
+      <div className="flex w-full max-w-2xl flex-col">
         <Image
           src={`/static/cl-photography/cl mockup.png`}
           width={500}

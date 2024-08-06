@@ -5,11 +5,11 @@ export default function FreshDirectSection() {
   return (
     <div
       id={`highlight-1`}
-      className="min-w-md mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center justify-center overflow-hidden rounded-3xl border border-slate-400 bg-[#FDF9EF] px-4 py-8 md:flex-row-reverse dark:text-slate-800"
+      className="mb-16 flex h-full w-full max-w-[1400px] flex-col-reverse items-center rounded-3xl border border-slate-400 bg-[#FDF9EF] p-16 md:flex-row-reverse dark:text-slate-800"
     >
       <div className={`flex flex-col justify-center`}>
-        <div className="w-full max-w-2xl px-16 py-8">
-          <h1 className={`mb-2 font-[500]`}>{"FreshDirect Redesign"}</h1>
+        <div className="w-full max-w-2xl">
+          <h2 className={`mb-2 font-[500]`}>{"FreshDirect Redesign"}</h2>
           <p className={`mb-12`}>
             {`A fresh way to shop for your groceries with an improved check-out experience.`}
           </p>
