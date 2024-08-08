@@ -91,7 +91,7 @@ export default function Navbar() {
           </Link>
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
-            href="https://drive.google.com/file/d/1gWSmphdd8nQio8K98L-znsjbQM_G9rUe/view?usp=sharing"
+            href="https://drive.google.com/file/d/10P_qMnEda-eSBUx1EwQtEdi0lHtXvRQF/view?usp=sharing"
             target="_blank"
           >
             {`Resumé`}
