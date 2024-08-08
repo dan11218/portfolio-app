@@ -16,7 +16,7 @@ export default function Hero() {
             className={`mb-16 ${inter.className} font-light`}
           >{`Your next event is ready for take-off. 🚀`}</h4>
           <Link
-            href={`https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?node-id=2063-1637&t=LK86Uc5BW0b2NXMm-1`}
+            href={`https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?node-id=2063-1637&t=lyZH3yuTzcejjjyP-1`}
             className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
           >
             {"Open prototype"}
