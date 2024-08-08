@@ -32,7 +32,7 @@ export default function AboutMe() {
           </div>
           <Button
             url={
-              "https://drive.google.com/file/d/1gWSmphdd8nQio8K98L-znsjbQM_G9rUe/view?usp=sharing"
+              "https://drive.google.com/file/d/10P_qMnEda-eSBUx1EwQtEdi0lHtXvRQF/view?usp=sharing"
             }
             text={"Download CV"}
           />
