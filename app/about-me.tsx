@@ -22,12 +22,11 @@ export default function AboutMe() {
           </div>
           <div className="mb-8">
             <p>
-              {`I'm a UI Designer and customer champion based in New York City. My expertise in Front-end technologies and Voice of Customer help me communicate my ideas clearly among various teams, whether they're Users, Customer Success, Engineering, and Product teams. `}
+              {`I'm a Product Designer and customer advocate based in New York City. With expertise in Front-end technologies and Voice of Customer, I excel at clearly communicating ideas across diverse teams, including Users, Customer Success, Engineering, and Product.`}
             </p>
             <br />
             <p>
-              {`When I'm not working, I'm either cooking up a new dish, reading
-              fiction or poetry, gaming/streaming, or trying out new restaurants in NYC with my partner. On my spare time I study game design and contribute to on an indie-horror game I'm developing in Godot. `}
+              {`Outside of work, you'll find me experimenting with new recipes, diving into fiction or poetry, gaming and streaming, or exploring NYC's culinary scene with my partner. In my spare time, I study game design and contribute to the development of an indie-horror game using Godot.`}
             </p>
           </div>
           <Button
