@@ -33,7 +33,7 @@ export default function CaseStudyB() {
             <p>{`No contacts integration.`}</p>
           </li>
           <li className="ml-4">
-            <p>{`Unable to pull up venue details.`}</p>
+            <p>{`Unable to pull up event space details.`}</p>
           </li>
         </ul>
       </div>

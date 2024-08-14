@@ -25,7 +25,7 @@ export default function CaseStudyA() {
         <p>{`Cons:`}</p>
         <ul className={`list-disc`}>
           <li className="ml-4">
-            <p>{`Geared towards Hotels and Restaurant spaces.`}</p>
+            <p>{`Geared towards hotels and conference spaces.`}</p>
           </li>
           <li className="ml-4">
             <p>{`UI feels corporate, as if designed for large enterprises only.`}</p>
