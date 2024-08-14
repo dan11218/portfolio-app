@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { inter } from "./fonts";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Danny Graugnard",
