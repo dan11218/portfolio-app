@@ -4,10 +4,10 @@ import Overview from "./overview";
 
 export default function Page() {
   return (
-    <main className="w-screen flex-col">
+    <div className="w-screen flex-col">
       <Hero />
       <Summary />
       {/* <Overview /> */}
-    </main>
+    </div>
   );
 }

@@ -10,7 +10,7 @@ import Introduction from "./overview/introduction";
 
 export default async function Plannit() {
   return (
-    <main className="w-screen flex-col">
+    <div className="w-screen flex-col">
       <Hero />
       <Introduction />
       <Overview />
@@ -18,6 +18,6 @@ export default async function Plannit() {
       <Research />
       <Design />
       <FinalDesign />
-    </main>
+    </div>
   );
 }

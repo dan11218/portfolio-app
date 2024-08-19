@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "./components/button";
+import Button from "../components/button";
 
 export default function AboutMe() {
   return (
@@ -7,7 +7,7 @@ export default function AboutMe() {
       id={`about-me`}
       className="flex w-screen flex-col items-center bg-inherit px-4"
     >
-      <div className="flex w-full max-w-5xl flex-col items-center justify-center py-16 md:flex-row">
+      <div className="flex w-full max-w-5xl flex-col items-center justify-center py-16 pt-36 md:flex-row">
         <Image
           src={"/static/profiles/profile_bw.png"}
           width={300}

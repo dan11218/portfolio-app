@@ -6,12 +6,12 @@ import Summary from "./summary/summary";
 
 export default function Page() {
   return (
-    <main className="w-screen flex-col items-start justify-start">
+    <div className="w-screen flex-col items-start justify-start">
       <Hero />
       <Summary />
       <Overview />
       <DesignProcess />
       <FinalDesign />
-    </main>
+    </div>
   );
 }

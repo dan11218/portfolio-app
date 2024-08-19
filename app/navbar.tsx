@@ -98,7 +98,7 @@ export default function Navbar() {
           </Link>
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
-            href="/#about-me"
+            href="/about-me"
           >
             {`About me`}
           </Link>
@@ -151,7 +151,7 @@ export default function Navbar() {
         </Link>
         <Link
           className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
-          href="/#about-me"
+          href="/about-me"
         >
           {`About me`}
         </Link>

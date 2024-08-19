@@ -8,7 +8,7 @@ import Summary from "./summary/summary";
 
 export default function Page() {
   return (
-    <main className="w-screen flex-col">
+    <div className="w-screen flex-col">
       <Hero />
       <Summary />
       <Problem />
@@ -16,6 +16,6 @@ export default function Page() {
       <Solution />
       {/* <OurApproach /> */}
       <Highlights />
-    </main>
+    </div>
   );
 }
