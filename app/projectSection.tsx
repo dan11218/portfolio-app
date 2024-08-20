@@ -37,9 +37,8 @@ export default async function ProjectSection() {
           className="flex w-full max-w-[1600px] flex-wrap px-16"
         >
           {data.map((project: any) => (
-            <Link href={project.project_url}>
+            <Link key={project.id} href={project.project_url}>
               <Project
-                key={project.id}
                 title={project.title}
                 description={project.description}
                 skills={project.skills}
