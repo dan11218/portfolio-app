@@ -44,7 +44,6 @@ export default async function ProjectSection() {
                 description={project.description}
                 skills={project.skills}
                 image_url={project.image_url}
-                project_url={project.project_url}
               />
             </Link>
           ))}
