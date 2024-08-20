@@ -14,7 +14,7 @@ export default function PlannitSection() {
             {`Collaborate with your team to organize events, create and manage tasks, and connect with a wide network of clients and vendors to plan the perfect event.`}
           </p>
           <Link
-            href={`/projects/plannit`}
+            href={`/plannit`}
             className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50 dark:bg-stone-900  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
           >
             {"Learn more"}

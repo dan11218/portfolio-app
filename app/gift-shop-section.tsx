@@ -14,7 +14,7 @@ export default function GiftShopSection() {
             {`A gift shop built in React and integrated with SurveyMonkey's Feedback Button to analyze the customer journey.`}
           </p>
           <Link
-            href={`/projects/gift-shop-demo`}
+            href={`/gift-shop-demo`}
             className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50 dark:bg-stone-900  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
           >
             {"Learn more"}
