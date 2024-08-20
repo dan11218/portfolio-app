@@ -1,4 +1,3 @@
-import AboutMe from "./about-me/page";
 import Hero from "./hero";
 import ProjectSection from "./projectSection";
 

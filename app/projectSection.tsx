@@ -7,7 +7,7 @@ import CLSection from "./cl-section";
 
 async function getData() {
   const file = await fs.readFile(
-    process.cwd() + "/app/projects/project_data.json",
+    process.cwd() + "/app/project_data.json",
     "utf8",
   );
   const data = JSON.parse(file);
