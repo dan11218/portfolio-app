@@ -3,7 +3,7 @@ import ProjectDetails from "./projectDetails";
 import Solution from "./solution";
 import Requirements from "./requirements";
 import MyRole from "./my-role";
-import Button from "@/app/components/button";
+import Link from "next/link";
 
 export default function Summary() {
   return (
@@ -16,6 +16,7 @@ export default function Summary() {
         <div className="mb-8 flex w-full flex-col items-center justify-between md:flex-row">
           <div className="mb-8 flex w-fit max-w-[700px] grid-cols-2 grid-rows-2 flex-col gap-8 md:mb-0 md:grid">
             <Problem />
+            <Solution />
             <Requirements />
             <MyRole />
           </div>
@@ -24,13 +25,12 @@ export default function Summary() {
           </div>
         </div>
         <div className="flex w-full flex-col items-center justify-center">
-          <Button
-            url={"https://www.christianlange.com/"}
-            text={"Go to site"}
-            showIcon={true}
-            bgColor={`transition-colors duration-150 bg-red-500 hover:bg-red-800`}
-            textColor={`text-slate-50`}
-          />
+          <Link
+            href={`https://www.christianlange.com/`}
+            className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
+          >
+            {"Visit site"}
+          </Link>
         </div>
       </div>
     </section>

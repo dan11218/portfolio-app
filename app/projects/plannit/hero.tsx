@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { inter } from "../../fonts";
-import Button from "@/app/components/button";
 import Link from "next/link";
 
 export default function Hero() {
