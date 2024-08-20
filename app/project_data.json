@@ -1,6 +1,15 @@
 [
   {
     "id": 0,
+    "title": "Christian Lange Photography",
+    "description": "A portfolio website for commercial photographer agency. Built with HTML, CSS, Javascript, and jQuery.",
+    "skills": "HTML, CSS, Wordpress, jQuery",
+    "image_url": "/static/cl-photography/cl_thumbnail.png",
+    "project_url": "/cl-photography",
+    "prototype_url": "/cl-photography"
+  },
+  {
+    "id": 0,
     "title": "Fashion E-commerce Site",
     "description": "A luxury fashion website designed with Figma's auto-layouts to create a responsive website",
     "skills": "Figma, UI Design, Next JS, Tailwind CSS",

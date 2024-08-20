@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { space_mono, inter } from "./fonts";
 
 export default function Project(props: any) {
@@ -11,16 +10,10 @@ export default function Project(props: any) {
         height={500}
         alt="project thumbnail"
       />
-      <div className="flex h-full w-full flex-col justify-between px-[20px] py-[10px]">
-        <p className={`${space_mono.className} text-sm`}>{props.skills}</p>
-        <h5 className={`${inter.className}`}>{props.title}</h5>
+      <div className="flex w-full flex-col px-[20px] py-[10px]">
+        <p className={`${space_mono.className} mb-4 text-sm`}>{props.skills}</p>
+        <h5 className={`${inter.className} mb-2`}>{props.title}</h5>
         <p>{props.description}</p>
-        <Link
-          href={props.prototype_url}
-          className={`w-fit text-sky-600 underline`}
-        >
-          {`Open prototype`}
-        </Link>
       </div>
     </div>
   );

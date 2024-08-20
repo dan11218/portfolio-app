@@ -4,6 +4,7 @@ import PlannitSection from "./plannit-section";
 import FreshDirectSection from "./freshdirect-redesign-section";
 import GiftShopSection from "./gift-shop-section";
 import CLSection from "./cl-section";
+import Link from "next/link";
 
 async function getData() {
   const file = await fs.readFile(
@@ -23,29 +24,30 @@ export default async function ProjectSection() {
   return (
     <section
       id={`projects`}
-      className="flex w-screen flex-col items-center justify-center bg-inherit px-8 pt-32"
+      className="flex w-screen flex-col bg-inherit pt-32"
     >
       <PlannitSection />
       <FreshDirectSection />
       <GiftShopSection />
-      <CLSection />
-
+      {/* <CLSection /> */}
       <div className="flex w-full flex-col items-center py-16">
         <h1 className="mb-16">Previous work</h1>
         <div
           id={`experience`}
-          className="flex h-full w-full max-w-6xl flex-wrap justify-center"
+          className="flex w-full max-w-[1600px] flex-wrap px-16"
         >
           {data.map((project: any) => (
-            <Project
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              skills={project.skills}
-              image_url={project.image_url}
-              project_url={project.project_url}
-              prototype_url={project.prototype_url}
-            />
+            <Link href={project.project_url}>
+              <Project
+                key={project.id}
+                title={project.title}
+                description={project.description}
+                skills={project.skills}
+                image_url={project.image_url}
+                project_url={project.project_url}
+                prototype_url={project.prototype_url}
+              />
+            </Link>
           ))}
         </div>
       </div>
