@@ -13,6 +13,7 @@ export default function Hero() {
           height={500}
           alt={`spiral graphics`}
           className={`z-30 mb-16`}
+          priority
         />
         <div
           className={`z-30 flex w-fit max-w-5xl flex-col items-center px-8 text-center`}
