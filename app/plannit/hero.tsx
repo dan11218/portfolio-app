@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { inter } from "../../fonts";
+import { inter } from "../fonts";
 import Link from "next/link";
 
 export default function Hero() {
