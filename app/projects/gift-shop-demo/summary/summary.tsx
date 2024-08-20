@@ -3,7 +3,7 @@ import ProjectDetails from "./projectDetails";
 import Solution from "./solution";
 import Goals from "./goals";
 import MyRole from "./my-role";
-import Button from "@/app/components/button";
+import Link from "next/link";
 
 export default function Summary() {
   return (
@@ -25,13 +25,12 @@ export default function Summary() {
           </div>
         </div>
         <div className="flex w-full flex-col items-center justify-center">
-          <Button
-            url={"https://demo-usabilla.netlify.app"}
-            text={"Open prototype"}
-            showIcon={true}
-            bgColor="bg-slate-800 transition-colors duration-150 hover:bg-slate-600"
-            textColor={"text-slate-50 dark:text-white"}
-          />
+          <Link
+            href={`https://demo-usabilla.netlify.app`}
+            className={`w-fit border-2 border-current bg-slate-50 p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50 dark:bg-stone-900  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
+          >
+            {`Open prototype`}
+          </Link>
         </div>
       </div>
     </section>

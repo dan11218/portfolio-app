@@ -2,7 +2,7 @@ import DesignRequirements from "./design-requirements";
 import TechnicalRequirements from "./technical-requirements copy";
 import Handoff from "./handoff";
 import Image from "next/image";
-import Button from "@/app/components/button";
+import Link from "next/link";
 
 export default function DesignProcess() {
   return (
@@ -26,11 +26,12 @@ export default function DesignProcess() {
           />
           <Handoff />
         </div>
-        <Button
-          url={"https://github.com/dan11218/gatsby-e-commerce-demo"}
-          text={"See the code"}
-          showIcon={true}
-        />
+        <Link
+          href={`https://github.com/dan11218/gatsby-e-commerce-demo`}
+          className={`w-fit border-2 border-current bg-slate-50 p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50 dark:bg-stone-900  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
+        >
+          {`See the code`}
+        </Link>
       </div>
     </section>
   );
