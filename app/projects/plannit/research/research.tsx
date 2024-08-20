@@ -14,7 +14,7 @@ export default function Discovery() {
       <div className="flex w-full flex-col px-16">
         <CompetitiveAnalysis />
         <Interviews />
-        <Personas />
+        {/* <Personas /> */}
       </div>
     </section>
   );

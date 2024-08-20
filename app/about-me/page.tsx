@@ -1,41 +1,16 @@
 import Image from "next/image";
-import Button from "../components/button";
+import Introduction from "./introduction";
+import QA from "./q-a";
 
 export default function AboutMe() {
   return (
     <section
       id={`about-me`}
-      className="flex w-screen flex-col items-center bg-inherit px-4"
+      className="flex w-screen flex-col items-center bg-inherit"
     >
-      <div className="flex w-full max-w-5xl flex-col items-center justify-center py-16 pt-36 md:flex-row">
-        <Image
-          src={"/static/profiles/profile_bw.png"}
-          width={300}
-          height={300}
-          alt="profile picture"
-          className={`mb-16 bg-stone-400 shadow-[18px_18px_0px_0px_rgba(0,0,0)] md:mb-0 md:mr-16`}
-        />
-        <div className="flex w-full max-w-md flex-col border-l-2 border-solid border-slate-300 pl-[25px]">
-          <div className={"mb-8 flex w-fit flex-col items-center"}>
-            <h2>{`Hi, I'm Danny 👋`}</h2>
-            <hr className={`my-1 h-1 w-full rounded bg-gradient-to-r`} />
-          </div>
-          <div className="mb-8">
-            <p>
-              {`I'm a Product Designer and customer advocate based in New York City. With expertise in Front-end technologies and VoC (Voice of the Customer), I excel at clearly communicating ideas across diverse teams, including Users, Customer Success, Engineering, and Product.`}
-            </p>
-            <br />
-            <p>
-              {`Outside of work, I like experimenting with new cooking recipes, diving into fiction or poetry, gaming and streaming, or exploring NYC's culinary scene with friends and family.`}
-            </p>
-          </div>
-          <Button
-            url={
-              "https://drive.google.com/file/d/1hOEa3Vjd5V5EuiyKtI5qw5oLD4Ev1zeu/view?usp=sharing"
-            }
-            text={"Download CV"}
-          />
-        </div>
+      <div className="flex w-full flex-col items-center px-16 py-16 pt-36">
+        <Introduction />
+        <QA />
       </div>
     </section>
   );

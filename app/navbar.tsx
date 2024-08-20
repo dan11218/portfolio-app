@@ -85,9 +85,9 @@ export default function Navbar() {
         <div className="invisible flex w-[400px] flex-row justify-between self-stretch md:visible">
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
-            href="/"
+            href="/#projects"
           >
-            {`Work`}
+            {`Projects`}
           </Link>
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
@@ -140,7 +140,7 @@ export default function Navbar() {
           className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
           href="/#projects"
         >
-          {`Work`}
+          {`Projects`}
         </Link>
         <Link
           className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
