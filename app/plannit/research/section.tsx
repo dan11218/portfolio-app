@@ -17,8 +17,8 @@ export default function Section() {
         <hr className="my-24 w-full max-w-3xl" />
         <Interviews />
         <hr className="my-24 w-full max-w-3xl" />
-        <AffinityMap />
-        <hr className="my-24 w-full max-w-3xl" />
+        {/* <AffinityMap />
+        <hr className="my-24 w-full max-w-3xl" /> */}
         <Personas />
       </div>
     </section>
