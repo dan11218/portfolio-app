@@ -9,7 +9,7 @@ export default function CaseStudyB() {
           className={`mb-8 italic`}
         >{`Users can sign-up and search for public events.`}</p>
       </div>
-      <div className={`mb-8`}>
+      <div className={`mb-4`}>
         <p>{`Pros:`}</p>
         <ul className={`list-disc`}>
           <li className="ml-4">

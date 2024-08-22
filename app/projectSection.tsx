@@ -22,10 +22,7 @@ async function getData() {
 export default async function ProjectSection() {
   const data = await getData();
   return (
-    <section
-      id={`projects`}
-      className="flex w-screen flex-col bg-inherit pt-32"
-    >
+    <section id={`projects`} className="flex w-screen flex-col">
       <PlannitSection />
       <FreshDirectSection />
       <GiftShopSection />
@@ -34,7 +31,7 @@ export default async function ProjectSection() {
         <h1 className="mb-16">Previous work</h1>
         <div
           id={`experience`}
-          className="flex w-full max-w-[1600px] flex-wrap px-16"
+          className="flex w-full max-w-[1600px] flex-wrap items-center px-16"
         >
           {data.map((project: any) => (
             <Link key={project.id} href={project.project_url}>

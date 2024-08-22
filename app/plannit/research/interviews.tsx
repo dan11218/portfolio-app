@@ -1,6 +1,6 @@
 export default function Interviews() {
   return (
-    <div className="mb-16 flex w-full flex-col items-center">
+    <div className="mb-16 flex w-full flex-col items-center px-8">
       <div className="mb-8 flex w-full max-w-2xl flex-col">
         <h3 className="mb-4 font-semibold text-rose-500">{`Interviews`}</h3>
         <p>
