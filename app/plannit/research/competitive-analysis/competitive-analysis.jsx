@@ -16,7 +16,7 @@ export const CompetitiveAnalysis = () => {
         <CaseStudyB />
         <CaseStudyC />
       </div>
-      <div className="mb-16 flex w-full max-w-2xl flex-col">
+      <div className="flex w-full max-w-2xl flex-col">
         <h3 className="mb-4 font-bold text-rose-500">{`Results`}</h3>
         <ul className={`list-disc`}>
           <li>
