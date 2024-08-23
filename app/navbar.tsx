@@ -90,7 +90,7 @@ export default function Navbar() {
           </Link>
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
-            href="https://drive.google.com/file/d/1hOEa3Vjd5V5EuiyKtI5qw5oLD4Ev1zeu/view?usp=sharing"
+            href="https://drive.google.com/file/d/1n_UHMNA5-zJSNuh6jODX9YFGYJYLStsa/view?usp=sharing"
             target="_blank"
           >
             {`Resumé`}
@@ -143,7 +143,7 @@ export default function Navbar() {
         </Link>
         <Link
           className="flex h-full w-full flex-col items-center justify-center py-6 text-center transition duration-300 ease-in-out hover:bg-slate-800 hover:text-slate-50"
-          href="https://drive.google.com/file/d/1hOEa3Vjd5V5EuiyKtI5qw5oLD4Ev1zeu/view?usp=sharing"
+          href="https://drive.google.com/file/d/1n_UHMNA5-zJSNuh6jODX9YFGYJYLStsa/view?usp=sharing"
           target="_blank"
         >
           {`Resumé`}
