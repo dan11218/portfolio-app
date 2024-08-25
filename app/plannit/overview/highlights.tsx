@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Highlights() {
   return (
-    <section id="highlights" className={`flex h-full w-full flex-col py-24`}>
-      <div className="flex flex-col items-center">
-        <div className="mb-16 flex w-full max-w-5xl flex-col items-center justify-between p-8 md:mb-0 md:flex-row ">
+    <section id="highlights" className={`flex h-full w-full flex-col`}>
+      <div className="flex flex-col items-center py-24">
+        <div className="mb-16 flex w-full max-w-5xl flex-col items-center justify-between md:mb-0 md:flex-row ">
           <div
             className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 md:mr-16`}
           >
@@ -25,7 +25,7 @@ export default function Highlights() {
             />
           </div>
         </div>
-        <div className="flex w-full max-w-5xl flex-col-reverse items-center justify-between p-8 md:flex-row">
+        <div className="flex w-full max-w-5xl flex-col-reverse items-center justify-between md:flex-row">
           <div className="w-full max-w-[300px] md:mr-16">
             <Image
               src="/static/plannit/mockups/venue page.png"

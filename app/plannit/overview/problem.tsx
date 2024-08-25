@@ -2,13 +2,16 @@ import { inter } from "@/app/fonts";
 
 export default function Problem() {
   return (
-    <section className="flex w-full flex-col dark:bg-stone-800 dark:bg-none">
+    <section
+      id="problem"
+      className="flex w-full flex-col dark:bg-stone-800 dark:bg-none"
+    >
       <div className="flex w-fit flex-col justify-center bg-rose-400 p-6 pl-16">
         <h2
           className={`font-bold ${inter.className} text-stone-50`}
         >{`Problem`}</h2>
       </div>
-      <div className={`flex w-full flex-col items-center`}>
+      <div className={`flex w-full flex-col items-center px-8`}>
         <div className={`flex w-full max-w-4xl flex-col items-center py-24`}>
           <h4 className={`${inter.className}`}>
             {`Planning an event and finding catering, photography, or other services can be `}
@@ -59,14 +62,14 @@ export default function Problem() {
             {`2. Freelancers who provide services for private events lack online presence and a direct way to work with their clients.`}
           </p>
         </div>
-        <div
-          className={`relative flex w-full max-w-4xl flex-col items-center py-24`}
-        >
-          <h3 className={`${inter.className}`}>
-            {`How can we streamline the planning process and connect planners with vendors `}
-            <span className="text-rose-500">{`under one platform?`}</span>
-          </h3>
-        </div>
+      </div>
+      <div
+        className={`relative mb-16 flex w-full flex-col items-center justify-center bg-stone-700 px-8 py-24  text-slate-50`}
+      >
+        <h3 className={`${inter.className} max-w-4xl font-medium `}>
+          {`How can we streamline the planning process and connect planners with vendors `}
+          <span className="text-rose-400">{`under one platform?`}</span>
+        </h3>
       </div>
     </section>
   );
