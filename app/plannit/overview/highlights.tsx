@@ -3,23 +3,18 @@ import Image from "next/image";
 
 export default function Highlights() {
   return (
-    <section className={`flex h-full w-full flex-col pb-24`}>
-      <div className="mb-16 flex w-fit flex-col justify-center bg-rose-400 p-6 pl-16">
-        <h2
-          className={`font-bold ${inter.className} text-stone-50`}
-        >{`Key features`}</h2>
-      </div>
+    <section id="highlights" className={`flex h-full w-full flex-col pb-16`}>
       <div className="flex flex-col items-center">
-        <div className="flex w-full max-w-6xl flex-col items-center justify-between px-8 py-16 md:flex-row ">
+        <div className="mb-16 flex w-full max-w-5xl flex-col items-center justify-between p-8 md:mb-0 md:flex-row ">
           <div
-            className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 md:mr-24`}
+            className={`mb-16 flex w-full max-w-xl flex-col md:mb-0 md:mr-16`}
           >
             <h3
               className={`${inter.className} mb-4 font-medium`}
             >{`Ready for launch.`}</h3>
             <p>{`The Dashboard shows you all of your events for the day, and will let you know if you have any tasks due before the event. `}</p>
           </div>
-          <div className="w-full max-w-xs">
+          <div className="w-full max-w-[300px]">
             <Image
               src="/static/plannit/mockups/home - events.png"
               width={500}
@@ -29,8 +24,8 @@ export default function Highlights() {
             />
           </div>
         </div>
-        <div className="flex w-full max-w-6xl flex-col-reverse items-center justify-between px-8 py-16 md:flex-row">
-          <div className="w-full max-w-xs md:mr-24">
+        <div className="flex w-full max-w-5xl flex-col-reverse items-center justify-between p-8 md:flex-row">
+          <div className="w-full max-w-[300px] md:mr-16">
             <Image
               src="/static/plannit/mockups/venue page.png"
               width={500}

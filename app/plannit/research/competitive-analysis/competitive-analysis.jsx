@@ -8,7 +8,7 @@ export const CompetitiveAnalysis = () => {
       <div className="mb-16 flex w-full max-w-2xl flex-col">
         <h3 className="mb-4 font-bold text-rose-500">{`Competitive Analysis`}</h3>
         <p>
-          {`To better understand the landscape of event planning apps,I conducted a competitive analysis into other Event apps. This process involved identifying and evaluating existing solutions to find strengths and weaknesses that could inform my own app development. Here are some similar apps and a breakdown of their features:`}
+          {`To better understand the landscape of event planning apps, I conducted a competitive analysis into other Event apps. This process involved identifying and evaluating existing solutions to find strengths and weaknesses that could inform my own app development. Here are some similar apps and a breakdown of their features:`}
         </p>
       </div>
       <div className={`mb-16 flex w-full flex-col md:flex-row`}>
