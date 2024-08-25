@@ -1,5 +1,6 @@
 import { inter } from "@/app/fonts";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Highlights() {
   return (
@@ -40,6 +41,14 @@ export default function Highlights() {
             >{`Explore a vast marketplace of Spaces.`}</h3>
             <p>{`Use Plannit to explore a wide network of Spaces ready to host your event. Need an outdoor space? Want to bring your own catering? We'll filter venues to match your exact needs.`}</p>
           </div>
+        </div>
+        <div className="flex w-full flex-col-reverse items-center justify-center p-8 md:flex-row">
+          <Link
+            href={`https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?node-id=0-1&t=XoKPzPKgY1GCa0G6-1`}
+            className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
+          >
+            {"Open prototype"}
+          </Link>
         </div>
       </div>
     </section>
