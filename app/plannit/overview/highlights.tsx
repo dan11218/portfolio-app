@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Highlights() {
   return (
-    <section id="highlights" className={`flex h-full w-full flex-col pb-16`}>
+    <section id="highlights" className={`flex h-full w-full flex-col py-24`}>
       <div className="flex flex-col items-center">
         <div className="mb-16 flex w-full max-w-5xl flex-col items-center justify-between p-8 md:mb-0 md:flex-row ">
           <div

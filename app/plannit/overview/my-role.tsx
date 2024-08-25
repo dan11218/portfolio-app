@@ -1,6 +1,6 @@
 export default function MyRole() {
   return (
-    <div className="flex max-w-2xl flex-col">
+    <div className="mb-16 mr-0 flex max-w-2xl flex-col lg:mb-0 lg:mr-8">
       <h4 className="mb-3 font-bold text-rose-500">{`My role`}</h4>
       <p>
         {`As the Lead UX Designer and Researcher, I conducted user interviews, synthesis sessions, and brainstorming sessions to refine ideas.
