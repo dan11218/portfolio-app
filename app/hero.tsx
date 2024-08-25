@@ -7,6 +7,15 @@ export default function Hero() {
       <div
         className={`flex h-full w-full max-w-7xl flex-col items-center justify-center pb-24 pt-24`}
       >
+        <div
+          className={`z-30 flex w-fit max-w-5xl flex-col items-center px-8 text-center`}
+        >
+          <h2
+            className={`dar:bg-stone-700 mb-12 bg-slate-50 text-3xl md:text-4xl dark:bg-stone-900`}
+          >
+            {`Hi there! I'm...`}
+          </h2>
+        </div>
         <Image
           src={`/static/graphics/Cube_Name.png`}
           width={500}
