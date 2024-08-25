@@ -12,7 +12,7 @@ export default function Problem() {
         >{`Problem`}</h2>
       </div>
       <div className={`flex w-full flex-col items-center px-8`}>
-        <div className={`flex w-full max-w-4xl flex-col items-center py-24`}>
+        <div className={`flex w-full max-w-4xl flex-col items-center py-16`}>
           <h4 className={`${inter.className}`}>
             {`Planning an event and finding catering, photography, or other services can be `}
             <span className="text-rose-500">{`stressful and overwhelming.`}</span>
@@ -21,7 +21,7 @@ export default function Problem() {
             {` to collaborate and execute successful events.`}
           </h4>
         </div>
-        <div className="mb-8 flex w-full max-w-3xl flex-col justify-center">
+        <div className="flex w-full max-w-3xl flex-col justify-center py-16">
           <h5 className="mb-4 font-medium">{`What is the current flow when planning an event?`}</h5>
           <p>
             {`1. Gathering details for the event, and answering questions such as: `}
@@ -46,13 +46,13 @@ export default function Problem() {
             {`, are needed and require additional searching.`}
           </p>
         </div>
-        <div className={`flex w-full max-w-4xl flex-col items-center py-24`}>
+        <div className={`flex w-full max-w-4xl flex-col items-center py-16`}>
           <h4 className={`${inter.className}`}>
             {`Many event apps are useful in helping planners stay organized, but few, if not any, offer an easy way to`}
             <span className="text-rose-500">{` find the perfect venues, and connect with other services and professionals.`}</span>
           </h4>
         </div>
-        <div className="mb-8 flex w-full max-w-3xl flex-col justify-center">
+        <div className="mb-8 flex w-full max-w-3xl flex-col justify-center py-24">
           <h5 className="mb-4 font-medium">{`As a result...`}</h5>
           <p>
             {`1. Planners often feel overwhelmed by the process due to juggling different work flows and apps to secure the venue, catering, staff, and guest management.`}
@@ -64,9 +64,9 @@ export default function Problem() {
         </div>
       </div>
       <div
-        className={`relative mb-16 flex w-full flex-col items-center justify-center bg-stone-700 px-8 py-24  text-slate-50`}
+        className={`relative mb-16 flex w-full flex-col items-center justify-center bg-stone-800 px-8 py-36  text-slate-50`}
       >
-        <h3 className={`${inter.className} max-w-4xl font-medium `}>
+        <h3 className={`${inter.className} max-w-4xl font-medium`}>
           {`How can we streamline the planning process and connect planners with vendors `}
           <span className="text-rose-400">{`under one platform?`}</span>
         </h3>
