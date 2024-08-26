@@ -73,7 +73,7 @@ export default function Problem() {
         </div>
       </div>
       <div
-        className={`relative mb-16 flex w-full flex-col items-center justify-center bg-stone-800 px-8 py-24  text-slate-50`}
+        className={`relative my-16 flex w-full flex-col items-center justify-center bg-stone-800 px-8 py-24  text-slate-50`}
       >
         <h3 className={`max-w-4xl font-medium`}>
           {`How can we streamline the planning process and connect planners with vendors `}
