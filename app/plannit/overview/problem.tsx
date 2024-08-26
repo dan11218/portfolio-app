@@ -7,7 +7,7 @@ export default function Problem() {
       id="problem"
       className="flex w-full flex-col dark:bg-stone-800 dark:bg-none"
     >
-      <div className="flex w-fit flex-col justify-center bg-rose-400 p-6 pl-16">
+      <div className="flex w-fit flex-col justify-center bg-rose-700 p-6 pl-16">
         <h2
           className={`font-bold ${inter.className} text-stone-50`}
         >{`Problem`}</h2>

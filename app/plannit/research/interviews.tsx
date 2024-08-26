@@ -10,21 +10,18 @@ export default function Interviews() {
       <div
         className={`flex w-full max-w-2xl flex-col italic text-slate-700 dark:text-white`}
       >
-        <blockquote className="mb-8">
+        <ul className="list-disc">
           <li>
             {`"I have a network of vendors I work with that I refer to my clients, and they know the event spaces I work with inside-out. I'd love to keep a list of vendors to choose from and assign to events."`}
           </li>
-        </blockquote>
-        <blockquote className="mb-8">
+
           <li>
             {`"It's difficult to keep track of various tasks for each of my events."`}
           </li>
-        </blockquote>
-        <blockquote className="mb-8">
           <li>
             {`"I need a way to view all my upcoming events with details at a quick glance. Right now, we use a giant calendar with post-it notes on our wall!"`}
           </li>
-        </blockquote>
+        </ul>
       </div>
     </div>
   );
