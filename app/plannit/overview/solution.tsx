@@ -9,10 +9,8 @@ export default function Solution() {
       id="solution"
       className="flex w-full flex-col dark:bg-stone-800 dark:bg-none"
     >
-      <div className="flex w-fit flex-col justify-center bg-rose-700 p-6 pl-16">
-        <h2
-          className={`font-bold ${inter.className} text-stone-50`}
-        >{`Solution`}</h2>
+      <div className="flex w-fit flex-col justify-center border-b-8 border-rose-400 pb-2 pl-16">
+        <h2 className={`font-bold ${inter.className}`}>{`Solution`}</h2>
       </div>
       <div className={`flex w-full flex-col items-center px-8`}>
         <div className={`flex w-full max-w-4xl flex-col items-center py-24`}>
