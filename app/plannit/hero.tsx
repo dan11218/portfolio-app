@@ -12,10 +12,10 @@ export default function Hero() {
         <div className="mb-24 flex h-fit w-fit flex-col items-center">
           <h1 className={`${inter.className}`}>
             {`Welcome to `}
-            <span className="font-bold text-rose-400">{`Plannit`}</span>
+            <span className="font-bold text-rose-500">{`Plannit`}</span>
           </h1>
           <h4
-            className={`mb-16 ${inter.className} font-light`}
+            className={`mb-16 ${inter.className}`}
           >{`Your next event is ready for take-off. 🚀`}</h4>
           <Link
             href={`https://www.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?node-id=0-1&t=XoKPzPKgY1GCa0G6-1`}

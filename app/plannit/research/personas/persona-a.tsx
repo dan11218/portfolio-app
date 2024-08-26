@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PersonaA() {
   return (
-    <div className="mb-8 flex w-full flex-col bg-emerald-600 text-slate-50">
+    <div className="mb-8 flex w-full flex-col bg-emerald-100">
       <div className="flex flex-row">
         <div className="flex w-full flex-col px-8 py-24">
           <div className="mb-8 flex flex-col">
