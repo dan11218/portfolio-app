@@ -16,15 +16,10 @@ export const CompetitiveAnalysis = () => {
         <CaseStudyB />
         <CaseStudyC />
       </div>
-      <div className="flex w-full max-w-2xl flex-col">
-        <h3 className="mb-4 font-bold text-rose-500">{`Results`}</h3>
-        <ul className={`list-disc`}>
-          <li>
-            <p>
-              {`Solutions like Tripleseat and Eventzilla possess tools that allow the event owner to analyze sales reports and generate BEOs (Banquet Event Orders) needed to stay organized, but they are catered towards hotels, and corporate conference spaces with higher tiered pricing.`}
-            </p>
-          </li>
-        </ul>
+      <div className="flex w-full max-w-5xl flex-col rounded-2xl border-2 border-stone-200 bg-white px-8 py-16 md:px-16">
+        <h4>
+          {`Solutions like Tripleseat and Eventzilla possess tools that allow the event owner to analyze sales reports and generate BEOs (Banquet Event Orders) needed to stay organized, but they are catered towards hotels, and corporate conference spaces with higher tiered pricing.`}
+        </h4>
       </div>
     </div>
   );
