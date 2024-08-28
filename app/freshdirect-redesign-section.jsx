@@ -5,9 +5,9 @@ export default function FreshDirectSection() {
   return (
     <div
       id={`highlight-1`}
-      className="flex h-full w-full justify-center bg-[#49662e] px-8 py-16 text-slate-50"
+      className="flex w-full flex-col items-center px-8 py-24"
     >
-      <div className="flex w-full max-w-6xl flex-col-reverse items-center md:flex-row">
+      <div className="flex w-full max-w-6xl flex-col-reverse items-center md:mr-24 md:flex-row-reverse">
         <div className={`flex flex-col justify-center`}>
           <div className="w-full max-w-2xl">
             <h2 className={`mb-2 font-[500]`}>{"FreshDirect Redesign"}</h2>
@@ -16,7 +16,7 @@ export default function FreshDirectSection() {
             </p>
             <Link
               href={`/freshdirect-redesign`}
-              className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-100 hover:bg-slate-100 hover:text-[#49662e]`}
+              className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-100 hover:bg-[#49662e] hover:text-slate-50`}
             >
               {"Learn more"}
             </Link>

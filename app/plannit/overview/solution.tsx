@@ -5,10 +5,7 @@ import MyRole from "./my-role";
 
 export default function Solution() {
   return (
-    <section
-      id="solution"
-      className="flex w-full flex-col dark:bg-stone-800 dark:bg-none"
-    >
+    <section id="solution" className="flex w-full flex-col">
       <div className="flex w-fit flex-col justify-center border-b-8 border-rose-400 pb-2 pl-16">
         <h2 className={`font-bold ${inter.className}`}>{`Solution`}</h2>
       </div>

@@ -5,9 +5,9 @@ export default function GiftShopSection() {
   return (
     <div
       id={`highlight-2`}
-      className="flex h-full w-full justify-center bg-cyan-600 px-8 py-16 text-slate-50"
+      className="flex w-full flex-col items-center px-8 py-24"
     >
-      <div className="flex w-full max-w-6xl flex-col-reverse items-center md:flex-row">
+      <div className="flex w-full max-w-6xl flex-col-reverse items-center md:ml-24 md:flex-row">
         <div className={`flex flex-col justify-center`}>
           <div className="w-full max-w-2xl">
             <h2 className={`mb-2 font-[500]`}>{"Usabilla Feedback"}</h2>
@@ -16,7 +16,7 @@ export default function GiftShopSection() {
             </p>
             <Link
               href={`/gift-shop-demo`}
-              className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-100 hover:bg-slate-100 hover:text-cyan-600`}
+              className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-100 hover:bg-cyan-600 hover:text-slate-50`}
             >
               {"Learn more"}
             </Link>

@@ -3,10 +3,7 @@ import Image from "next/image";
 
 export default function Problem() {
   return (
-    <section
-      id="problem"
-      className="flex w-full flex-col dark:bg-stone-800 dark:bg-none"
-    >
+    <section id="problem" className="flex w-full flex-col">
       <div className="flex w-fit flex-col justify-center border-b-8 border-rose-400 pb-2 pl-16">
         <h2 className={`font-bold ${inter.className}`}>{`Problem`}</h2>
       </div>

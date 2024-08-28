@@ -16,7 +16,7 @@ export const CompetitiveAnalysis = () => {
         <CaseStudyB />
         <CaseStudyC />
       </div>
-      <div className="flex w-full max-w-5xl flex-col rounded-2xl border-2 border-stone-200 bg-white px-8 py-16 md:px-16">
+      <div className="flex w-full max-w-5xl flex-col rounded-2xl border-2 border-stone-200 bg-white px-8 py-16 text-stone-800 md:px-16">
         <h4>
           {`Solutions like Tripleseat and Eventzilla possess tools that allow the event owner to analyze sales reports and generate BEOs (Banquet Event Orders) needed to stay organized, but they are catered towards hotels, and corporate conference spaces with higher tiered pricing.`}
         </h4>

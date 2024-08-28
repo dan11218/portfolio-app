@@ -1,21 +1,11 @@
 import Hero from "./hero";
-import Highlights from "./highlights";
-import OurApproach from "./our-approach";
-import PreviousDesigns from "./previous-designs";
-import Problem from "./problem";
-import Solution from "./solution";
-import Summary from "./summary/summary";
+import Overview from "./overview/section";
 
 export default function Page() {
   return (
     <div className="w-screen flex-col">
       <Hero />
-      <Summary />
-      <Problem />
-      <PreviousDesigns />
-      <Solution />
-      {/* <OurApproach /> */}
-      <Highlights />
+      <Overview />
     </div>
   );
 }

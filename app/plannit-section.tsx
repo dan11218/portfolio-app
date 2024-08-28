@@ -5,9 +5,9 @@ export default function PlannitSection() {
   return (
     <div
       id={`highlight-1`}
-      className="flex h-full w-full justify-center bg-gradient-to-l from-rose-200 to-orange-200 px-8 py-16 dark:text-slate-800"
+      className="flex w-full flex-col items-center px-8 py-24"
     >
-      <div className="flex w-full max-w-6xl flex-col-reverse items-center md:flex-row">
+      <div className="flex w-full max-w-6xl flex-col-reverse items-center md:ml-24 md:flex-row">
         <div className={`flex flex-col`}>
           <div className="w-full max-w-2xl">
             <h2 className={`mb-2 font-[500]`}>{"Plannit"}</h2>
@@ -16,7 +16,7 @@ export default function PlannitSection() {
             </p>
             <Link
               href={`/plannit`}
-              className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-900 hover:bg-slate-900 hover:text-slate-50 dark:bg-stone-900  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
+              className={`w-fit border-2 border-current p-3 transition-colors duration-150 hover:border-slate-100 hover:bg-rose-500 hover:text-slate-50 dark:bg-stone-900  dark:text-stone-50 dark:hover:bg-stone-50 dark:hover:text-stone-900`}
             >
               {"Learn more"}
             </Link>
