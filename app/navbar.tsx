@@ -34,6 +34,9 @@ export default function Navbar() {
       // when scrolling up, show the navbar
       setShow(true);
     }
+    if (position === 0) {
+      setShow(true);
+    }
     setScrollPosition(window.scrollY);
   };
 
