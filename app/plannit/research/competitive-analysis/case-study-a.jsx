@@ -1,11 +1,11 @@
 export default function CaseStudyA() {
   return (
     <div
-      className={`mb-8 flex w-full max-w-md flex-col border border-slate-300 bg-slate-100 px-4 py-8 md:mb-0 md:mr-8 dark:bg-stone-700`}
+      className={`mb-8 flex w-full max-w-[350px] flex-col border border-slate-300 bg-white px-4 py-8 md:mb-0 md:mr-8 dark:bg-stone-700`}
     >
       <div className="mb-4">
-        <h4 className={`font-semibold`}>{`Tripleseat`}</h4>
-        <p className={`mb-8 italic`}>{`Event sales management software.`}</p>
+        <h4>{`Tripleseat`}</h4>
+        <p className={`italic`}>{`Event sales management software.`}</p>
       </div>
       <div className={`mb-8`}>
         <p>{`Pros:`}</p>

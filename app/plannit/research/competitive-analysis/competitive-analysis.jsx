@@ -16,10 +16,23 @@ export const CompetitiveAnalysis = () => {
         <CaseStudyB />
         <CaseStudyC />
       </div>
-      <div className="flex w-full max-w-5xl flex-col rounded-2xl border-2 border-stone-200 bg-white px-8 py-16 text-stone-800 md:px-16">
-        <h4>
-          {`Solutions like Tripleseat and Eventzilla possess tools that allow the event owner to analyze sales reports and generate BEOs (Banquet Event Orders) needed to stay organized, but they are catered towards hotels, and corporate conference spaces with higher tiered pricing.`}
-        </h4>
+      <div className="mb-16 flex w-full max-w-5xl flex-col border-2 border-stone-200 bg-white px-8 py-16 text-stone-800 md:px-16">
+        <h5>
+          {`Solutions like Tripleseat and Eventzilla possess tools that allow the event owner to `}
+          <span className="font-medium text-sky-600">{` analyze sales reports and generate BEOs (Banquet Event Orders)`}</span>
+          {` needed to stay organized, but they are catered towards hotels, and corporate conference spaces with `}
+          <span className="font-medium text-rose-600">{`higher tiered pricing`}</span>
+          .
+        </h5>
+      </div>
+      <div className="flex w-full max-w-5xl flex-col border-2 border-stone-200 bg-white px-8 py-16 text-stone-800 md:px-16">
+        <h5>
+          {`Apps like Eventbrite `}
+          <span className="font-medium text-sky-600">{`make it easy for anyone to sign up`}</span>
+          {` and start organizing their events. But they `}
+          <span className="font-medium text-rose-600">{`lack the ability to add event space details and vendor information`}</span>
+          {`. Users are left having to use other third-party tools.`}.
+        </h5>
       </div>
     </div>
   );

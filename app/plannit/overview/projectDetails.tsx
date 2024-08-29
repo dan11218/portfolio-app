@@ -4,7 +4,7 @@ export default function ProjectDetails() {
       id="project-details"
       className="flex w-full flex-col items-center justify-center py-8"
     >
-      <div className="mb-16 flex h-fit w-full max-w-3xl flex-col items-center border border-slate-700 bg-slate-50 p-8 shadow-[18px_18px_0px_0px_rgba(0,0,0)] dark:bg-slate-700">
+      <div className="mb-16 flex h-fit w-full max-w-3xl flex-col items-center border border-slate-700 bg-white p-8 shadow-[18px_18px_0px_0px_rgba(0,0,0)] dark:bg-slate-700">
         <ul className="flex w-full flex-col md:flex-row">
           <li className="m-2 w-full">
             <h6 className="mb-1 font-bold">{`Team 👨‍💻`}</h6>
