@@ -43,7 +43,7 @@ export default function Problem() {
           </p>
         </div>
         <div
-          className={`flex w-full max-w-5xl flex-col items-center rounded-2xl border-2 border-stone-200 bg-white px-8 py-16 text-slate-800 md:px-16`}
+          className={`flex w-full max-w-5xl flex-col items-center border-2 border-stone-200 bg-white px-8 py-16 text-slate-800 md:px-16`}
         >
           <h4>
             {`Many event apps are useful in helping planners stay organized, but few, if not any, offer an easy way to`}
