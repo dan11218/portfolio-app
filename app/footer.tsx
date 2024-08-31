@@ -40,7 +40,7 @@ export default function Footer() {
         </ul>
       </div>
       <p className="text-xs text-gray-500 sm:text-center dark:text-gray-400">
-        {`This portfolio was coded ❤️ and ☕️. See the code `}
+        {`This portfolio was coded with ❤️ and ☕️. See the code `}
         <Link
           className="underline"
           href="https://github.com/dan11218/portfolio-app"

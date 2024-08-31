@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Introduction from "./introduction";
 import QA from "./q-a";
+import MyJourney from "./my-journey";
 
 export default function AboutMe() {
   return (
@@ -8,8 +8,9 @@ export default function AboutMe() {
       id={`about-me`}
       className="flex w-screen flex-col items-center bg-inherit"
     >
-      <div className="flex w-full flex-col items-center px-16 py-16 pt-36">
+      <div className="flex w-full flex-col items-center px-16 pt-36">
         <Introduction />
+        <MyJourney />
         <QA />
       </div>
     </section>
