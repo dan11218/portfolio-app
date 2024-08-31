@@ -6,10 +6,6 @@ export default function QA() {
       <div className={`flex w-full max-w-3xl flex-col py-8`}>
         <h2 className={`mb-8`}>{`FAQs 🎤`}</h2>
         <div className="mb-16 flex flex-col">
-          <h3 className="font-medium">{`I want to work for a company that...`}</h3>
-          <p>{`Values a teammate's professional growth, and communicates their mission, goals, and strategies with the team.`}</p>
-        </div>
-        <div className="mb-16 flex flex-col">
           <h3 className="font-medium">{`What are you learning now?`}</h3>
           <p>{`Tech stuff: animations, state management, 3D design, and game design. Fun stuff: pasta-making, Omakase (sushi making), streaming.`}</p>
         </div>
