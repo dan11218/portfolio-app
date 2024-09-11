@@ -4,7 +4,7 @@ import Solution from "./solution/solution";
 
 export default function Section() {
   return (
-    <section id="summary" className="flex w-screen flex-col">
+    <section id="summary" className="flex w-full flex-col">
       <div className="flex w-full flex-col items-center">
         <Introduction />
         <Problem />

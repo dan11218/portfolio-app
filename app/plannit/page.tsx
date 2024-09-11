@@ -9,7 +9,7 @@ import Introduction from "./overview/introduction";
 
 export default async function Plannit() {
   return (
-    <div className="w-screen flex-col bg-[#FCFDFC] dark:bg-stone-800">
+    <div className="bg-floral-white w-screen flex-col dark:bg-stone-800">
       <Hero />
       <Introduction />
       <Overview />

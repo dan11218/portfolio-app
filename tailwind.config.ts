@@ -10,6 +10,12 @@ const config: Config = {
     extend: {
       colors: {
         "royal-blue": "#3c6db2",
+        ivory: "#FCFDFC",
+        snow: "#FFFAFA",
+        seashell: "#FFF5EE",
+        "floral-white": "#FFFAF0",
+        "ghost-white": "#F8F8FF",
+        "alice-blue": "#F0F8FF",
       },
       boxShadow: {
         solid: "border-2 border-solid border-blue-400",

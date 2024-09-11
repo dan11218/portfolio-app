@@ -4,10 +4,7 @@ import MyJourney from "./my-journey";
 
 export default function AboutMe() {
   return (
-    <section
-      id={`about-me`}
-      className="flex w-screen flex-col items-center bg-inherit"
-    >
+    <section id={`about-me`} className="flex w-screen flex-col">
       <div className="flex w-full flex-col items-center px-16 pt-36">
         <Introduction />
         <MyJourney />
