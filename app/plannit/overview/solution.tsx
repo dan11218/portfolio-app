@@ -15,9 +15,9 @@ export default function Solution() {
             {`We designed `} <span className="text-rose-500">{`Plannit`}</span>
             {`, a mobile platform that allows event planners to stay up-to-date on upcoming events, keep track of contacts, such as clients, vendors, and venues, and manage tasks for each event.`}
           </h3>
+          <Highlights />
           <ProjectDetails />
           <MyRole />
-          <Highlights />
         </div>
       </div>
     </section>
