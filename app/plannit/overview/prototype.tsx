@@ -8,7 +8,7 @@ export default function Prototype() {
       </div>
       <div className="flex w-full flex-col items-center justify-center px-16">
         <iframe
-          className="h-[850px] w-full"
+          className="h-[850px] w-full max-w-[1200px]"
           src="https://embed.figma.com/proto/V1LLfmALneuerhGoq7hATw/Plannit-App?page-id=0%3A1&node-id=2063-1609&node-type=canvas&viewport=571%2C34%2C0.12&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2063%3A1637&share=1&show-proto-sidebar=1&embed-host=share"
         ></iframe>
       </div>
