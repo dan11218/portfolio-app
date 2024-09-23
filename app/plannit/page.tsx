@@ -11,7 +11,7 @@ import Prototype from "./overview/prototype";
 
 export default async function Plannit() {
   return (
-    <div className="w-screen flex-col bg-floral-white dark:bg-stone-800">
+    <div className="w-screen flex-col bg-ivory dark:bg-stone-800">
       <Hero />
       <Introduction />
       <Prototype />
