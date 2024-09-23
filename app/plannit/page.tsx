@@ -7,7 +7,7 @@ import Research from "./research/section";
 import Overview from "./overview/section";
 import Introduction from "./introduction";
 import { inter } from "../fonts";
-import Prototype from "./overview/prototype";
+import Prototype from "./prototype";
 
 export default async function Plannit() {
   return (
