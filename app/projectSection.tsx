@@ -28,7 +28,7 @@ export default async function ProjectSection() {
       </div>
       <div
         id={`experience`}
-        className="flex w-full flex-col items-center py-24"
+        className="flex w-full flex-col items-center px-4 py-24"
       >
         <div className="max-w-[1600px] space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
           {data.map((project: any) => (
