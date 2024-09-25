@@ -3,7 +3,6 @@ import { promises as fs } from "fs";
 import PlannitSection from "./plannit-section";
 import FreshDirectSection from "./freshdirect-redesign-section";
 import GiftShopSection from "./gift-shop-section";
-import Link from "next/link";
 
 async function getData() {
   const file = await fs.readFile(
@@ -23,25 +22,24 @@ export default async function ProjectSection() {
   return (
     <section id={`projects`} className="flex w-screen flex-col">
       <div className="flex w-full flex-col">
-        <PlannitSection />
+        {/* <PlannitSection />
         <FreshDirectSection />
-        <GiftShopSection />
+        <GiftShopSection /> */}
       </div>
-      <div className="flex w-full flex-col items-center py-16">
-        <h1 className="mb-16">Previous work</h1>
-        <div
-          id={`experience`}
-          className="flex w-full max-w-[1600px] flex-wrap items-center px-16"
-        >
+      <div
+        id={`experience`}
+        className="flex w-full flex-col items-center px-16 py-24"
+      >
+        <div className="max-w-[1600px] space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
           {data.map((project: any) => (
-            <Link key={project.id} href={project.project_url}>
-              <Project
-                title={project.title}
-                description={project.description}
-                skills={project.skills}
-                image_url={project.image_url}
-              />
-            </Link>
+            <Project
+              key={project.id}
+              url={project.project_url}
+              title={project.title}
+              description={project.description}
+              skills={project.skills}
+              image_url={project.image_url}
+            />
           ))}
         </div>
       </div>
