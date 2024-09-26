@@ -17,7 +17,9 @@ export default function Project(props: any) {
         />
       </div>
       <div className="flex w-full flex-col p-8">
-        <p className="mb-2 text-slate-600">{props.skills}</p>
+        <p className="mb-2 text-slate-600 dark:text-slate-100">
+          {props.skills}
+        </p>
         <h5 className={`${inter.className} mb-2`}>{props.title}</h5>
         <p>{props.description}</p>
       </div>

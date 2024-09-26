@@ -1,22 +1,30 @@
 [
   {
     "id": 0,
+    "title": "AirDemo",
+    "description": "Launch product demos and automate the onboarding process with AI.",
+    "skills": "UI Design, Design Systems, AI",
+    "image_url": "/static/air-demo/mockups/Project thumbnail.png",
+    "project_url": "/airdemo"
+  },
+  {
+    "id": 1,
     "title": "Plannit",
     "description": "Collaborate with your team to organize events, create and manage tasks, and connect with a wide network of clients and vendors to plan the perfect event.",
-    "skills": "Figma, Auto-layouts, Prototyping",
+    "skills": "UX/UI Design, UX Research, Prototyping",
     "image_url": "/static/plannit/mockups/Project thumbnail.png",
     "project_url": "/plannit"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "FreshDirect Redesign",
     "description": "A fresh way to shop for your groceries with an improved check-out experience.",
-    "skills": "Figma, Design Heuristics",
+    "skills": "UX/UI Design, UX Research, Design Heuristics",
     "image_url": "/static/freshdirect-redesign/mockups/Project thumbnail.png",
     "project_url": "/freshdirect-redesign"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Usabilla Feedback",
     "description": "A gift shop built in React and integrated with SurveyMonkey's Feedback Button to analyze the customer journey.",
     "skills": "HTML, CSS, Gatsby, React",
@@ -24,7 +32,7 @@
     "project_url": "/gift-shop-demo"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Christian Lange Photography",
     "description": "A portfolio website for commercial photographer agency. Built with HTML, CSS, Javascript, and jQuery.",
     "skills": "HTML, CSS, Wordpress, jQuery",
@@ -32,7 +40,7 @@
     "project_url": "/cl-photography"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Fashion E-commerce Site",
     "description": "A luxury fashion website designed with Figma's auto-layouts to create a responsive website",
     "skills": "Figma, UI Design, Next JS, Tailwind CSS",
@@ -40,7 +48,7 @@
     "project_url": "https://www.figma.com/proto/CpbbW6VAdOsRvsR0osZMfx/Ecommerce-Landing-Page?page-id=0%3A1&type=design&node-id=1-3&viewport=597%2C443%2C0.78&t=GArUGuFVxxSusMwJ-1&scaling=min-zoom&mode=design"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Landing Page Concept",
     "description": "A design exercise for creating a minimalist landing page designed for desktop and mobile platforms.",
     "skills": "Figma, UI/UX Design, Prototyping",

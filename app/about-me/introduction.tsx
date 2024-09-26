@@ -6,7 +6,7 @@ export default function Introduction() {
       className={`mb-16 flex w-full max-w-5xl flex-col items-center justify-center md:flex-row`}
     >
       <Image
-        src={"/static/profiles/profile.png"}
+        src={"/static/profiles/profile_color.png"}
         width={300}
         height={300}
         alt="profile picture"

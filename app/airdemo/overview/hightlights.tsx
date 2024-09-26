@@ -1,12 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Highlights() {
   return (
-    <section
-      id="highlights"
-      className={`flex h-full w-full flex-col bg-slate-50`}
-    >
+    <section id="highlights" className={`flex h-full w-full flex-col`}>
       <div className="flex flex-col items-center py-24">
         <div className="mb-32 flex w-full max-w-7xl flex-col items-center justify-between md:flex-row ">
           <div
@@ -19,7 +15,7 @@ export default function Highlights() {
           </div>
           <div className="w-full">
             <Image
-              src="/static/flagship/screens/chat-demo/Chat with representative - end.png"
+              src="/static/air-demo/screens/chat-demo/Chat with representative - end.png"
               width={800}
               height={800}
               layout="responsive"
@@ -30,7 +26,7 @@ export default function Highlights() {
         <div className="flex w-full max-w-7xl flex-col-reverse items-center justify-between md:flex-row">
           <div className="w-full md:mr-16">
             <Image
-              src="/static/flagship/screens/slack-teams/Slack customer chat revised.png"
+              src="/static/air-demo/screens/slack-teams/Slack customer chat revised.png"
               width={800}
               height={800}
               layout="responsive"

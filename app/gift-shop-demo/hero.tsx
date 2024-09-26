@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="flex h-fit w-screen flex-col items-center bg-gradient-to-r from-sky-300 to-cyan-600 px-6 pt-28">
+    <div className="flex h-fit w-screen flex-col items-center bg-cyan-600 px-6 pt-28">
       <div className="flex w-full max-w-6xl flex-col items-center justify-center">
         <div className="my-10 flex h-fit w-fit flex-col px-[25px]">
           <h1 className="font-medium text-slate-100">
