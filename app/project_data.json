@@ -1,19 +1,19 @@
 [
   {
     "id": 0,
-    "title": "AirDemo",
-    "description": "Launch product demos and automate the onboarding process with AI.",
-    "skills": "UI Design, Design Systems, AI",
-    "image_url": "/static/air-demo/mockups/Project thumbnail.png",
-    "project_url": "/airdemo"
-  },
-  {
-    "id": 1,
     "title": "Plannit",
     "description": "Collaborate with your team to organize events, create and manage tasks, and connect with a wide network of clients and vendors to plan the perfect event.",
     "skills": "UX/UI Design, UX Research, Prototyping",
     "image_url": "/static/plannit/mockups/Project thumbnail.png",
     "project_url": "/plannit"
+  },
+  {
+    "id": 1,
+    "title": "AirDemo",
+    "description": "Launch product demos and automate the onboarding process with AI.",
+    "skills": "UI Design, Design Systems, AI",
+    "image_url": "/static/air-demo/mockups/Project thumbnail.png",
+    "project_url": "/airdemo"
   },
   {
     "id": 2,
