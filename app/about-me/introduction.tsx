@@ -5,13 +5,15 @@ export default function Introduction() {
     <div
       className={`mb-16 flex w-full max-w-5xl flex-col items-center justify-center md:flex-row`}
     >
-      <Image
-        src={"/static/profiles/profile_color.png"}
-        width={300}
-        height={300}
-        alt="profile picture"
-        className={`mb-16 bg-stone-400 shadow-[18px_18px_0px_0px_rgba(0,0,0)] md:mb-0 md:mr-16`}
-      />
+      <div>
+        <Image
+          src={"/static/profiles/profile_color.png"}
+          width={300}
+          height={300}
+          alt="profile picture"
+          className={`mb-16 bg-stone-400 shadow-[18px_18px_0px_0px_rgba(0,0,0)] md:mb-0 md:mr-16`}
+        />
+      </div>
       <div className="flex w-full max-w-md flex-col border-l-2 border-solid border-slate-300 pl-[25px]">
         <div className={"mb-8 flex w-fit flex-col items-center"}>
           <h1>{`Hi, I'm Danny 👋`}</h1>
