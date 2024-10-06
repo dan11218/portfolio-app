@@ -17,31 +17,6 @@ export default function Problem() {
             {` to collaborate and execute successful events.`}
           </h4>
         </div>
-        <div className="flex w-full max-w-3xl flex-col justify-center py-16">
-          <h5 className="mb-4 font-medium">{`What is the current flow when planning an event?`}</h5>
-          <p>
-            {`1. Gathering details for the event, and answering questions such as: `}
-            <mark className="bg-yellow-100 dark:bg-yellow-500">{`how many guests do I want to invite? What kind of venue do I want to host my event in? What are food and beverage needs?`}</mark>
-          </p>
-          <br />
-          <p>
-            {`2. Researching which venue is the best fit for the event, and reaching out to Sales teams to get`}
-            <mark className="bg-yellow-100 dark:bg-yellow-500">{` pricing and other information.`}</mark>
-          </p>
-          <br />
-          <p>
-            {`3. For events that require catering, and in cases where in-house catering is not an option, `}
-            <mark className="bg-yellow-100 dark:bg-yellow-500">{`then third-party catering is needed.`}</mark>
-          </p>
-          <br />
-          <p>
-            {`4. To make memorable events, other third-party vendors like `}
-            <mark className="bg-yellow-100 dark:bg-yellow-500">
-              {`photographers, performers, or musicians`}
-            </mark>
-            {`, are needed and require additional searching.`}
-          </p>
-        </div>
         <div
           className={`flex w-full max-w-5xl flex-col items-center border-2 border-stone-200 bg-white px-8 py-16 text-slate-800 md:px-16`}
         >
@@ -58,15 +33,17 @@ export default function Problem() {
             alt="icon"
           />
         </div>
-        <div className="mb-8 flex w-full max-w-3xl flex-col justify-center py-8">
-          <h5 className="mb-4 font-medium">{`As a result...`}</h5>
-          <p>
+        <div
+          className={`flex w-full max-w-5xl flex-col items-center border-2 border-stone-200 bg-white px-8 py-16 text-slate-800 md:px-16`}
+        >
+          <h4 className="mb-4 font-medium">{`As a result...`}</h4>
+          <h5>
             {`1. Planners often feel overwhelmed by the process due to juggling different work flows and apps to secure the venue, catering, staff, and guest management.`}
-          </p>
+          </h5>
           <br />
-          <p>
+          <h5>
             {`2. Freelancers who provide services for private events lack online presence and a direct way to work with their clients.`}
-          </p>
+          </h5>
         </div>
       </div>
       <div

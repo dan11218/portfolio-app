@@ -2,7 +2,7 @@ import { inter } from "@/app/fonts";
 
 export default function Introduction() {
   return (
-    <section className="mb-24 flex w-full flex-col items-center bg-gradient-to-l from-rose-100 to-orange-100 px-8 py-36 dark:bg-stone-800 dark:bg-none">
+    <section className="flex w-full flex-col items-center bg-gradient-to-l from-rose-100 to-orange-100 px-8 py-36 dark:bg-stone-800 dark:bg-none">
       <div className={`flex w-full max-w-4xl flex-col items-center`}>
         <h2 className={`${inter.className}`}>
           <span className="text-rose-500">{`Plannit`}</span>

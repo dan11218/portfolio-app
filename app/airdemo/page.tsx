@@ -1,3 +1,4 @@
+import Designs from "./designs";
 import Hero from "./hero";
 import Overview from "./overview/section";
 
@@ -9,6 +10,7 @@ export default function Page() {
     >
       <Hero />
       <Overview />
+      <Designs />
     </section>
   );
 }

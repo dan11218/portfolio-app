@@ -1,7 +1,5 @@
 import { inter } from "@/app/fonts";
 import Highlights from "./highlights";
-import ProjectDetails from "./projectDetails";
-import MyRole from "./my-role";
 
 export default function Solution() {
   return (
@@ -16,8 +14,6 @@ export default function Solution() {
             {`, a mobile platform that allows event planners to stay up-to-date on upcoming events, keep track of contacts, such as clients, vendors, and venues, and manage tasks for each event.`}
           </h3>
           <Highlights />
-          <ProjectDetails />
-          <MyRole />
         </div>
       </div>
     </section>
