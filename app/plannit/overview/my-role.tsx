@@ -5,7 +5,7 @@ export default function MyRole() {
       className="flex flex-col items-center justify-center px-8 py-16"
     >
       <div className="flex max-w-4xl flex-col md:flex-row">
-        <div className="mb-8 mr-0 flex flex-col lg:mb-0 lg:mr-16">
+        <div className="mb-8 mr-0 flex flex-col justify-center md:mb-0 md:mr-16">
           <h4 className="mb-3 font-bold text-rose-500">{`My role`}</h4>
           <p>
             {`As the Lead UX Designer and Researcher, I conducted user interviews, synthesis sessions, and brainstorming sessions to refine ideas.`}

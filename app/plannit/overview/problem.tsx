@@ -17,14 +17,6 @@ export default function Problem() {
             {` to collaborate and execute successful events.`}
           </h4>
         </div>
-        <div
-          className={`flex w-full max-w-5xl flex-col items-center border-2 border-stone-200 bg-white px-8 py-16 text-slate-800 md:px-16`}
-        >
-          <h4>
-            {`Many event apps are useful in helping planners stay organized, but few, if not any, offer an easy way to`}
-            <span className="text-rose-500">{` find the perfect venues, and connect with other services and professionals.`}</span>
-          </h4>
-        </div>
         <div className="flex w-full max-w-sm flex-col items-center py-8">
           <Image
             src={"/static/plannit/assets/Arrow.svg"}
@@ -49,10 +41,10 @@ export default function Problem() {
       <div
         className={`relative my-16 flex w-full flex-col items-center justify-center bg-stone-800 px-8 py-24  text-slate-50`}
       >
-        <h3 className={`max-w-4xl font-medium`}>
+        <h4 className={`max-w-4xl`}>
           {`How can we streamline the planning process and connect planners with vendors `}
           <span className="text-rose-400">{`under one platform?`}</span>
-        </h3>
+        </h4>
       </div>
     </section>
   );
