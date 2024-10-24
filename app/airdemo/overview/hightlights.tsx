@@ -15,7 +15,7 @@ export default function Highlights() {
           </div>
           <div className="w-full">
             <Image
-              src="/static/air-demo/screens/chat-demo/Chat with representative - end.png"
+              src="/static/air-emo/screens/chat/Chat with representative - end.png"
               width={800}
               height={800}
               layout="responsive"
@@ -26,7 +26,7 @@ export default function Highlights() {
         <div className="flex w-full max-w-7xl flex-col-reverse items-center justify-between md:flex-row">
           <div className="w-full md:mr-16">
             <Image
-              src="/static/air-demo/screens/slack-teams/Slack customer chat revised.png"
+              src="/static/airdemo/screens/slack-teams/Slack customer chat revised.png"
               width={800}
               height={800}
               layout="responsive"
