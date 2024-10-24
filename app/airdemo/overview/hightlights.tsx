@@ -15,7 +15,7 @@ export default function Highlights() {
           </div>
           <div className="w-full">
             <Image
-              src="/static/air-emo/screens/chat/Chat with representative - end.png"
+              src="/static/airdemo/screens/chat/Chat with representative - end.png"
               width={800}
               height={800}
               layout="responsive"
