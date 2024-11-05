@@ -17,7 +17,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="new event form"
+                alt="Chat with representative"
                 className="shadow-lg"
               />
             </div>
@@ -27,7 +27,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="list of vendors (filtered)"
+                alt="Chat with representative - filled in form"
                 className="shadow-lg"
               />
             </div>
@@ -37,7 +37,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="venue page"
+                alt="Chat with representative - response"
                 className="shadow-lg"
               />
             </div>
@@ -47,7 +47,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="new event form with vendor selected"
+                alt="Chat with representative - end"
                 className="shadow-lg"
               />
             </div>
@@ -62,7 +62,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="screenshot of chat settings page no rules"
+                alt="Mockup - Settings - Chat - No rules"
                 className="shadow-lg"
               />
             </div>
@@ -72,7 +72,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="creating new rule"
+                alt="Mockup - Settings - Chat - Add new rule"
                 className="shadow-lg"
               />
             </div>
@@ -83,7 +83,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="screenshot of chat settings page one rule"
+                alt="Mockup - Settings - Chat - With rules"
                 className="shadow-lg"
               />
             </div>
@@ -98,7 +98,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Slack customer chat revised"
                 className="shadow-lg"
               />
             </div>
@@ -108,7 +108,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Slack mockup revised"
                 className="shadow-lg"
               />
             </div>
@@ -118,7 +118,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Teams - AirDemo Channel"
                 className="shadow-lg"
               />
             </div>
@@ -128,7 +128,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Teams AirDemo Chat"
                 className="shadow-lg"
               />
             </div>
@@ -146,7 +146,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Mockup - AI - Training (revised)"
                 className="shadow-lg"
               />
             </div>
@@ -157,7 +157,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Mockup - AI - Gong team"
                 className="shadow-lg"
               />
             </div>
@@ -167,7 +167,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Mockup - AI - Gong calls"
                 className="shadow-lg"
               />
             </div>
@@ -185,7 +185,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Play - pulse animation frame 1"
                 className="shadow-lg"
               />
             </div>
@@ -195,7 +195,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Play - pulse animation frame 2"
                 className="shadow-lg"
               />
             </div>
@@ -205,7 +205,7 @@ export default function Designs() {
                 width={500}
                 height={500}
                 layout="responsive"
-                alt="registration"
+                alt="Play - pulse animation frame 3"
                 className="shadow-lg"
               />
             </div>
