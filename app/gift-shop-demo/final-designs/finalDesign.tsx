@@ -13,42 +13,42 @@ export default function FinalDesign() {
             <h3 className="mb-4 font-bold">Add to cart</h3>
             <div
               id="shop flow"
-              className="flex flex-wrap items-start justify-center md:justify-normal"
+              className="h-full w-full space-y-8 md:grid md:grid-cols-2 md:gap-8 md:space-y-0"
             >
               <Image
                 src="/static/gift-shop-demo/screens/home_page.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="Home page"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/product_research.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="Shop page"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/product_page.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="Product page"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/cart.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="Cart page"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/cart_campaign.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="cart with modal"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
             </div>
           </div>
@@ -56,49 +56,49 @@ export default function FinalDesign() {
             <h3 className="mb-4 font-bold">Checkout with survey</h3>
             <div
               id="new-event-screens"
-              className="flex flex-wrap items-start justify-center md:justify-normal"
+              className="h-full w-full space-y-8 md:grid md:grid-cols-2 md:gap-8 md:space-y-0"
             >
               <Image
                 src="/static/gift-shop-demo/screens/payment.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="new event form"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/payment_delivery_options.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="list of vendors (filtered)"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/payment_pay.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="list of vendors (filtered)"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/payment_campaign.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="list of vendors (filtered)"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/post_payment.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="list of vendors (filtered)"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/post_payment_campaign.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="list of vendors (filtered)"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
             </div>
           </div>
@@ -106,21 +106,21 @@ export default function FinalDesign() {
             <h3 className="mb-4 font-bold">Registration</h3>
             <div
               id="new-event-screens"
-              className="flex flex-wrap items-start justify-center md:justify-normal"
+              className="h-full w-full space-y-8 md:grid md:grid-cols-2 md:gap-8 md:space-y-0"
             >
               <Image
                 src="/static/gift-shop-demo/screens/checkout.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="new event form"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
               <Image
                 src="/static/gift-shop-demo/screens/checkout_campaign.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="list of vendors (filtered)"
-                className="mb-4 mr-4 shadow-lg"
+                className="shadow-lg"
               />
             </div>
           </div>
