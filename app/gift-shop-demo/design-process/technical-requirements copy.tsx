@@ -3,7 +3,6 @@ export default function TechnicalRequirements() {
     <div className="mb-16 flex w-full max-w-xl flex-col">
       <h3 className="mb-3 font-bold text-cyan-500">Technical Requirements</h3>
       <ul className="list-disc px-6">
-        <li>Implement the Usabilla Feedback Button</li>
         <li>
           Use ReactJS and Gatsby as the CMS to develop the e-commerce website.
         </li>

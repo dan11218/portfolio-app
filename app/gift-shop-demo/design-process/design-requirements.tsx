@@ -3,7 +3,7 @@ export default function DesignRequirements() {
     <div className="mb-16 flex w-full max-w-xl flex-col">
       <h3 className="mb-3 font-bold text-cyan-500">Design Requirements</h3>
       <ul className="list-disc px-6">
-        <li>{`Implement the Usabilla Feedback Button`}</li>
+        <li>{`Implement the Feedback Button`}</li>
         <li>
           {`Trigger a survey when the user successfully completes the checkout
           flow`}
