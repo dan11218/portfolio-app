@@ -90,7 +90,7 @@ export default function Designs() {
           </div>
         </div>
         <div id="slack-teams" className="mb-16 flex w-full flex-col">
-          <h2 className="mb-8 font-semibold text-indigo-700">{`Slack + Microsoft Teams integration`}</h2>
+          <h2 className="mb-8 font-semibold text-indigo-700">{`Slack + Microsoft Teams Integration`}</h2>
           <div className="h-full w-full space-y-8 md:grid md:grid-cols-2 md:gap-8 md:space-y-0">
             <div className={`flex w-full flex-col`}>
               <Image

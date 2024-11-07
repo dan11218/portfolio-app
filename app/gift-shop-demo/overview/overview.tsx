@@ -5,11 +5,8 @@ export default function Overview() {
   return (
     <section className="flex h-fit w-screen flex-col items-center px-10">
       <div className="mb-24 flex w-full max-w-4xl flex-col items-center">
-        <Header
-          title={`Overview`}
-          largeFont={true}
-          color={`from-sky-500 to-cyan-300`}
-        />
+        <h2 className="mb-3 font-bold">{`Overview`}</h2>
+
         <div className="mb-16 flex w-full flex-col items-center justify-between md:flex-row">
           <p className={"mb-8 md:mb-0 md:mr-8"}>
             {`Usabilla (acquired by `}

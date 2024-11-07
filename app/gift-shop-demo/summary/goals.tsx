@@ -1,7 +1,7 @@
 export default function Goals() {
   return (
     <div className="flex flex-col">
-      <h3 className="mb-3 font-bold text-cyan-500">{`Goals`}</h3>
+      <h3 className="mb-3 font-bold">{`Goals`}</h3>
       <ul className="list-disc px-2 text-sm">
         <li>
           <strong>{`Business: `}</strong>

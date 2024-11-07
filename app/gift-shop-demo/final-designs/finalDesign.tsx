@@ -10,7 +10,7 @@ export default function FinalDesign() {
         </div>
         <div className="flex w-full flex-col space-y-16">
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="mb-4 font-bold text-cyan-500">Add to cart</h3>
+            <h3 className="mb-4 font-bold">Add to cart</h3>
             <div
               id="shop flow"
               className="flex flex-wrap items-start justify-center md:justify-normal"
@@ -53,9 +53,7 @@ export default function FinalDesign() {
             </div>
           </div>
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="mb-4 font-bold text-cyan-500">
-              Checkout with survey
-            </h3>
+            <h3 className="mb-4 font-bold">Checkout with survey</h3>
             <div
               id="new-event-screens"
               className="flex flex-wrap items-start justify-center md:justify-normal"
@@ -105,7 +103,7 @@ export default function FinalDesign() {
             </div>
           </div>
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="mb-4 font-bold text-cyan-500">Registration</h3>
+            <h3 className="mb-4 font-bold">Registration</h3>
             <div
               id="new-event-screens"
               className="flex flex-wrap items-start justify-center md:justify-normal"
