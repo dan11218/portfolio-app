@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative flex h-full w-full flex-col items-center overflow-hidden">
+    <section
+      id={"hero"}
+      className="relative flex h-full w-full flex-col items-center overflow-hidden"
+    >
       <div
         className={`flex h-full w-full max-w-7xl flex-col items-center justify-center pb-24 pt-24`}
       >
@@ -11,7 +14,7 @@ export default function Hero() {
           className={`z-30 flex w-fit max-w-5xl flex-col items-center px-8 text-center`}
         >
           <h2
-            className={`dar:bg-stone-700 mb-12 bg-slate-50 text-3xl md:text-4xl dark:bg-stone-900`}
+            className={`dar:bg-stone-700 bg-slate-50 text-3xl md:text-4xl dark:bg-stone-900`}
           >
             {`Hi there! I'm...`}
           </h2>
@@ -27,12 +30,11 @@ export default function Hero() {
         <div
           className={`z-30 flex w-fit max-w-5xl flex-col items-center px-8 text-center`}
         >
-          <h2
-            className={`dar:bg-stone-700 mb-12 bg-slate-50 text-3xl md:text-4xl dark:bg-stone-900`}
+          <h3
+            className={`dar:bg-stone-700 mb-8 bg-slate-50 text-3xl md:text-4xl dark:bg-stone-900`}
           >
-            {`Product Designer + Front-End Developer creating intuitive web and mobile interfaces for startups`}
-            .
-          </h2>
+            {`Empowering SaaS Success: Designing solutions, supporting customers, driving growth.`}
+          </h3>
 
           <Link
             href={`mailto:danielgraugnard@gmail.com`}

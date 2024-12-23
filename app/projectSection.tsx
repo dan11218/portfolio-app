@@ -21,11 +21,6 @@ export default async function ProjectSection() {
   const data = await getData();
   return (
     <section id={`projects`} className="flex w-screen flex-col">
-      <div className="flex w-full flex-col">
-        {/* <PlannitSection />
-        <FreshDirectSection />
-        <GiftShopSection /> */}
-      </div>
       <div
         id={`experience`}
         className="flex w-full flex-col items-center px-4 py-24 md:px-16"
