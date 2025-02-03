@@ -32,7 +32,7 @@ export default async function ProjectSection() {
               url={project.project_url}
               title={project.title}
               description={project.description}
-              skills={project.skills}
+              // skills={project.skills}
               image_url={project.image_url}
             />
           ))}

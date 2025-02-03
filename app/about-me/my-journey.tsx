@@ -6,8 +6,6 @@ export default function MyJourney() {
       <div className={`flex w-full max-w-3xl flex-col py-8`}>
         <h2 className={`mb-8`}>{`My Journey so far 🧭`}</h2>
         <div className="mb-16 flex flex-col">
-          <p>{`Some might say they are climbing a corporate ladder, but for me, it’s more like a spiderweb! 🕸️`}</p>
-          <br />
           <p>{`I started off wanting to become a writer, and focused on English Literature in undergrad. My passion for writing led life-changing internships at The Nation magazine and uInterview. `}</p>
           <br />
           <p>{`At first, I thought I would learn more about the publishing industry and become a writer, but I found I was more inspired by the talented UX Designers that were helping shape the future of publishing for a digital age.`}</p>

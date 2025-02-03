@@ -21,7 +21,7 @@ export default function Introduction() {
         </div>
         <div className="mb-8">
           <p>
-            {`I'm a Product Designer and customer advocate based in New York City. With expertise in Front-end technologies and VoC (Voice of the Customer), I excel at clearly communicating ideas across diverse teams, including Users, Customer Success, Engineering, and Product.`}
+            {`I'm a Designer and Customer advocate based in New York City. With expertise in Front-end technologies and VoC (Voice of the Customer), I excel at clearly communicating ideas across diverse teams, including Users, Customer Success, Engineering, and Product.`}
           </p>
           <br />
           <p>
